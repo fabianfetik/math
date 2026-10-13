@@ -1,0 +1,120 @@
+:root {
+  color-scheme: light;
+  --paper: #f7f5ef;
+  --ink: #203034;
+  --muted: #556268;
+  --line: #d4d9d4;
+  --link: #194f61;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
+
+.page, .site-header, .site-footer {
+  width: min(100% - 3rem, 46rem);
+  margin-inline: auto;
+}
+
+.page { margin-block: 3.5rem 2.5rem; }
+.site-header { margin-block: 1.65rem 0; }
+.site-header a { text-decoration: none; }
+.site-header span { margin-inline: 0.5em; color: var(--muted); }
+.paper-page .page { margin-top: 2rem; }
+
+.overview-title, .publication, .byline, .paper-links,
+.site-header, .site-footer, .download-links, .materials-note, .back-link {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+h1, h2, h3 { font-weight: 500; line-height: 1.2; }
+h1 { margin: 0; font-size: clamp(1.9rem, 4.5vw, 2.6rem); }
+.overview-title { margin: 0 0 2rem; font-size: 1.05rem; line-height: 1.5; }
+
+.paper-list { margin: 0; padding: 0; list-style: none; }
+.paper-list > li { padding: 1.55rem 0 1.8rem; border-top: 1px solid var(--line); }
+.publication, .byline { margin: 0; color: var(--muted); font-size: 0.81rem; }
+.paper-list h2 { margin: 0.45rem 0 0.65rem; font-size: 1.5rem; }
+.paper-list h2 a { color: var(--ink); text-decoration: none; }
+.paper-list h2 a:hover { color: var(--link); text-decoration: underline; }
+.summary { margin: 0; max-width: 43rem; }
+.paper-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem; margin-top: 1rem; font-size: 0.83rem; }
+.paper-links a { display: inline-flex; align-items: center; min-height: 24px; }
+
+.paper-header h1 { max-width: 44rem; text-wrap: balance; }
+.byline { margin-top: 0.95rem; }
+.byline a { color: inherit; }
+.abstract { margin-top: 2rem; }
+.abstract h2, .citation h2 { margin: 0 0 0.65rem; font-size: 1.08rem; }
+.abstract p { margin: 0; }
+math { font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", math; font-size: 1em; }
+
+.download-links { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 1.5rem; margin-top: 1.65rem; font-size: 0.86rem; }
+.primary-link {
+  display: inline-block;
+  padding: 0.65rem 0.95rem;
+  border: 1px solid var(--ink);
+  border-radius: 3px;
+  color: var(--paper);
+  background: var(--ink);
+  text-decoration: none;
+}
+.primary-link:hover { color: white; background: var(--link); border-color: var(--link); }
+.pdf-link { padding-block: 0.5rem; white-space: nowrap; }
+.materials-note { margin: 0.8rem 0 0; color: var(--muted); font-size: 0.82rem; }
+.citation { margin-top: 2.1rem; padding-top: 1.4rem; border-top: 1px solid var(--line); }
+.citation p { margin: 0; font-size: 0.9rem; }
+.doi { overflow-wrap: anywhere; }
+.back-link { margin: 1.7rem 0 0; font-size: 0.83rem; }
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 1.1rem 0 2rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+.site-footer a { display: inline-flex; align-items: center; min-height: 24px; color: inherit; }
+.skip-link { position: absolute; top: 0; left: 0; padding: 0.65rem 1rem; background: var(--ink); color: white; transform: translateY(-200%); }
+.skip-link:focus { transform: translateY(0); }
+
+@media (max-width: 520px) {
+  :root { font-size: 16px; }
+  .page, .site-header, .site-footer { width: calc(100% - 2rem); }
+  .page { margin-top: 2rem; }
+  .site-header { margin-top: 1.1rem; font-size: 0.85rem; }
+  .paper-page .page { margin-top: 1.5rem; }
+  .paper-list h2 { font-size: 1.35rem; }
+  .paper-header h1 { font-size: 1.75rem; text-wrap: initial; }
+  .abstract { margin-top: 1.4rem; }
+  .download-links { gap: 1rem; }
+  .primary-link { padding: 0.65rem 0.8rem; }
+}
+
+@media print {
+  body { background: white; color: black; }
+  .page { width: 100%; margin: 0; }
+  .site-header, .site-footer, .skip-link, .back-link { display: none; }
+  a { color: black; }
+  .primary-link { background: white; color: black; }
+  .abstract, .citation { break-inside: avoid; }
+}

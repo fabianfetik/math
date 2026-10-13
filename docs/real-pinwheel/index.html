@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real-period pinwheel scheduling at density 5/6 — Fabian Fetik</title>
+  <meta name="description" content="Real-period pinwheel scheduling: the density 5/6 guarantee for every finite family of tasks, with a proof using reductions and exact finite certificates.">
+  <meta name="author" content="Fabian Fetik">
+  <link rel="canonical" href="https://fabianfetik.github.io/math/real-pinwheel/">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='7' fill='%2324383b'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='serif' font-size='29' fill='%23f7f5ef'%3Ef%3C/text%3E%3C/svg%3E">
+  <meta property="og:title" content="Real-period pinwheel scheduling at density 5/6 — Fabian Fetik">
+  <meta property="og:description" content="Real-period pinwheel scheduling: the density 5/6 guarantee for every finite family of tasks, with a proof using reductions and exact finite certificates.">
+  <meta property="og:url" content="https://fabianfetik.github.io/math/real-pinwheel/">
+  <meta property="og:type" content="article">
+  <meta name="citation_title" content="Real-period pinwheel scheduling at density 5/6">
+  <meta name="citation_author" content="Fabian Fetik">
+  <meta name="citation_publication_date" content="2026/09/28">
+  <meta name="citation_doi" content="10.5281/zenodo.23018098">
+  <meta name="citation_pdf_url" content="https://fabianfetik.github.io/math/real-pinwheel/real-pinwheel-5-6-v1.pdf">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://fabianfetik.github.io/math/#author",
+      "name": "Fabian Fetik",
+      "url": "https://fabianfetik.github.io/math/",
+      "sameAs": [
+        "https://orcid.org/0009-0002-2527-5396"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://fabianfetik.github.io/math/real-pinwheel/",
+      "url": "https://fabianfetik.github.io/math/real-pinwheel/",
+      "name": "Real-period pinwheel scheduling at density 5/6",
+      "inLanguage": "en",
+      "mainEntity": {
+        "@id": "https://doi.org/10.5281/zenodo.23018098"
+      }
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.23018098",
+      "name": "Real-period pinwheel scheduling at density 5/6",
+      "headline": "Real-period pinwheel scheduling at density 5/6",
+      "author": {
+        "@id": "https://fabianfetik.github.io/math/#author"
+      },
+      "datePublished": "2026-09-28",
+      "version": "v1",
+      "inLanguage": "en",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.5281/zenodo.23018098"
+      },
+      "url": "https://fabianfetik.github.io/math/real-pinwheel/",
+      "sameAs": [
+        "https://zenodo.org/records/23018098"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "abstract": "We prove the 5/6 density conjecture for pinwheel scheduling with real periods. For every finite family of labelled tasks with periods aᵢ ≥ 1 and ∑ᵢ 1/aᵢ ≤ 5/6, there is a bilateral schedule in which task i occurs at least ℓ times in every ⌈ℓaᵢ⌉ consecutive slots, for each positive integer ℓ. A reduction merges arbitrarily large systems down to eight roles; shorter systems are handled separately. The eight-role theorem combines explicit schedules with finite certificates whose rational inequalities cover the remaining real parameter regions, including irrational rates and boundary cases.",
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://fabianfetik.github.io/math/real-pinwheel/real-pinwheel-5-6-v1.pdf",
+        "encodingFormat": "application/pdf"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://fabianfetik.github.io/math/real-pinwheel/"
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body class="paper-page">
+  <a class="skip-link" href="#main">Skip to paper</a>
+  <header class="site-header">
+    <a href="../index.html"><span aria-hidden="true">←</span> My papers</a>
+  </header>
+  <main id="main" class="page">
+    <article>
+      <header class="paper-header">
+        <h1>Real-period pinwheel scheduling at density 5/6</h1>
+        <p class="byline"><a href="https://orcid.org/0009-0002-2527-5396" rel="author">Fabian Fetik</a><span aria-hidden="true"> · </span><time datetime="2026-09-28">28 September 2026</time><span aria-hidden="true"> · </span><span>v1</span></p>
+      </header>
+      <section class="abstract" aria-labelledby="abstract-heading">
+        <h2 id="abstract-heading">Abstract</h2>
+        <p>We prove the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="5/6"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> density conjecture for pinwheel scheduling with real periods. For every finite family of labelled tasks with periods <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="aᵢ ≥ 1"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>≥</mo><mn>1</mn></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="∑ᵢ 1/aᵢ ≤ 5/6"><mrow><msub><mo>∑</mo><mi>i</mi></msub><mfrac><mn>1</mn><msub><mi>a</mi><mi>i</mi></msub></mfrac><mo>≤</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>, there is a bilateral schedule in which task <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="i"><mi>i</mi></math> occurs at least <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="ℓ"><mi>ℓ</mi></math> times in every <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="⌈ℓaᵢ⌉"><mrow><mo>⌈</mo><mi>ℓ</mi><msub><mi>a</mi><mi>i</mi></msub><mo>⌉</mo></mrow></math> consecutive slots, for each positive integer <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="ℓ"><mi>ℓ</mi></math>. A reduction merges arbitrarily large systems down to eight roles; shorter systems are handled separately. The eight-role theorem combines explicit schedules with finite certificates whose rational inequalities cover the remaining real parameter regions, including irrational rates and boundary cases.</p>
+      </section>
+      <nav class="download-links" aria-label="Read and download this paper">
+        <a class="primary-link" href="https://doi.org/10.5281/zenodo.23018098">Read on Zenodo <span aria-hidden="true">↗</span></a>
+        <a class="pdf-link" href="real-pinwheel-5-6-v1.pdf">Read the PDF <span aria-hidden="true">↗</span></a>
+      </nav>
+      <p class="materials-note">Supplementary ZIP on Zenodo: paper source, proof data, verification programs and selected Lean sources.</p>
+      <section class="citation" aria-labelledby="citation-heading">
+        <h2 id="citation-heading">Cite this paper</h2>
+        <p>Fetik, F. (2026). <cite>Real-period pinwheel scheduling at density 5/6</cite> (v1). Zenodo.
+          <a class="doi" href="https://doi.org/10.5281/zenodo.23018098">https://doi.org/10.5281/zenodo.23018098</a></p>
+      </section>
+      <p class="back-link"><a href="../index.html"><span aria-hidden="true">←</span> Back to my papers</a></p>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <a href="https://orcid.org/0009-0002-2527-5396" rel="me">ORCID 0009-0002-2527-5396</a>
+    <a href="https://github.com/fabianfetik/math" aria-label="Publication repository on GitHub">GitHub</a>
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>
+  </footer>
+</body>
+</html>

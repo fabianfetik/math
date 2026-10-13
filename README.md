@@ -5,8 +5,8 @@ Mathematical papers and supplementary material by
 
 | Paper | Files and description | Archived version |
 | --- | --- | --- |
-| Real-period pinwheel scheduling at density 5/6 | [Real-Pinwheel](real-pinwheel/README.md) | [v1 DOI](https://doi.org/10.5281/zenodo.23018098) |
 | Sharp density thresholds for finite two-visit scheduling | [2-Visits](two-visits/README.md) | [v1 DOI](https://doi.org/10.5281/zenodo.23089289) |
+| Real-period pinwheel scheduling at density 5/6 | [Real-Pinwheel](real-pinwheel/README.md) | [v1 DOI](https://doi.org/10.5281/zenodo.23018098) |
 
 Each paper directory contains the article PDF and a self-contained supplementary
 ZIP matching the version archived on Zenodo. The DOI links identify those exact
