@@ -3,6 +3,9 @@
 Mathematical papers and supplementary material by
 [Fabian Fetik](https://orcid.org/0009-0002-2527-5396).
 
+Read the abstracts and papers on the
+[publication website](https://fabianfetik.github.io/math/).
+
 | Paper | Files and description | Archived version |
 | --- | --- | --- |
 | Sharp density thresholds for finite two-visit scheduling | [2-Visits](two-visits/README.md) | [v1 DOI](https://doi.org/10.5281/zenodo.23089289) |
