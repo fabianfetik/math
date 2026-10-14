@@ -1,0 +1,4 @@
+# Preserve the exact bytes checked by the archived package manifests.
+/real-pinwheel/v1/** -text
+/real-pinwheel/lean-v1/** -text
+/two-visits/v1/** -text

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Real-period pinwheel scheduling at density 5/6 — Fabian Fetik</title>
-  <meta name="description" content="Real-period pinwheel scheduling: the density 5/6 guarantee for every finite family of tasks, with a proof using reductions and exact finite certificates.">
+  <meta name="description" content="Preprint on tasks that recur indefinitely under real-period timing constraints, with a schedulability guarantee at density at most 5/6.">
   <meta name="author" content="Fabian Fetik">
   <link rel="canonical" href="https://fabianfetik.github.io/math/real-pinwheel/">
   <link rel="stylesheet" href="../assets/site.css">
@@ -12,7 +12,7 @@
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" sizes="any">
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
   <meta property="og:title" content="Real-period pinwheel scheduling at density 5/6 — Fabian Fetik">
-  <meta property="og:description" content="Real-period pinwheel scheduling: the density 5/6 guarantee for every finite family of tasks, with a proof using reductions and exact finite certificates.">
+  <meta property="og:description" content="Preprint on tasks that recur indefinitely under real-period timing constraints, with a schedulability guarantee at density at most 5/6.">
   <meta property="og:url" content="https://fabianfetik.github.io/math/real-pinwheel/">
   <meta property="og:type" content="article">
   <meta name="citation_title" content="Real-period pinwheel scheduling at density 5/6">
@@ -53,6 +53,7 @@
       },
       "datePublished": "2026-09-28",
       "version": "v1",
+      "creativeWorkStatus": "Preprint",
       "inLanguage": "en",
       "identifier": {
         "@type": "PropertyValue",
@@ -81,34 +82,35 @@
 <body class="paper-page">
   <a class="skip-link" href="#main">Skip to paper</a>
   <header class="site-header">
-    <a href="../index.html"><span aria-hidden="true">←</span> My papers</a>
+    <a href="../index.html"><span aria-hidden="true">←</span> Overview</a>
   </header>
   <main id="main" class="page">
     <article>
       <header class="paper-header">
         <h1>Real-period pinwheel scheduling at density 5/6</h1>
-        <p class="byline"><a href="https://orcid.org/0009-0002-2527-5396" rel="author">Fabian Fetik</a><span aria-hidden="true"> · </span><time datetime="2026-09-28">28 September 2026</time><span aria-hidden="true"> · </span><span>v1</span></p>
+        <p class="byline"><a href="https://orcid.org/0009-0002-2527-5396" rel="author">Fabian Fetik</a><span aria-hidden="true"> · </span>Preprint<span aria-hidden="true"> · </span><time datetime="2026-09-28">28 September 2026</time><span aria-hidden="true"> · </span><span>v1</span></p>
       </header>
+      <nav class="download-links" aria-label="Read this paper and browse its material">
+        <a class="primary-link" href="real-pinwheel-5-6-v1.pdf">PDF</a>
+        <a href="https://github.com/fabianfetik/math/tree/main/real-pinwheel/v1">Material</a>
+        <a href="https://doi.org/10.5281/zenodo.23018098">Zenodo</a>
+      </nav>
       <section class="abstract" aria-labelledby="abstract-heading">
         <h2 id="abstract-heading">Abstract</h2>
         <p>We prove the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="5/6"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> density conjecture for pinwheel scheduling with real periods. For every finite family of labelled tasks with periods <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="aᵢ ≥ 1"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>≥</mo><mn>1</mn></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="∑ᵢ 1/aᵢ ≤ 5/6"><mrow><msub><mo>∑</mo><mi>i</mi></msub><mfrac><mn>1</mn><msub><mi>a</mi><mi>i</mi></msub></mfrac><mo>≤</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>, there is a bilateral schedule in which task <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="i"><mi>i</mi></math> occurs at least <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="ℓ"><mi>ℓ</mi></math> times in every <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="⌈ℓaᵢ⌉"><mrow><mo>⌈</mo><mi>ℓ</mi><msub><mi>a</mi><mi>i</mi></msub><mo>⌉</mo></mrow></math> consecutive slots, for each positive integer <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="ℓ"><mi>ℓ</mi></math>. A reduction merges arbitrarily large systems down to eight roles; shorter systems are handled separately. The eight-role theorem combines explicit schedules with finite certificates whose rational inequalities cover the remaining real parameter regions, including irrational rates and boundary cases.</p>
       </section>
-      <nav class="download-links" aria-label="Read and download this paper">
-        <a class="primary-link" href="https://doi.org/10.5281/zenodo.23018098">Read on Zenodo <span aria-hidden="true">↗</span></a>
-        <a class="pdf-link" href="real-pinwheel-5-6-v1.pdf">Read the PDF <span aria-hidden="true">↗</span></a>
-      </nav>
-      <p class="materials-note">Supplementary ZIP on Zenodo: paper source, proof data, verification programs and selected Lean sources.</p>
+      <p class="materials-note">Material includes manuscript sources, proof data, verification programs and <a href="https://github.com/fabianfetik/math/tree/main/real-pinwheel/lean-v1">selected Lean sources</a>. <a href="https://zenodo.org/records/23018098/files/real-pinwheel-5-6-v1.zip?download=1">ZIP download (43&nbsp;MB)</a>.</p>
       <section class="citation" aria-labelledby="citation-heading">
-        <h2 id="citation-heading">Cite this paper</h2>
+        <h2 id="citation-heading">Citation</h2>
         <p>Fetik, F. (2026). <cite>Real-period pinwheel scheduling at density 5/6</cite> (v1). Zenodo.
           <a class="doi" href="https://doi.org/10.5281/zenodo.23018098">https://doi.org/10.5281/zenodo.23018098</a></p>
       </section>
-      <p class="back-link"><a href="../index.html"><span aria-hidden="true">←</span> Back to my papers</a></p>
+      <p class="back-link"><a href="../index.html"><span aria-hidden="true">←</span> Back to overview</a></p>
     </article>
   </main>
   <footer class="site-footer">
-    <a href="https://orcid.org/0009-0002-2527-5396" rel="me">ORCID 0009-0002-2527-5396</a>
-    <a href="https://github.com/fabianfetik/math" aria-label="Publication repository on GitHub">GitHub</a>
+    <a href="https://orcid.org/0009-0002-2527-5396" rel="me">ORCID</a>
+    <a href="https://github.com/fabianfetik/math">GitHub</a>
     <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>
   </footer>
 </body>

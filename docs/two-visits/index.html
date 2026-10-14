@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sharp density thresholds for finite two-visit scheduling — Fabian Fetik</title>
-  <meta name="description" content="Finite two-visit scheduling: sharp density thresholds for each task count n ≥ 2, the unique exception at the threshold, and a constructive scheduling algorithm.">
+  <meta name="description" content="Preprint on finite schedules with exactly two visits per task under integer deadlines, with sharp density bounds and a constructive algorithm.">
   <meta name="author" content="Fabian Fetik">
   <link rel="canonical" href="https://fabianfetik.github.io/math/two-visits/">
   <link rel="stylesheet" href="../assets/site.css">
@@ -12,7 +12,7 @@
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" sizes="any">
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
   <meta property="og:title" content="Sharp density thresholds for finite two-visit scheduling — Fabian Fetik">
-  <meta property="og:description" content="Finite two-visit scheduling: sharp density thresholds for each task count n ≥ 2, the unique exception at the threshold, and a constructive scheduling algorithm.">
+  <meta property="og:description" content="Preprint on finite schedules with exactly two visits per task under integer deadlines, with sharp density bounds and a constructive algorithm.">
   <meta property="og:url" content="https://fabianfetik.github.io/math/two-visits/">
   <meta property="og:type" content="article">
   <meta name="citation_title" content="Sharp density thresholds for finite two-visit scheduling">
@@ -53,6 +53,7 @@
       },
       "datePublished": "2026-10-01",
       "version": "v1",
+      "creativeWorkStatus": "Preprint",
       "inLanguage": "en",
       "identifier": {
         "@type": "PropertyValue",
@@ -81,34 +82,35 @@
 <body class="paper-page">
   <a class="skip-link" href="#main">Skip to paper</a>
   <header class="site-header">
-    <a href="../index.html"><span aria-hidden="true">←</span> My papers</a>
+    <a href="../index.html"><span aria-hidden="true">←</span> Overview</a>
   </header>
   <main id="main" class="page">
     <article>
       <header class="paper-header">
         <h1>Sharp density thresholds for finite two-visit scheduling</h1>
-        <p class="byline"><a href="https://orcid.org/0009-0002-2527-5396" rel="author">Fabian Fetik</a><span aria-hidden="true"> · </span><time datetime="2026-10-01">1 October 2026</time><span aria-hidden="true"> · </span><span>v1</span></p>
+        <p class="byline"><a href="https://orcid.org/0009-0002-2527-5396" rel="author">Fabian Fetik</a><span aria-hidden="true"> · </span>Preprint<span aria-hidden="true"> · </span><time datetime="2026-10-01">1 October 2026</time><span aria-hidden="true"> · </span><span>v1</span></p>
       </header>
+      <nav class="download-links" aria-label="Read this paper and browse its material">
+        <a class="primary-link" href="two-visits-v1.pdf">PDF</a>
+        <a href="https://github.com/fabianfetik/math/tree/main/two-visits/v1">Material</a>
+        <a href="https://doi.org/10.5281/zenodo.23089289">Zenodo</a>
+      </nav>
       <section class="abstract" aria-labelledby="abstract-heading">
         <h2 id="abstract-heading">Abstract</h2>
         <p>In finite two-visit pinwheel scheduling, each of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n"><mi>n</mi></math> labelled tasks with positive integer deadline <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="dᵢ"><msub><mi>d</mi><mi>i</mi></msub></math> must occur exactly twice in a word of length <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="2n"><mrow><mn>2</mn><mi>n</mi></mrow></math>. Its first occurrence must be among the first <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="dᵢ"><msub><mi>d</mi><mi>i</mi></msub></math> positions, and the two occurrences must be at most <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="dᵢ"><msub><mi>d</mi><mi>i</mi></msub></math> positions apart. We prove that every instance of density <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="∑ᵢ 1/dᵢ ≤ 1"><mrow><msub><mo>∑</mo><mi>i</mi></msub><mfrac><mn>1</mn><msub><mi>d</mi><mi>i</mi></msub></mfrac><mo>≤</mo><mn>1</mn></mrow></math> is feasible, including equality. More sharply, for every fixed <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n ≥ 2"><mrow><mi>n</mi><mo>≥</mo><mn>2</mn></mrow></math>, all instances of density at most <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="1 + 1/[n(n−1)]"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></mfrac></mrow></math> are feasible except relabellings of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="(n−1, n, …, n)"><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>,</mo><mi>n</mi><mo>,</mo><mo>…</mo><mo>,</mo><mi>n</mi><mo>)</mo></mrow></math>, and this exception is infeasible. A constructive anchor-cluster repair yields a schedule with linear combinatorial work after sorting and an exact density check. The proof combines an ordered reciprocal inequality with a calendar that controls the relative order of the two visits.</p>
       </section>
-      <nav class="download-links" aria-label="Read and download this paper">
-        <a class="primary-link" href="https://doi.org/10.5281/zenodo.23089289">Read on Zenodo <span aria-hidden="true">↗</span></a>
-        <a class="pdf-link" href="two-visits-v1.pdf">Read the PDF <span aria-hidden="true">↗</span></a>
-      </nav>
-      <p class="materials-note">Supplementary ZIP on Zenodo: paper sources, construction algorithm and exact checks.</p>
+      <p class="materials-note">Material includes manuscript sources, the construction algorithm and exact checks. <a href="https://zenodo.org/records/23089289/files/two-visits-v1.zip?download=1">ZIP download (484&nbsp;kB)</a>.</p>
       <section class="citation" aria-labelledby="citation-heading">
-        <h2 id="citation-heading">Cite this paper</h2>
+        <h2 id="citation-heading">Citation</h2>
         <p>Fetik, F. (2026). <cite>Sharp density thresholds for finite two-visit scheduling</cite> (v1). Zenodo.
           <a class="doi" href="https://doi.org/10.5281/zenodo.23089289">https://doi.org/10.5281/zenodo.23089289</a></p>
       </section>
-      <p class="back-link"><a href="../index.html"><span aria-hidden="true">←</span> Back to my papers</a></p>
+      <p class="back-link"><a href="../index.html"><span aria-hidden="true">←</span> Back to overview</a></p>
     </article>
   </main>
   <footer class="site-footer">
-    <a href="https://orcid.org/0009-0002-2527-5396" rel="me">ORCID 0009-0002-2527-5396</a>
-    <a href="https://github.com/fabianfetik/math" aria-label="Publication repository on GitHub">GitHub</a>
+    <a href="https://orcid.org/0009-0002-2527-5396" rel="me">ORCID</a>
+    <a href="https://github.com/fabianfetik/math">GitHub</a>
     <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>
   </footer>
 </body>

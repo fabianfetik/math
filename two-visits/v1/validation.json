@@ -1,0 +1,86 @@
+{
+  "version": "v1",
+  "checked_on": "2026-10-01",
+  "scope": "finite labelled positive integer-deadline 2-Visits; Theorems A/B and Corollary C",
+  "environment": {
+    "python": "3.12.3",
+    "pandoc": "3.1.3",
+    "pdftex": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)",
+    "matplotlib": "3.11.1",
+    "sympy": "1.14.0"
+  },
+  "pdf_build": {
+    "runs": 2,
+    "final_warnings": [],
+    "pages": 22
+  },
+  "checks": {
+    "check_bundle.py": {
+      "status": "PASS",
+      "domain_inputs": 2398,
+      "promised_inputs_by_n": {
+        "2": 9,
+        "3": 31,
+        "4": 145,
+        "5": 688
+      },
+      "constructed_label_orders": 1738,
+      "critical_instances": 4,
+      "oracle_inputs_by_n": {
+        "2": 10,
+        "3": 56,
+        "4": 330,
+        "5": 0
+      },
+      "oracle_states": 5164,
+      "max_oracle_states_per_input": 267,
+      "oracle_state_budget_per_input": 20000,
+      "largest_complete_word_language": 2520,
+      "structured_examples": 15,
+      "equation_tags": 70
+    },
+    "check_algebra.py": {
+      "status": "PASS",
+      "sympy": "1.14.0",
+      "checks": 31,
+      "verified_identities_and_signs": [
+        "4.7\u20134.8 seed expansion",
+        "4.11 capped endpoint",
+        "6.3 cleared density polynomial",
+        "6.4 positive root test",
+        "8.2 chord square",
+        "8.3 affine coefficient",
+        "8.3 chord substitution",
+        "8.4 margin identity",
+        "8.5 positive substitution",
+        "8.5 coefficients",
+        "8.2 capped numerator substitution",
+        "8.2 capped sign for c >= 1",
+        "8.12 quantitative separation",
+        "9.5 structural difference",
+        "9.6 structural threshold",
+        "9.10 bound comparison",
+        "9.11 H=1 bound",
+        "9.12 H=2 monotonicity",
+        "9.13 M=11 endpoint",
+        "9.13 M=12 endpoint",
+        "9.15 short-width bound",
+        "9.16 mixed-width charge",
+        "9.16 M=12 endpoint",
+        "9.19 pattern A",
+        "9.19 sign A",
+        "9.19 pattern B",
+        "9.19 sign B",
+        "9.19 pattern C",
+        "9.19 sign C",
+        "9.19 pattern D",
+        "9.19 sign D"
+      ]
+    }
+  },
+  "proof_status": {
+    "analytic_written_proof": true,
+    "full_formalization": false,
+    "external_peer_review": false
+  }
+}

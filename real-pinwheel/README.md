@@ -1,21 +1,27 @@
 # Real-period pinwheel scheduling at density 5/6
 
-**Fabian Fetik · v1 · 28 September 2026**
+**Fabian Fetik · Preprint · v1 · 28 September 2026**
 
-For every finite list of positive real periods, the paper proves schedulability
-at density at most 5/6. The proof combines written arguments, finite certificates
-and selected formalized subresults.
+[PDF](real-pinwheel-5-6-v1.pdf) · [Material](v1/) ·
+[Zenodo](https://doi.org/10.5281/zenodo.23018098)
 
-- **DOI:** [10.5281/zenodo.23018098](https://doi.org/10.5281/zenodo.23018098)
-- **Zenodo:** [version v1](https://zenodo.org/records/23018098)
+Tasks must recur indefinitely under timing constraints given by real-valued
+periods. Schedules exist for every finite task family whose reciprocal periods
+sum to at most 5/6.
 
-| Download | Contents |
+| Material | Contents |
 | --- | --- |
-| [Article PDF](real-pinwheel-5-6-v1.pdf) | The typeset paper |
-| [Supplementary ZIP](real-pinwheel-5-6-v1.zip) | Editable TeX source, finite proof data, verification programs, selected Lean sources and reproduction instructions |
+| [Manuscript source](v1/source/) | TeX and build instructions |
+| [Verification programs](v1/software/) | Python and C++ acceptance checks |
+| [Proof data and guide](v1/proof-artifacts.md) | Certificate data, acceptance rules and reproduction instructions |
+| [Lean sources](lean-v1/) | Pinned sources for the five-role and upper-band subresults |
+| [Original ZIP](real-pinwheel-5-6-v1.zip) | Complete archived v1 package |
 
-The files match the corresponding Zenodo v1 downloads. Follow the README and
-supplementary guide inside the ZIP to reproduce the checks and build the paper.
+The [unpacked v1 package](v1/) matches the Zenodo ZIP. Follow its
+[README](v1/README.md) and [guide](v1/proof-artifacts.md) to run the checks.
+The Lean sources are unpacked separately from its `lean-source.zip` and retain
+the archived dependency pins. They formalize the named subresults; the main
+theorem also uses written arguments and finite certificates.
 
 The article, documentation and finite proof data are licensed under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); supplied software and
