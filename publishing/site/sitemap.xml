@@ -1,0 +1,15 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ '/' | absolute_url | xml_escape }}</loc></url>
+  {% for paper in site.papers %}
+  {% assign release = paper.releases | where: "version", paper.current | first %}
+  <url>
+    <loc>{{ paper.url | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ release.date | xml_escape }}</lastmod>
+  </url>
+  {% endfor %}
+</urlset>

@@ -1,0 +1,17 @@
+{%- assign current_releases = "" | split: "," -%}
+{%- for paper in site.papers -%}
+  {%- assign selected = paper.releases | where: "version", paper.current -%}
+  {%- assign current_releases = current_releases | concat: selected -%}
+{%- endfor -%}
+{%- assign current_releases = current_releases | sort: "date" | reverse -%}
+{%- capture newline %}
+{% endcapture -%}
+{%- for release in current_releases -%}
+  {%- assign paper = site.papers | where: "key", release.work | first -%}
+  {%- if include.format == "html" -%}
+    {%- include paper-card.html paper=paper release=release -%}
+  {%- else -%}
+    {%- capture entry -%}{%- include paper-entry.md paper=paper release=release -%}{%- endcapture -%}
+    {{- entry | strip -}}{{- newline -}}{{- newline -}}
+  {%- endif -%}
+{%- endfor -%}

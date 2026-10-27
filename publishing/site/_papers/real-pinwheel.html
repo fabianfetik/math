@@ -1,0 +1,69 @@
+---
+{
+  "key": "real-pinwheel",
+  "header_image": {
+    "path": "/assets/pinwheel-header.svg",
+    "width": 2250,
+    "height": 666
+  },
+  "current": "v1",
+  "concept_doi": "10.5281/zenodo.23018097",
+  "releases": [
+    {
+      "work": "real-pinwheel",
+      "version": "v1",
+      "title": "Real-period pinwheel scheduling at density 5/6",
+      "date": "2026-09-28",
+      "status": "Preprint",
+      "subjects": ["cs.DM", "math.CO"],
+      "authors": [
+        {
+          "name": "Fabian Fetik",
+          "citation_name": "Fetik, F.",
+          "orcid": "https://orcid.org/0009-0002-2527-5396"
+        }
+      ],
+      "summary": "Tasks must recur indefinitely under timing constraints given by real-valued periods. Schedules exist for every finite task family whose reciprocal periods sum to at most 5/6.",
+      "abstract": "We prove the 5/6 density conjecture for pinwheel scheduling with real periods. For every finite family of labelled tasks with periods aᵢ ≥ 1 and ∑ᵢ 1/aᵢ ≤ 5/6, there is a bilateral schedule in which task i occurs at least ℓ times in every ⌈ℓaᵢ⌉ consecutive slots, for each positive integer ℓ. A reduction merges arbitrarily large systems down to eight roles; shorter systems are handled separately. The eight-role theorem combines explicit schedules with finite certificates whose rational inequalities cover the remaining real parameter regions, including irrational rates and boundary cases.",
+      "doi": "10.5281/zenodo.23018098",
+      "zenodo_url": "https://zenodo.org/records/23018098",
+      "pdf": "real-pinwheel/real-pinwheel-5-6-v1.pdf",
+      "pdf_sha256": "9d42681cd8bff5978d9e90d0d81f36150daff353d4027ddd8dc418193129d678",
+      "package": "real-pinwheel/real-pinwheel-5-6-v1.zip",
+      "package_sha256": "c0ed07b8f881aa11d446e095ef135bcf1d89ace9cff3cb13fde8e79fe039a203",
+      "github_release_url": null,
+      "github_package_url": null,
+      "source_ref": "real-pinwheel-v1",
+      "source_root": "real-pinwheel",
+      "materials": [
+        {
+          "label": "Manuscript source",
+          "path": "real-pinwheel/v1/source",
+          "kind": "directory",
+          "description": "TeX and build instructions"
+        },
+        {
+          "label": "Verification programs",
+          "path": "real-pinwheel/v1/software",
+          "kind": "directory",
+          "description": "Python and C++ acceptance checks"
+        },
+        {
+          "label": "Proof data and guide",
+          "path": "real-pinwheel/v1/proof-artifacts.md",
+          "kind": "file",
+          "description": "Certificate data, acceptance rules and reproduction instructions"
+        },
+        {
+          "label": "Lean sources",
+          "path": "real-pinwheel/lean-v1",
+          "kind": "directory",
+          "description": "Pinned sources for the five-role and upper-band subresults"
+        }
+      ],
+      "material_note": "The Lean sources formalize the named subresults; the main theorem also uses written arguments and finite certificates. The complete supplementary package includes proof data, dependency pins and reproduction instructions."
+    }
+  ]
+}
+---
+<p>We prove the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="5/6"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> density conjecture for pinwheel scheduling with real periods. For every finite family of labelled tasks with periods <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="aᵢ ≥ 1"><mrow><msub><mi>a</mi><mi>i</mi></msub><mo>≥</mo><mn>1</mn></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="∑ᵢ 1/aᵢ ≤ 5/6"><mrow><msub><mo>∑</mo><mi>i</mi></msub><mfrac><mn>1</mn><msub><mi>a</mi><mi>i</mi></msub></mfrac><mo>≤</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>, there is a bilateral schedule in which task <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="i"><mi>i</mi></math> occurs at least <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="ℓ"><mi>ℓ</mi></math> times in every <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="⌈ℓaᵢ⌉"><mrow><mo>⌈</mo><mi>ℓ</mi><msub><mi>a</mi><mi>i</mi></msub><mo>⌉</mo></mrow></math> consecutive slots, for each positive integer <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="ℓ"><mi>ℓ</mi></math>. A reduction merges arbitrarily large systems down to eight roles; shorter systems are handled separately. The eight-role theorem combines explicit schedules with finite certificates whose rational inequalities cover the remaining real parameter regions, including irrational rates and boundary cases.</p>

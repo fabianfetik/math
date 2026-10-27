@@ -1,0 +1,22 @@
+{
+  "@type": "ScholarlyArticle",
+  "@id": {{ include.release.doi | prepend: "https://doi.org/" | jsonify }},
+  "name": {{ include.release.title | jsonify }},
+  "author": [
+    {% for author in include.release.authors %}
+    {"@type": "Person", "name": {{ author.name | jsonify }}, "sameAs": {{ author.orcid | jsonify }}}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "datePublished": {{ include.release.date | jsonify }},
+  "version": {{ include.release.version | jsonify }},
+  "creativeWorkStatus": {{ include.release.status | jsonify }},
+  "abstract": {{ include.release.abstract | jsonify }},
+  "url": {{ include.paper.url | absolute_url | jsonify }},
+  "sameAs": [{{ include.release.zenodo_url | jsonify }}],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": {{ include.release.pdf | absolute_url | jsonify }},
+    "encodingFormat": "application/pdf"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "analytic_two_head_sources": [
+    {
+      "caps": [
+        [
+          "1/2",
+          false
+        ],
+        [
+          "2/5",
+          false
+        ],
+        [
+          "1/10",
+          true
+        ]
+      ],
+      "tail_gap": 10,
+      "word": "1212132112"
+    },
+    {
+      "caps": [
+        [
+          "5/9",
+          true
+        ],
+        [
+          "1/3",
+          false
+        ],
+        [
+          "1/9",
+          true
+        ]
+      ],
+      "tail_gap": 9,
+      "word": "213121211"
+    },
+    {
+      "caps": [
+        [
+          "3/5",
+          false
+        ],
+        [
+          "3/10",
+          true
+        ],
+        [
+          "1/10",
+          true
+        ]
+      ],
+      "tail_gap": 10,
+      "word": "1211211213"
+    },
+    {
+      "caps": [
+        [
+          "2/3",
+          false
+        ],
+        [
+          "2/9",
+          true
+        ],
+        [
+          "1/9",
+          true
+        ]
+      ],
+      "tail_gap": 9,
+      "word": "121112113"
+    },
+    {
+      "caps": [
+        [
+          "2/3",
+          false
+        ],
+        [
+          "4/17",
+          true
+        ],
+        [
+          "1/17",
+          true
+        ]
+      ],
+      "tail_gap": 17,
+      "word": "12111211121112113"
+    }
+  ],
+  "head_minimum": {
+    "closed": true,
+    "rate": "1/11"
+  },
+  "head_sum_guard": "C < 5/6 + gamma(B) - sum(1/(c+1) for c in B)",
+  "ordinary_maximum_roles": 7,
+  "paired_minimum_copies": 2,
+  "paired_roles": 8,
+  "paired_tail_period": 21,
+  "schema": "selected-small-minimum-domain-1",
+  "tail_periods": [
+    11,
+    21
+  ]
+}

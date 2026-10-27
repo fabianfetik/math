@@ -1,0 +1,48 @@
+---
+layout: base
+---
+{% assign release = page.releases | where: "version", page.current | first %}
+<header class="site-header"><a href="{{ '/' | relative_url }}">← Overview</a></header>
+<main id="main" class="page">
+  <article>
+    <header class="paper-header">
+      <h1>{{ release.title | escape }}</h1>
+      <p class="byline">{% for author in release.authors %}{% if author.orcid %}<a href="{{ author.orcid }}" rel="author">{{ author.name | escape }}</a>{% else %}{{ author.name | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %} · {{ release.status | escape }} · <time datetime="{{ release.date }}">{{ release.date | date: "%-d %B %Y" }}</time> · {{ release.version | escape }}{% if release.subjects.size > 0 %}<span class="subjects-inline"> · <span class="visually-hidden">Subjects: </span>{% include subjects.html release=release separator=" / " %}</span>{% endif %}</p>
+    </header>
+    {% if page.header_image %}
+    <img class="header-illustration" src="{{ page.header_image.path | relative_url }}" width="{{ page.header_image.width }}" height="{{ page.header_image.height }}" alt="">
+    {% endif %}
+    <section class="abstract" aria-labelledby="abstract-heading">
+      <h2 id="abstract-heading">Abstract</h2>
+      {{ content }}
+    </section>
+    <nav class="download-links" aria-label="Read this paper">
+      <a class="primary-link" href="{{ release.pdf | relative_url }}">PDF {{ release.version | escape }}</a>
+    </nav>
+    <section id="supplementary-material" class="supplementary-material" aria-labelledby="materials-heading">
+      <h2 id="materials-heading">Supplementary material</h2>
+      <p>Manuscript sources, verification programs and data.</p>
+      <nav class="material-links" aria-label="Download or browse supplementary material">
+        {% include links.liquid release=release format="material" %}
+      </nav>
+      <p class="materials-note">{{ release.material_note | escape }}</p>
+    </section>
+    <section class="citation" aria-labelledby="citation-heading">
+      <h2 id="citation-heading">Citation</h2>
+      <p>{% for author in release.authors %}{{ author.citation_name | escape }}{% unless forloop.last %}, {% endunless %}{% endfor %} ({{ release.date | date: "%Y" }}). <cite>{{ release.title | escape }}</cite> ({{ release.version | escape }}). Zenodo.
+        <a class="doi" href="https://doi.org/{{ release.doi | escape }}">https://doi.org/{{ release.doi | escape }}</a></p>
+    </section>
+    {% if page.releases.size > 1 %}
+    <section class="versions" aria-labelledby="versions-heading">
+      <h2 id="versions-heading">Release history</h2>
+      <ul>
+      {% assign history = page.releases | sort: "date" | reverse %}
+      {% for previous in history %}
+        <li>{{ previous.version | escape }} · {{ previous.date | date: "%-d %B %Y" }} · <cite>{{ previous.title | escape }}</cite> · <a href="{{ previous.pdf | relative_url }}">PDF {{ previous.version | escape }}</a> · <a href="https://doi.org/{{ previous.doi | escape }}">Zenodo</a></li>
+      {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+    <p class="back-link"><a href="{{ '/' | relative_url }}">← Back to overview</a></p>
+  </article>
+</main>

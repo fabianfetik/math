@@ -1,0 +1,63 @@
+---
+{
+  "key": "two-visits",
+  "header_image": {
+    "path": "/assets/two-visits-header.svg",
+    "width": 2172,
+    "height": 620
+  },
+  "current": "v1",
+  "concept_doi": "10.5281/zenodo.23089288",
+  "releases": [
+    {
+      "work": "two-visits",
+      "version": "v1",
+      "title": "Sharp density thresholds for finite two-visit scheduling",
+      "date": "2026-10-01",
+      "status": "Preprint",
+      "subjects": ["cs.DM", "math.CO", "cs.DS"],
+      "authors": [
+        {
+          "name": "Fabian Fetik",
+          "citation_name": "Fetik, F.",
+          "orcid": "https://orcid.org/0009-0002-2527-5396"
+        }
+      ],
+      "summary": "Each task must occur exactly twice, with a positive integer deadline bounding its first visit and the gap between visits. The paper gives sharp density bounds and a constructive scheduling algorithm.",
+      "abstract": "In finite two-visit pinwheel scheduling, each of n labelled tasks with positive integer deadline dᵢ must occur exactly twice in a word of length 2n. Its first occurrence must be among the first dᵢ positions, and the two occurrences must be at most dᵢ positions apart. We prove that every instance of density ∑ᵢ 1/dᵢ ≤ 1 is feasible, including equality. More sharply, for every fixed n ≥ 2, all instances of density at most 1 + 1/[n(n−1)] are feasible except relabellings of (n−1, n, …, n), and this exception is infeasible. A constructive anchor-cluster repair yields a schedule with linear combinatorial work after sorting and an exact density check. The proof combines an ordered reciprocal inequality with a calendar that controls the relative order of the two visits.",
+      "doi": "10.5281/zenodo.23089289",
+      "zenodo_url": "https://zenodo.org/records/23089289",
+      "pdf": "two-visits/two-visits-v1.pdf",
+      "pdf_sha256": "290b97f51abc8d689efa5e15a9c25ceee254aa67577766d947560489a4c1fa45",
+      "package": "two-visits/two-visits-v1.zip",
+      "package_sha256": "5ce3e4ed8f8f5a970b2ca54b8b5e1ffcb956543b730a808cdf6cf476bc0f5398",
+      "github_release_url": null,
+      "github_package_url": null,
+      "source_ref": "two-visits-v1",
+      "source_root": "two-visits",
+      "materials": [
+        {
+          "label": "Manuscript source",
+          "path": "two-visits/v1/source",
+          "kind": "directory",
+          "description": "Markdown, TeX, figure and build instructions"
+        },
+        {
+          "label": "Algorithm and checker",
+          "path": "two-visits/v1/code",
+          "kind": "directory",
+          "description": "Constructor and independent output-certificate checker"
+        },
+        {
+          "label": "Exact checks",
+          "path": "two-visits/v1/checks",
+          "kind": "directory",
+          "description": "Bounded scheduling and symbolic checks"
+        }
+      ],
+      "material_note": "The proofs are analytic. The supplied programs include the construction algorithm, an independent certificate checker and bounded exact checks. Reproduction instructions and the complete data are included in the supplementary package."
+    }
+  ]
+}
+---
+<p>In finite two-visit pinwheel scheduling, each of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n"><mi>n</mi></math> labelled tasks with positive integer deadline <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="dᵢ"><msub><mi>d</mi><mi>i</mi></msub></math> must occur exactly twice in a word of length <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="2n"><mrow><mn>2</mn><mi>n</mi></mrow></math>. Its first occurrence must be among the first <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="dᵢ"><msub><mi>d</mi><mi>i</mi></msub></math> positions, and the two occurrences must be at most <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="dᵢ"><msub><mi>d</mi><mi>i</mi></msub></math> positions apart. We prove that every instance of density <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="∑ᵢ 1/dᵢ ≤ 1"><mrow><msub><mo>∑</mo><mi>i</mi></msub><mfrac><mn>1</mn><msub><mi>d</mi><mi>i</mi></msub></mfrac><mo>≤</mo><mn>1</mn></mrow></math> is feasible, including equality. More sharply, for every fixed <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n ≥ 2"><mrow><mi>n</mi><mo>≥</mo><mn>2</mn></mrow></math>, all instances of density at most <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="1 + 1/[n(n−1)]"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></mfrac></mrow></math> are feasible except relabellings of <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="(n−1, n, …, n)"><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>,</mo><mi>n</mi><mo>,</mo><mo>…</mo><mo>,</mo><mi>n</mi><mo>)</mo></mrow></math>, and this exception is infeasible. A constructive anchor-cluster repair yields a schedule with linear combinatorial work after sorting and an exact density check. The proof combines an ordered reciprocal inequality with a calendar that controls the relative order of the two visits.</p>

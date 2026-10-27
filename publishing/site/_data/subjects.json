@@ -1,0 +1,11 @@
+{
+  "cs.DM": {
+    "name": "Discrete Mathematics"
+  },
+  "math.CO": {
+    "name": "Combinatorics"
+  },
+  "cs.DS": {
+    "name": "Data Structures and Algorithms"
+  }
+}

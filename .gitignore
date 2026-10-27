@@ -1,0 +1,9 @@
+__pycache__/
+.build/
+# Complete publication packages and data archives are release attachments.
+*.zip
+
+# Local working notes and agent instructions.
+/AGENTS.md
+/ARCHITECTURE.md
+/DEVELOPMENT.md

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% if page.kind == "paper" %}
+  {% assign release = page.releases | where: "version", page.current | first %}
+  <title>{{ release.title | escape }} — {{ site.owner.name | escape }}</title>
+  <meta name="description" content="{{ release.summary | escape }}">
+  <meta property="og:title" content="{{ release.title | escape }}">
+  <meta property="og:description" content="{{ release.summary | escape }}">
+  <meta property="og:type" content="article">
+  <meta name="citation_title" content="{{ release.title | escape }}">
+  {% for author in release.authors %}<meta name="citation_author" content="{{ author.name | escape }}">{% endfor %}
+  <meta name="citation_publication_date" content="{{ release.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_doi" content="{{ release.doi | escape }}">
+  <meta name="citation_pdf_url" content="{{ release.pdf | absolute_url }}">
+  {% else %}
+  <title>{{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta property="og:title" content="{{ site.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:type" content="website">
+  {% endif %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml" sizes="any">
+  <link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+  <script type="application/ld+json">
+  {% if page.kind == "paper" %}
+  {"@context": "https://schema.org", "@graph": [{% include article.json paper=page release=release %}]}
+  {% else %}
+  {"@context": "https://schema.org", "@type": "CollectionPage",
+   "url": {{ '/' | absolute_url | jsonify }},
+   "name": {{ site.title | jsonify }},
+   "mainEntity": [
+     {% for paper in site.papers %}
+     {% assign selected = paper.releases | where: "version", paper.current | first %}
+     {% include article.json paper=paper release=selected %}{% unless forloop.last %},{% endunless %}
+     {% endfor %}
+   ]}
+  {% endif %}
+  </script>
+</head>
+<body class="{% if page.kind == 'paper' %}paper-page{% else %}overview{% endif %}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ content }}
+  <footer class="site-footer">
+    <span>{{ site.owner.name | escape }} · <a href="{{ site.owner.orcid }}" rel="me">ORCID</a></span>
+    <a href="{{ site.repository_url }}">GitHub</a>
+    <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>
+  </footer>
+</body>
+</html>

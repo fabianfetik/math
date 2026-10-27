@@ -1,0 +1,11 @@
+---
+layout: base
+permalink: /
+---
+<main id="main" class="page">
+  <h1 class="visually-hidden">Papers</h1>
+  <img class="header-illustration overview-illustration" src="{{ '/assets/math-header.svg' | relative_url }}" width="845" height="181" alt="">
+  <ol class="paper-list">
+    {% include catalogue.liquid format="html" %}
+  </ol>
+</main>

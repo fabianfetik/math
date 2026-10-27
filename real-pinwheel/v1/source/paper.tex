@@ -1,0 +1,911 @@
+% Portable production source. All text and bibliography are embedded.
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=26mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{microtype}
+\usepackage{longtable,booktabs,array,calc}
+\usepackage[hidelinks,pdfencoding=auto,hypertexnames=false]{hyperref}
+\hypersetup{
+  pdftitle={Real-period pinwheel scheduling at density 5/6},
+  pdfauthor={Fabian Fetik},
+  pdfsubject={Real-period pinwheel scheduling}
+}
+\urlstyle{same}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setlength{\emergencystretch}{1.5em}
+\setlength{\parskip}{0pt}
+\setlength{\LTpre}{0.7em}
+\setlength{\LTpost}{0.7em}
+\widowpenalty=10000
+\clubpenalty=10000
+\allowdisplaybreaks[1]
+\title{Real-period pinwheel scheduling at density $5/6$}
+\author{Fabian Fetik}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+
+We prove the \(5/6\) density conjecture for pinwheel scheduling with real periods. For every finite family of labelled tasks with periods \(a_i\ge1\) and \(\sum_i1/a_i\le5/6\), there is a bilateral schedule in which task \(i\) occurs at least \(\ell\) times in every \(\lceil\ell a_i\rceil\) consecutive slots, for each positive integer \(\ell\). A reduction merges arbitrarily large systems down to eight roles; shorter systems are handled separately. The eight-role theorem combines explicit schedules with finite certificates whose rational inequalities cover the remaining real parameter regions, including irrational rates and boundary cases.
+
+\end{abstract}
+
+\section{Introduction and statement}\label{sec:1}
+
+Pinwheel scheduling asks for a perpetual assignment of one task to each integer time slot. Kawamura proved that density at most \(5/6\) suffices when all periods are integers and introduced a service condition for real periods \cite{kawamura}. Fujiwara, Miyagi and Ouchi proved the same bound for real systems with at most three distinct period values and conjectured it for all finite real systems \cite{fujiwara-miyagi-ouchi}. We prove this conjecture. The real-period condition requires simultaneous control of every translated window, including lengths at which a required visit count changes.
+
+The proof has two main steps: a source theorem for eight labelled roles and a reduction from arbitrarily large systems to that source. We prove the source theorem in three bands of real parameters, combining direct constructions with exact finite covers. The covers include irrational rates and boundary cases; their certificates and verification programs accompany the paper.
+
+Let \(I=\{1,\ldots,n\}\) be a nonempty finite set of labels, and let \(a_i\ge1\) be real. Equal periods still denote different tasks. A schedule is a bilateral word \(S:\mathbb Z\to I\); write \(N_i(t,L)\) for the number of \(i\)-slots in \([t,t+L)\), where \(t\in\mathbb Z\) and \(L\in\mathbb N_{>0}\). Set \(r_i=1/a_i\) and \(D=\sum_i r_i\).
+
+\begin{theorem}\label{stmt:1}
+
+ If \(D\le5/6\), there exists a bilateral schedule \(S\) such that
+
+\begin{equation}
+N_i(t,L)\ge\lfloor Lr_i\rfloor
+                 \qquad(i\in I,\ t\in\mathbb Z,\ L\ge1).
+\tag{1}\label{eq:1}
+\end{equation}
+
+\end{theorem}
+
+This is the real-period assertion formulated as Conjecture 2 in \cite{fujiwara-miyagi-ouchi}. That formulation asks for \(\ell\) visits in every window of length \(\lceil\ell a_i\rceil\). Equation \eqref{eq:1} implies this because \(\lfloor r_i\lceil\ell/r_i\rceil\rfloor\ge\ell\). Conversely, in a window of length \(L\) put \(\ell=\lfloor Lr_i\rfloor\); if \(\ell>0\), then \(\lceil\ell/r_i\rceil\le L\), so a contained shorter window supplies \(\ell\) visits. The case \(\ell=0\) is vacuous. We use \eqref{eq:1} because it makes the common-window reconstruction transparent.
+
+For a rate \(r\ge0\), call the all-window conditions
+
+\begin{equation}
+O(r):\ N(t,L)\ge\lfloor Lr\rfloor,
+ \qquad
+ W(r):\ N(t,L)\ge\lceil Lr\rceil-1
+\tag{2}\label{eq:2}
+\end{equation}
+
+ordinary and weak service. They apply to the same word for all labels. At integral \(Lr\), weak service permits one fewer visit. We use the following elementary facts, including their boundary directions.
+
+\begin{lemma}\label{stmt:2}
+
+ If \(a\ge b\), then \(O(a)\Rightarrow O(b)\) and \(W(a)\Rightarrow W(b)\). If \(a>b\ge0\), then \(W(a)\Rightarrow O(b)\).
+
+\end{lemma}
+
+\begin{proof}
+
+ The first assertions follow from monotonicity of floor and ceiling. Since \(Lb<La\), one has \(\lfloor Lb\rfloor\le\lceil La\rceil-1\) for each positive integer \(L\). The implications preserve the one common word. 
+
+\end{proof}
+
+The main reduction needs a source with six ordered heads and two distinct equal twins. Put \(d=5/6\).
+
+\begin{theorem}\label{stmt:3}
+
+ For every \(h_1\ge\cdots\ge h_6\ge\delta\ge0\) satisfying
+
+\begin{equation}
+\sum_{j=1}^{6}h_j+\delta=d,
+\tag{3}\label{eq:3}
+\end{equation}
+
+there exists a bilateral word for eight distinct labels with weak rates \((h_1,\ldots,h_6,\delta,\delta)\). Equivalently, the two twins may be contracted to one marked label \(P\) satisfying \(N_P(t,L)\ge2(\lceil L\delta\rceil-1)\) together with the six weak head contracts.
+
+\end{theorem}
+
+We prove Theorem~\ref{stmt:3} in \S\,\ref{sec:3} from exact source theorems whose proofs and certificate meanings occupy Appendices~\ref{sec:A}--\ref{sec:D}. The two descriptions are equivalent: contracting twins adds their visits; conversely, list the marked occurrences in bilateral order and send them alternately to the twins. Any window with \(N\) marked occurrences gives each twin at least \(\lfloor N/2\rfloor\). When \(\delta>0\), the marked occurrence set is unbounded in both time directions. When \(\delta=0\), the twins impose no positive demand and may simply be omitted. All later uses keep their physical labels separate.
+
+To derive Theorem~\ref{stmt:1} from Theorem~\ref{stmt:3}, we first merge the two smallest rates repeatedly until eight roots remain. Strict inflation then brings those roots within the scope of Theorem~\ref{stmt:3}, and the mergers can be reversed on its schedule. The positive minimum of the original instance supplies the needed strict inequality even when \(D=d\).
+
+\section{Results used in the reduction}\label{sec:2}
+
+We recall the statements proved in Appendices~\ref{sec:A}--\ref{sec:D} that enter the main argument. Appendix~\ref{sec:A} gives an ordinary bilateral word for every positive labelled list of at most five rates with total at most \(d\). It also proves the marked-charge theorem: writing \(\alpha=3403/4290\), any positive labelled list of at least six rates with total \(E\) and minimum \(s\) has an ordinary word whenever \(E-s<\alpha\). This condition does not require \(E\le d\).
+
+For at most seven labels with minimum \(0<s\le1/21\), Appendix~\ref{sec:B} gives an ordinary word whenever \(E-s<d\). It also gives ordinary service for eight distinct labels \((h_1,\ldots,h_6,s,s)\) when \(h_i\ge s\), \(0<s\le1/21\), and \(\sum h_i+s\le d\). The paired statement includes equality; its actual total \(E=\sum h_i+2s\) may exceed \(d\).
+
+The remaining results concern \eqref{eq:3}. For \(\delta\ge1/11\), Appendix~\ref{sec:C} gives a seven-label word supplying \(W(h_j)\) to the six heads and \(W(2\delta)\) to a marked label. It combines a finite cover of the closed strip \(1/11\le\delta\le1/10\) with a formally verified cover and direct inequalities for \(\delta\ge1/10\). For \(1/21\le\delta\le1/11\), Appendix~\ref{sec:D} gives an eight-label word supplying \(W(h_j)\) to each head and \(W(\delta)\) to each distinct twin.
+
+The next consequence of Appendices A and B handles short input lists.
+
+\begin{lemma}\label{stmt:4}
+
+ Every positive labelled list of at most seven rates with total \(E\le d\) has an ordinary bilateral word.
+
+\end{lemma}
+
+\begin{proof}
+
+ Use the five-role theorem when there are at most five labels. Otherwise let \(s\) be the positive minimum. If \(s\le1/21\), then \(E-s<d\) and the seven-label case applies. If \(s>1/21\), then \(E-s<d-1/21=11/14<3403/4290=\alpha\); the marked-charge theorem applies. This includes \(E=d\), repeated rates and irrational rates. 
+
+\end{proof}
+
+\section{Proof of the paired source}\label{sec:3}
+
+\begin{proof}[Proof of Theorem~\ref{stmt:3}]
+
+ If \(\delta=0\), omit zero-rate labels. At most six positive heads remain, of total \(d\), and Lemma~\ref{stmt:4} supplies ordinary service. Add unused zero labels if desired.
+
+For \(0<\delta\le1/21\), the paired case of Appendix~\ref{sec:B} applies directly to \eqref{eq:3}, supplying ordinary, hence weak, service on all eight labels.
+
+For \(1/21\le\delta\le1/11\), Theorem~\ref{stmt:D.1} supplies the required eight-label weak word. For \(\delta\ge1/11\), Theorem~\ref{stmt:C.1} supplies six weak heads and a marked role with \(W(2\delta)\). Alternate the marked occurrences between the two twins. The numerical inequality
+
+\begin{equation}
+\left\lfloor\frac{\lceil2x\rceil-1}{2}\right\rfloor
+                 \ge\lceil x\rceil-1\qquad(x\ge0)
+\tag{4}\label{eq:4}
+\end{equation}
+
+gives each twin \(W(\delta)\) in every window. The two bands meet on their closed endpoints. Finally, \eqref{eq:3} and the ordering imply \(7\delta\le d\), so \(0\le\delta\le5/42\) and the listed bands exhaust the whole feasible domain. 
+
+\end{proof}
+
+\section{From the paired source to every finite real input}\label{sec:4}
+
+Theorem~\ref{stmt:3} first yields the strict eight-role terminal needed by a reduction.
+
+\begin{lemma}\label{stmt:5}
+
+ Let \(u_1\ge\cdots\ge u_6\ge s>0\) and \(C=\sum_{j=1}^{6}u_j+s<d\). There is one ordinary common word on the eight distinct labels \((u_1,\ldots,u_6,s,s)\).
+
+\end{lemma}
+
+\begin{proof}
+
+ Set \(\lambda=d/C>1\). The vector \((\lambda u_1,\ldots,\lambda u_6,\lambda s)\) satisfies \eqref{eq:3}, so Theorem~\ref{stmt:3} supplies one weak word for the corresponding eight labels. Since every rate was multiplied by \(\lambda>1\), Lemma~\ref{stmt:2} converts each weak contract to the ordinary contract at its original rate. The actual eight-label total is \(C+s\) and need not be at most \(d\); only the discounted bill \(C\) is used. 
+
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{stmt:1}]
+
+ If \(n\le7\), use Lemma~\ref{stmt:4}. Suppose \(n\ge8\) and retain each original label as a leaf of a forest. While more than eight roots remain, take the two smallest current rates \(x\le y\) and replace them by one parent of rate \(2y\), recording that exact parent-child pair. Ties may be resolved arbitrarily. Each step lowers the root count by one.
+
+Let \(T\) be the current sum and \(F=T-\min\) its discounted bill. If \(z\ge y\) is the smallest untouched root, then after the merge
+
+\begin{equation}
+T'=T-x+y,\qquad \min'=\min(2y,z),\qquad
+ F'=F-\min(y,z-y)\le F.
+\tag{5}\label{eq:5}
+\end{equation}
+
+The third root \(z\) exists at every performed merge because at least nine roots precede it. If \(m_0>0\) is the minimum original rate, the eight final roots therefore satisfy
+
+\begin{equation}
+T-\min\le D-m_0<d.
+\tag{6}\label{eq:6}
+\end{equation}
+
+This is strict even on \(D=d\). Write the final roots as \(x\le y\le u_6\le\cdots\le u_1\). Then \(C=\sum_j u_j+y=T-x<d\). Lemma~\ref{stmt:5} schedules the eight distinct roles \((u_1,\ldots,u_6,y,y)\) ordinarily. Weaken one \(y\) role to the actual \(x\) by Lemma~\ref{stmt:2}. We now have one ordinary word for the eight actual final roots.
+
+Reverse the recorded merges, last first. A parent of actual rate \(2b\) was formed from children \(a\le b\). Its occurrence set in the current bilateral word is infinite in both directions. Assign its occurrences alternately to the two recorded children, keeping every other label\textquotesingle s slots fixed. Every physical window containing at least \(\lfloor2Lb\rfloor\) parent occurrences then gives each child at least
+
+\begin{equation}
+\left\lfloor\frac{\lfloor2Lb\rfloor}{2}\right\rfloor
+     =\lfloor Lb\rfloor\ge\lfloor La\rfloor
+\tag{7}\label{eq:7}
+\end{equation}
+
+occurrences. Thus ordinary all-window service survives each reversal. After finitely many reversals the word serves all original, distinct labels. Equation \eqref{eq:1} and its equivalent period-window formulation follow. 
+
+\end{proof}
+
+\section{Supplementary proof data}\label{sec:5}
+
+The finite covers used in Appendices~\ref{sec:A}--\ref{sec:D} are supplied with the paper. The appendices prove how their acceptance conditions yield schedules for the full real regions; the accompanying package contains the data and programs for checking the finite claims. It also contains Lean source for the formalized five-role and upper-band results.
+
+\textbf{Use of AI tools.} ChatGPT and Codex were used to develop and review proof arguments, verification software and Lean formalizations, and to prepare this manuscript. The finite certificates and the source code for the stated checks are supplied for independent verification.
+
+\begin{thebibliography}{9}\raggedright
+
+\bibitem{fujiwara-miyagi-ouchi}
+
+H. Fujiwara, K. Miyagi and K. Ouchi, \emph{Pinwheel Scheduling with Real Periods}, Discrete Mathematics \& Theoretical Computer Science 28:4 (2026), \href{https://doi.org/10.46298/dmtcs.17657}{doi:10.46298/dmtcs.17657}, \href{https://arxiv.org/abs/2510.24068v6}{arXiv:2510.24068v6}.
+
+\bibitem{kawamura}
+
+A. Kawamura, \emph{Proof of the Density Threshold Conjecture for Pinwheel Scheduling}, Proceedings of the National Academy of Sciences 123 (32) (2026), e2530214123, \href{https://doi.org/10.1073/pnas.2530214123}{doi:10.1073/pnas.2530214123}, \href{https://arxiv.org/abs/2606.27104v2}{arXiv:2606.27104v2}.
+
+\end{thebibliography}
+
+\appendix
+\numberwithin{theorem}{section}
+
+\section{Constructions and finite sources}\label{sec:A}
+
+We first establish the service and covering lemmas used throughout the appendices, then prove the five-role and marked-charge results of Section~\ref{sec:2}. We use the ordinary and weak service conventions \eqref{eq:2}, \(d=5/6\), and \(\alpha=3403/4290\).
+
+\subsection{Service and covering lemmas}\label{sec:A.1}
+
+\begin{lemma}\label{stmt:A.1}
+
+ Let \(r>0\) and let \((p_j)_{j\in\mathbb Z}\) list a label\textquotesingle s occurrences in increasing bilateral order. Then
+
+\begin{equation}
+\begin{aligned}
+ O(r)&\Longleftrightarrow
+ r(p_{j+k}-p_j-1)<k\quad(j\in\mathbb Z,\ k\ge1),\\
+ W(r)&\Longleftrightarrow
+ r(p_{j+k}-p_j-1)\le k\quad(j\in\mathbb Z,\ k\ge1).
+\end{aligned}
+\tag{A.1}\label{eq:A.1}
+\end{equation}
+
+For a periodic word of length \(P\) with \(c>0\) occurrences of this label, put \(H_k=\max_j(p_{j+k}-p_j)\), \(1\le k\le c\). Ordinary service is equivalent to \(Pr\le c\) and \(r(H_k-1)<k\) for these finitely many ranks; weak service replaces the strict signs by weak signs. Equivalently, if \(\mu(h)\) is the least cyclic count in an \(h\)-window, the residual tests are \(hr<\mu(h)+1\), or respectively \(hr\le\mu(h)+1\), for \(1\le h<P\).
+
+\end{lemma}
+
+\begin{proof}
+
+ The window strictly between \(p_j\) and \(p_{j+k}\) contains \(k-1\) visits, giving the necessary inequalities. Conversely, bracket a window containing \(m\) visits by its preceding and following occurrences. Their rank difference is \(m+1\) and their interior contains the window, giving \(Lr<m+1\), or \(Lr\le m+1\). For a period, long windows give \(Pr\le c\). Writing a rank as \(qc+b\), \(0\le b<c\), bounds its span by \(qP+H_b\) when \(b>0\); when \(b=0\), \(r(qP-1)\le qc-r<qc\). Thus the finite span tests suffice. The cyclic-count version follows by writing a length as \(qP+h\), whose minimum count is \(qc+\mu(h)\). 
+
+\end{proof}
+
+In particular, \(O(1/c)\) for an integer deadline \(c\) is equivalent to successive occurrence gaps at most \(c\). The ordinary span bound is \(\lceil k/r\rceil\), whereas the weak bound is \(\lfloor k/r\rfloor+1\). Positive service makes the occurrence set infinite in both directions.
+
+\begin{lemma}\label{stmt:A.2}
+
+ Suppose a parent stream supplies \(O(R)\), or \(W(R)\), with \(R>0\). Route its occurrences using one bilateral index word in which each child \(i\) occurs infinitely in both directions with gaps at most a positive integer \(c_i\). The child then supplies \(O(R/c_i)\), or respectively \(W(R/c_i)\), in physical time.
+
+\end{lemma}
+
+\begin{proof}
+
+ A physical window with \(N\) parent occurrences contains consecutive router indices, and therefore at least \(\lfloor N/c_i\rfloor\) visits to child \(i\). Use
+
+\[
+ \left\lfloor\frac{\lfloor x\rfloor}{c}\right\rfloor
+ =\left\lfloor\frac{x}{c}\right\rfloor,\qquad
+ \left\lfloor\frac{\lceil x\rceil-1}{c}\right\rfloor
+ =\left\lceil\frac{x}{c}\right\rceil-1.
+\]
+
+The routing is fixed once for all windows and labels. 
+
+\end{proof}
+
+A cyclic split and its iteration along a rooted tree are instances of Lemma~\ref{stmt:A.2}; the leaf deadline is the product of its ancestor arities. For two disjoint actual routers with deadlines \(c_i,e_j\), put \(A=\max_i c_i r_i\) and \(B=\max_j e_jr_j\). If \(A+B\le1\), the floor clock \(\lfloor(t+1)A\rfloor-\lfloor tA\rfloor\) and its complement give ordinary roots at rates \(A\) and at least \(B\). Routing supplies the requested children. The guard is precisely all cross inequalities \(c_i r_i+e_jr_j\le1\); equality is allowed.
+
+\begin{lemma}\label{stmt:A.3}
+
+ Let \(b:\mathbb N\to\mathbb Z\) be subadditive with \(b(0)=0\), and let \([L_j,U_j]\), \(j\in\mathbb Z\), be integer cells with \(L_j\le U_j<L_{j+1}\). There are choices \(t_j\in[L_j,U_j]\) with \(t_{j+k}-t_j\le b(k)\) for every \(j\in\mathbb Z\), \(k\ge1\) if and only if \(L_{j+k}-U_j\le b(k)\) for every such \(j,k\).
+
+\end{lemma}
+
+\begin{proof}
+
+ Necessity follows from the chosen endpoints. For sufficiency, take \(t_j=\max_{h\ge0}(L_{j+h}-b(h))\). The cell inequalities bound this integer maximum between \(L_j\) and \(U_j\). Subadditivity gives \(L_{j+k+h}-b(h)\le t_j+b(k)\), hence the required spans. 
+
+\end{proof}
+
+For ordinary service take \(b(k)=\lceil k/r\rceil\). In particular, a common word at rates \(2r_i\) can be placed in cells \([2n,2n+1]\) with one chosen residual occurrence per cell at rates \(r_i\): its cell spans satisfy \(2\lceil k/(2r_i)\rceil-1\le\lceil k/r_i\rceil\). Distinct labels own disjoint cells. The unused slot in each cell gives a protected label spans at most \(2k+1\), hence \(W(1/2)\) and \(O(a)\) for every \(a<1/2\) by Lemma~\ref{stmt:2}.
+
+\begin{lemma}\label{stmt:A.4}
+
+ Let a real region have finitely many justified schedule sources, each guarded by a conjunction of rational affine inequalities, which may be strict. A finite acyclic branching cover proves service throughout the region if every source failure is represented by a child or a proved-empty branch, and each terminal region implies its source guard. The same conclusion holds from a finite Boolean refutation of the simultaneous source failures, with all temporary hypotheses discharged.
+
+\end{lemma}
+
+\begin{proof}
+
+ The complement of \(f\le0\) is \(-f<0\), and that of \(f<0\) is \(-f\le0\), so branching retains every unserved point. A rational nonnegative combination of the path rows is contradictory if all variable coefficients cancel and its constant is positive, or is zero with positive weight on a strict row. Equalities admit arbitrary rational multipliers. Such a branch contains no real point. Following an unserved point through a finite acyclic cover must therefore end at a valid source.
+
+For a refutation, a node with formula \(F\) and unresolved assumptions \(D\) means that the input formula together with \(D\) implies \(F\). Boolean and rational deductions retain the union of their assumptions. A contradiction under \(D\) permits discharging \(E\subseteq D\) by deriving the disjunction of their negations under \(D\setminus E\). Induction preserves this meaning; a final contradiction with no assumptions excludes all simultaneous failures. 
+
+\end{proof}
+
+\subsection{Ordinary service for at most five roles}\label{sec:A.2}
+
+\begin{theorem}\label{stmt:A.5}
+
+ For every finite labelled list of \(1\le n\le5\) positive real rates with \(\sum_i r_i\le d\), there is a single bilateral ordinary word. Ties, irrational rates, arbitrarily small positive rates, and density equality are included.
+
+\end{theorem}
+
+The substantial case is \(n=5\); the cases \(n\le4\) use separate constructions, given at the end of this subsection. The five-rate proof uses 13 complementary-stream constructions and 84 periodic words.
+
+For five rates, positivity makes \(D=\sum_i r_i>0\). Multiply each rate by \(d/D\ge1\) and permute labels into decreasing order. It is enough to cover
+
+\begin{equation}
+\begin{aligned}
+\Delta_5=\{r\in\mathbb R^5:
+ &r_1\ge r_2\ge r_3\ge r_4\ge r_5>0,\\
+ &\quad \sum_{i=1}^5r_i=d\}.
+\end{aligned}
+\tag{A.2}\label{eq:A.2}
+\end{equation}
+
+No tie is removed by sorting. A schedule for the enlarged rates serves the original labels by monotonicity, after undoing the permutation. Every rate in \eqref{eq:A.2} is below one.
+
+Here are the two kinds of actual schedules in the five-role cover. If \(w\) is a word of period \(P\), let \(c_i\) be its number of occurrences of label \(i\) and let \(\mu_i(h)\) be the least number of \(i\)\textquotesingle s in any cyclic window of length \(h\), for \(1\le h<P\). Its bilateral repetition supplies \(O_i(r_i)\) if and only if
+
+\begin{equation}
+r_i\le c_i/P,\qquad r_i<(\mu_i(h)+1)/h\quad(1\le h<P).
+\tag{A.3}\label{eq:A.3}
+\end{equation}
+
+This is the cyclic-count form of Lemma~\ref{stmt:A.1}. The mean cap is closed; a residual cap is open, including when it ties the mean. The literal words supplied in the supplement determine these caps.
+
+The second kind of schedule partitions the physical integers into two complementary mechanical streams. For \(0<A<1\), let
+
+\begin{equation}
+U_n=\lfloor n/A\rfloor,\qquad
+V_j=\lceil j/(1-A)\rceil-1\qquad(n,j\in\mathbb Z).
+\tag{A.4}\label{eq:A.4}
+\end{equation}
+
+For every integer window \([m,m+L)\), their counts are respectively \(\lceil A(m+L)\rceil-\lceil Am\rceil\) and \(\lfloor(1-A)(m+L)\rfloor-\lfloor(1-A)m\rfloor\). They sum to \(L\) by \(\lfloor(1-A)t\rfloor=t-\lceil At\rceil\) for integral \(t\); at \(L=1\) this proves that they partition each slot. The two counts are at least \(\lfloor AL\rfloor\) and \(\lfloor(1-A)L\rfloor\). Give a label a constant gap \(p_i\) in the indices of \(U\), or \(q_i\) in those of \(V\). Lemma~\ref{stmt:A.2} gives respectively \(O_i(A/p_i)\) or \(O_i((1-A)/q_i)\). Consequently a disjoint pair of nonempty label cycles is valid whenever
+
+\begin{equation}
+\max_{i\in U}p_i r_i+\max_{j\in V}q_jr_j\le1.
+\tag{A.5}\label{eq:A.5}
+\end{equation}
+
+All faces of \eqref{eq:A.5} are closed. Positivity of both groups makes the chosen \(A=\max_{i\in U}p_i r_i\) lie strictly between zero and one. The supplement gives all 13 cycles and their sufficient linear load rows. Its checker rederives the constant gaps from those cycles and checks that each omitted pairwise load inequality follows on the sorted cone. For coefficient differences \(d_i\), the elementary identity
+
+\begin{equation}
+\sum_{i=1}^5d_ir_i
+=\sum_{t=1}^4\Big(\sum_{i=1}^td_i\Big)(r_t-r_{t+1})
++\Big(\sum_{i=1}^5d_i\Big)r_5
+\tag{A.6}\label{eq:A.6}
+\end{equation}
+
+shows why nonnegative prefix sums suffice. The other 84 cases are the literal words of period at most 100 in the five-role certificate. Each of these 97 cases has a proved bilateral construction on its exact domain.
+
+The remaining assertion is the real-domain cover: every \(r\in\Delta_5\) belongs to at least one of those 97 domains. Here is the exact formula refuted by the archived finite proof. A stream case is a conjunction \(a\cdot r\le1\) of its displayed load rows, so its failure is the disjunction of their strict complements \(a\cdot r>1\). A word case is the conjunction of the five caps in \eqref{eq:A.3}; failure of a closed cap \(r_i\le b_i\) is \(r_i>b_i\), whereas failure of an open cap \(r_i<b_i\) is \(r_i\ge b_i\). Conjoin all 97 failures with \eqref{eq:A.2}. Thus the root assertions comprise one density equality, four weak ordering relations, \(r_5>0\), 13 stream failures and 84 word failures: 103 assertions, with no lower cutoff on \(r_5\) or denominator restriction.
+
+The finite refutation uses the affine and Boolean rules of Lemma~\ref{stmt:A.4}: inputs, temporary literals, conjunction elimination, rational linear consequences, unit resolution and discharge. Each arithmetic consequence is justified by nonnegative rational multipliers on its premises and the complements of its conclusion. Dependencies on temporary literals are retained until discharge; the final false node has none. Lemma~\ref{stmt:A.4} therefore excludes a common failure on the real simplex. The refutation and its verifier are supplied with the paper.
+
+The refutation, the two construction lemmas, and normalization prove the five-label case. The same five-rate statement has also been formalized in Lean; the smaller-label cases below complete Theorem~\ref{stmt:A.5}.
+
+For Theorem~\ref{stmt:A.5} at \(n=4\), use a separate exact cover of the sorted positive density-\(5/6\) simplex. Write the ordered rates as \(x\ge y\ge z\ge w>0\), eliminate \(w=d-x-y-z\), and retain the exact root inequalities
+
+\begin{equation}
+x-y\ge0,\quad y-z\ge0,\quad
+6x+6y+12z-5\ge0,\quad -6x-6y-6z+5>0.
+\tag{A.7}\label{eq:A.7}
+\end{equation}
+
+The construction catalogue has 93 validated regions: literal four-label words, direct mechanical-stream cuts, and sources obtained by pairing two labels before applying a three-role word or a two-parent scalar cut. For a paired source, alternate the parent\textquotesingle s occurrences between its two children. Lemma~\ref{stmt:A.2} gives each child ordinary service at rate \(b\) from an ordinary parent at rate \(2b\). Every source\textquotesingle s rate conditions are recomputed from its word or stream routing, including strict periodic caps as in \eqref{eq:A.3}. The finite cover is a 735-node tree with 367 exact complementary splits, 96 covered leaves and 272 empty leaves. Every split has both exact complementary children; each empty leaf has positive rational contradiction weights. Of those, 32 use the strict-zero alternative, 25 drawing on \(w>0\). Every covered leaf has a source region whose inequalities follow from its path. These rules cover the real domain in \eqref{eq:A.7}, including its boundary faces. Normalization by \(d/D\) and monotonicity then give all four positive rates of total \(D\le d\). The complete cover and its verification program are in the supplement.
+
+For \(n=1\), a constant word suffices. For \(n=2\), the first label can be assigned on the floor clock \(\lfloor(t+1)r_1\rfloor-\lfloor tr_1\rfloor=1\); its complement serves the second label because \(r_2\le1-r_1\). For \(n=3\) with three distinct rates, apply the theorem of Fujiwara, Miyagi and Ouchi \cite{fujiwara-miyagi-ouchi}. If two rates coincide at \(r\), replace their labels temporarily by a parent of rate \(2r\). Its rate plus the third rate is at most \(d<1\), so the two-label construction serves the parent and the third label. Alternating parent occurrences restores both equal-rate labels at rate \(r\). Thus the one- and two-label cases above, that published theorem, the repeated-rate construction, and the separate four-label certificate give the lower-count part of Theorem~\ref{stmt:A.5} at the closed density face; monotonicity and normalization cover smaller total density. The at-most-five formulation therefore combines distinct proofs; it does not follow by padding the five-rate theorem with zero-rate labels.
+
+\subsection{The marked terminal certificate}\label{sec:A.3}
+
+The next statement is the finite source used to prove Theorem~\ref{stmt:A.7}. It is stronger than a total-density bound because it charges the marked rate at half its actual value.
+
+\begin{proposition}\label{stmt:A.6}
+
+ Fix a mark \(j\in\{1,\ldots,5\}\). Every real vector satisfying
+
+\begin{equation}
+r_1\ge\cdots\ge r_5\ge0,\quad B:=r_j\le2r_5,\quad
+T:=\sum_{i=1}^5r_i>d,\quad C_j:=T-r_j/2<\alpha
+\tag{A.8}\label{eq:A.8}
+\end{equation}
+
+has one ordinary bilateral word for its five rates. There is one complete certificate root for each of the five marks. In fact \eqref{eq:A.8} forces \(r_j>2(d-\alpha)>0\) and \(r_5\ge r_j/2>0\), so its nonnegative ambient domain causes no zero-rate ambiguity.
+
+\end{proposition}
+
+The terminals have three forms. A two-root forest partitions the five labels into two nonempty groups. Its two rooted trees give each leaf a positive integer path stride, the product of the branching degrees on that leaf\textquotesingle s path. For groups \(G,H\), the paid root rates for the specified trees are
+
+\[
+u=\max_{i\in G}d_i r_i,\qquad
+v=\max_{k\in H}e_k r_k.
+\]
+
+The terminal checks every cross inequality \(d_i r_i+e_k r_k\le1\), equivalent to \(u+v\le1\). Lemma~\ref{stmt:A.2} supplies all five labels. The checker verifies the finite tree shapes and their strides, not merely a numerical reciprocal-sum test.
+
+A word terminal uses the caps \eqref{eq:A.3}, recomputed from the literal word. The third form is a two-slot terminal: one protected rate \(a<1/2\) and at most four residual rates of sum \(S\le5/12\). Theorem~\ref{stmt:A.5} supplies their doubled rates because \(2S\le5/6\). Lemma~\ref{stmt:A.3} places the residual visits in two-slot cells and gives ordinary service to the protected label. Its strict face \(a<1/2\) is retained.
+
+The proof object contains 22 forests, 122 words of periods 12--126, and one two-slot terminal. Their data are identified in the supplementary material. Its five root files are finite branching trees. The root path encodes the four weak ordering inequalities, \(r_j\le2r_5\), \(T>d\), \(C_j<\alpha\), with \(r_i\ge0\) as ambient inequalities. At a branch the checker tries one terminal conjunction and creates a child for the failure of each of its conditions. The complement of \(a\cdot r\le b\) is \(a\cdot r>b\); the complement of \(a\cdot r<b\) is \(a\cdot r\ge b\). Consequently every real point where the terminal does not apply belongs to a corresponding child, including points on strict or closed boundaries.
+
+At a contradiction leaf, the path inequalities are \(a_q\cdot r\le b_q\), with strict flags on some. The stored nonnegative rational multipliers \(\mu_q\) satisfy
+
+\begin{equation}
+A=\sum_q\mu_q a_q\ge0\ \text{coordinatewise},\qquad
+B=\sum_q\mu_q b_q<0,
+\tag{A.9}\label{eq:A.9}
+\end{equation}
+
+or else \(B=0\) with a positive multiplier on a strict inequality. Adding the ambient rows \(-r_i\le0\) with weights \(A_i\) cancels all variable coefficients and leaves the constant \(-B\). This is the contradiction rule of Lemma~\ref{stmt:A.4}. The verifier checks the weights, source failures, acyclicity and root reachability. That lemma proves the marked proposition on the whole real region \eqref{eq:A.8}.
+
+The five roots contain 17,980 nodes. Eighteen contradiction leaves use a strict premise with \(B=0\), precisely where the open face \(C_j<\alpha\) matters. Exact arithmetic verification of all roots is described in the supplement.
+
+\subsection{The marked-charge theorem}\label{sec:A.4}
+
+\begin{theorem}\label{stmt:A.7}
+
+ Let \(I\) be any finite labelled set with \(|I|\ge6\), \(r_i>0\), actual total \(E=\sum_i r_i\), and minimum \(s=\min_i r_i\). If
+
+\begin{equation}
+E-s<\alpha,
+\tag{A.10}\label{eq:A.10}
+\end{equation}
+
+there is one bilateral ordinary word for the original list. In particular, the hypothesis is on \(E-s\), not on the actual total \(E\).
+
+\end{theorem}
+
+\begin{proof}
+
+ While more than five labels remain, replace the two smallest current rates \(x\le y\) by one parent of rate \(2y\), retaining the two child identities. If current total and minimum are \(E_0,x\), the new total is \(E_1=E_0+y-x\) and its new minimum \(m_1\) is at least \(y\). Hence
+
+\begin{equation}
+E_1-m_1\le E_0-x.
+\tag{A.11}\label{eq:A.11}
+\end{equation}
+
+Thus total minus minimum never exceeds the original \(E-s<\alpha\). Every step reduces the label count, so after exactly \(|I|-5\) steps there are five roots. Immediately before any merge there are at least six rates, each of the other \(n-1\) rates is at least \(y\), and therefore \((n-1)y\le E_0-x<\alpha<5/6\). In particular every manufactured parent \(2y<1/3\), so every intermediate rate stays in the ordinary physical range. Original rates are also below one: a nonminimum original rate is at most \(E-s<\alpha\), and \(s\le(E-s)/(|I|-1)<1\).
+
+At the final merge let \(B=2y\) be the marked parent, let \(H\) be the sum of the other four rates, and let \(T=B+H\) be the five-root total. Then
+
+\begin{equation}
+C:=T-B/2=y+H\le E-s<\alpha,\qquad
+B\le2\min\{\text{five root rates}\}.
+\tag{A.12}\label{eq:A.12}
+\end{equation}
+
+Also \(H\ge4y\), so \(T\ge6y=3B\). Equivalently \(T\le(6/5)C<(6/5)\alpha=3403/3575<1\). Sort the five roots, retaining the marked parent\textquotesingle s position \(j\); ties may be ordered arbitrarily. If \(T\le d\), Theorem~\ref{stmt:A.5} serves these five roots, including the closed face \(T=d\). If \(T>d\), \eqref{eq:A.12} places them in exactly the root domain \eqref{eq:A.8}, and the marked proposition serves them. This is why \eqref{eq:A.10}, rather than a bound on the actual total \(E\), is the hypothesis of Theorem~\ref{stmt:A.7}.
+
+Reverse the recorded merges by Lemma~\ref{stmt:A.2}. Alternation of a parent at rate \(2y\) restores \(O(y)\) for both children, then weakening serves \(x\le y\). Each reversal preserves all other positions, so the final word serves every original label. 
+
+\end{proof}
+
+The strict sign in \eqref{eq:A.10} is used by the marked-core certificate on its open face. All applications in the main proof satisfy it.
+
+\section{The selected small-minimum source}\label{sec:B}
+
+This appendix proves the two ordinary scheduling results used in the lower band of Theorem~\ref{stmt:3}. We first reduce the real rates, round once to bounded integer deadlines, schedule the finite terminal cases, and reverse the reduction. All tasks are labelled: equal rates, in particular those of the two twins, remain separate service obligations on one bilateral word.
+
+Write \(d=5/6\) and use the ordinary service convention \eqref{eq:2}. The two conclusions are:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{the seven-label case.} If \(1\le n\le7\), \(r_i>0\), \(s=\min_i r_i\le1/21\), and \(E-s<d\), where \(E=\sum_i r_i\), then one word serves all rates ordinarily.
+\item
+  \textbf{the paired eight-label case.} If \(s>0\), \(s\le1/21\), \(h_1,\ldots,h_6\ge s\), and \(\sum_i h_i+s\le d\), then one word serves the eight labels ordinarily: \((h_1,\ldots,h_6,s,s)\). Its actual total is \(E=\sum_i h_i+2s\); the hypothesis is \(E-s\le d\).
+\end{itemize}
+
+The paired statement includes equality. Their rates may sum to more than \(d\). The finite terminal theorem is stated in Section \ref{sec:B.3}.
+
+\subsection{A bounded reduction of real rates}\label{sec:B.1}
+
+Put \(\tau=1/21\), \(\sigma=1/22\). While the current minimum \(s<\tau\), raise a unique minimum to the smaller of the next rate and \(\tau\) (to \(\tau\) for a singleton). If the minimum is repeated and \(s<\sigma\), merge two such labels into a parent at \(2s\). If \(s>\sigma\) and the minimum is repeated, stop before merging. At a repeated minimum \(s=\sigma\), merge one pair into a designated integer period-11 tail and stop. For a paired input, choose the original twins for the first merge.
+
+A promotion preserves total minus minimum, and an equal-minimum merge cannot increase it. Writing \(F_0\) for its initial value, we have
+
+\begin{equation}
+E-s\le F_0.
+\tag{B.1}\label{eq:B.1}
+\end{equation}
+
+Every promotion except the last is followed by a merge. There are at most \(n-1\) merges and one more promotion, so at most \(2n-1\) moves. All terminal rates are at least \(\sigma\). Retain rates at least \(1/11\) as heads, except the designated period-11 parent. Round each smaller rate once, using
+
+\begin{equation}
+c=\min\{21,\lfloor1/r\rfloor\},\qquad
+ \frac1{c+1}\le r\le\frac1c,\qquad 11\le c\le21.
+\tag{B.2}\label{eq:B.2}
+\end{equation}
+
+The left inequality is strict unless \(r=\sigma\). For the labelled tail multiset \(B\), put
+
+\begin{equation}
+C=\sum_{\text{heads}}r_i,\qquad U(B)=\sum_{c\in B}\frac1{c+1},
+ \qquad
+ \gamma(B)=
+ \begin{cases}
+  1/22,&21\in B,\\
+  1/[2(\min B+1)],&21\notin B.
+ \end{cases}
+\tag{B.3}\label{eq:B.3}
+\end{equation}
+
+Section \ref{sec:B.3} supplies the actual tail rates \(1/c\) whenever
+
+\begin{equation}
+C+U(B)-\gamma(B)<d.
+\tag{B.4}\label{eq:B.4}
+\end{equation}
+
+\subsection{The terminal discount and reconstruction}\label{sec:B.2}
+
+If the initial or final minimum is \(\tau\), its period-21 charge is canceled by \(\gamma(B)\), giving terminal charge at most \(E-\tau\). If we stop on equal minima \(\sigma<s<\tau\), cancel one charge while the other is strictly below \(s\); the terminal charge is below \(E-s\).
+
+If the last move is an ordinary merge below \(\sigma\), its parent has rate \(2s<1/11\) and in fact \(2s>\sigma\). Otherwise the new minimum would be at most \(\sigma\): a unique minimum would be promoted, a repeated minimum below \(\sigma\) would be merged, and a repeated minimum equal to \(\sigma\) would trigger the designated merge. Such a state is not terminal. Therefore the parent\textquotesingle s rounded charge \(q\) is strictly below \(2s\). For the designated merge at \(s=\sigma\), the parent instead has rate \(1/11\) and charge \(1/12<2s\). In either case \(\gamma(B)\ge q/2\): if period 21 occurs, \(1/22\ge1/[2(c+1)]\) for every \(c\ge11\); otherwise the smallest period has the largest charge. Hence
+
+\begin{equation}
+C+U(B)-\gamma(B)
+ \le E_{\mathrm{pre}}-2s+q-\gamma(B)
+ < E_{\mathrm{pre}}-s\le F_0.
+\tag{B.5}\label{eq:B.5}
+\end{equation}
+
+Once the terminal is scheduled, weaken its rounded tails to their stored real rates, undo promotions by monotonicity, and undo each merge by alternation. Every window then gives each child
+
+\begin{equation}
+\left\lfloor\frac{\lfloor2Ls\rfloor}{2}\right\rfloor
+       =\lfloor Ls\rfloor.
+\tag{B.6}\label{eq:B.6}
+\end{equation}
+
+All other positions are preserved, so the finite history restores every original label on one ordinary bilateral word.
+
+\subsection{Exact terminal theorem used here}\label{sec:B.3}
+
+Let \(p\) real heads satisfy \(h_1\ge\cdots\ge h_p\ge1/11\), and let \(B=(c_1,\ldots,c_q)\) be a labelled nonempty integer tail with \(11\le c_1\le\cdots\le c_q\le21\). Put \(C=\sum h_i\) and
+
+\[
+ V(B)=d+\gamma(B)-U(B).
+\]
+
+For every signature in the following finite set, the sources below give one ordinary bilateral word for the actual vector \((h_1,\ldots,h_p,1/c_1,\ldots,1/c_q)\) whenever \(C<V(B)\):
+
+\begin{equation}
+\mathcal T=\{(p,B):p+q\le7,\ q\ge1\}
+ \ \cup\
+ \{(p,B):p+q=8,\ p\le6,\ B\text{ contains at least two }21\text{s}\}.
+\tag{B.7}\label{eq:B.7}
+\end{equation}
+
+The head lower face \(1/11\), equal-head faces, repeated integer periods, and the closed ordinary-service caps within a source are all included. The source guard \(C<V(B)\) is open. Since the labels are finite, sorting heads and tail periods only permutes labels; it does not merge them.
+
+\begingroup\small
+
+\begin{longtable}[]{@{}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0900}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2300}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6800}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedleft
+Heads \(p\)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Signatures in \(\mathcal T\)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Source
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+0 & 39,831 & Repeat the \(q\) distinct labels in round-robin order. Its gaps are \(q\le8\le c_j\). \\
+1 & 15,378 & one-head literal templates. \\
+2 & 5,368 & Eleven \(q=1\) regions from the analytic selector; 5,357 others from multi-head terminal. \\
+3 & 1,650 & multi-head terminal. \\
+4 & 429 & multi-head terminal. \\
+5 & 88 & multi-head terminal. \\
+6 & 12 & Eight preliminary multi-head, one marked-charge, three exceptional six-head, as specified below. \\
+7 & 0 & No seven-head terminal premise. \\
+\end{longtable}
+
+\endgroup
+
+The counts enumerate signatures rather than sample points in their real head regions. No additional admissibility test is needed here: \(V(B)>d-q/12>p/11\) for the listed values of \(p,q\). To derive the list, enumerate multisets of \(q\) elements from 11 through 21. There are \(\binom{q+10}{10}\) such multisets. The first part of \eqref{eq:B.7} permits \(q\le7-p\); its eight-role part requires two 21s, leaving a multiset of \(q-2\) free periods. The resulting counts total 62,756. Of these signatures, 7,524 use regions of the multi-head certificate.
+
+Here are the finite source interfaces and the reason they prove whole real regions.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{One head.} The one-head certificate supplies, for each required tail multiset, a literal template whose head count satisfies \(N_h(t,L)\ge\lceil LV(B)\rceil-1\), and whose actual integer children have maximum cyclic gaps at most their respective \(c_j\). Since \(h<V(B)\), the first inequality implies \(N_h(t,L)\ge\lfloor Lh\rfloor\) for every \(L\). The template\textquotesingle s carrier groups are expanded through their exact common phase period; the children are tested by gaps after colouring. A carrier need not itself meet a stronger real-parent quota.
+\item
+  \textbf{Two heads and one tail.} An analytic selector covers all eleven deadlines. Writing the heads \(a\ge b\ge1/11\), a two-parent mechanical word works if \(a+2b\le1\) or \(2a+1/c\le1\). Suppose both inequalities fail. Since \(a+b<V((c))\), this implies \((1-1/c)/2<a<2V((c))-1\le2/3\). The following five bands are exhaustive. Symbols 1 and 2 serve the two heads; symbol 3 serves the integer tail.
+
+  \begingroup\small
+
+  \noindent\begin{minipage}{\linewidth}
+\begin{tabular}{@{}
+    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2100}}
+    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2800}}
+    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3600}}
+    >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1500}}@{}}
+  \toprule\noalign{}
+  \begin{minipage}[b]{\linewidth}\raggedright
+  Head band
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+  Word
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+  Ordinary head caps
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+  Tail maximum gap
+  \end{minipage} \\
+  \midrule\noalign{}
+    \(a<1/2\) & \texttt{1212132112} & \(a<1/2\), \(b<2/5\) & 10 \\
+  \(1/2\le a\le5/9\) & \texttt{213121211} & \(a\le5/9\), \(b<1/3\) & 9 \\
+  \(5/9<a<3/5\) & \texttt{1211211213} & \(a<3/5\), \(b\le3/10\) & 10 \\
+  \(a\ge3/5\), \(c\le20\) & \texttt{121112113} & \(a<2/3\), \(b\le2/9\) & 9 \\
+  \(a\ge3/5\), \(c=21\) & \texttt{12111211121112113} & \(a<2/3\), \(b\le4/17\) & 17 \\
+  \bottomrule
+  \end{tabular}
+\end{minipage}
+
+  \endgroup
+
+  The ordinary caps and actual gaps are recomputed from these words by Lemma~\ref{stmt:A.1}. In the first band, \(b<1/3+1/(2c)\le25/66<2/5\). In the next two, respectively \(b<1/3\) and \(b<5/18<3/10\). For \(c\le20\), \(V((c))\le17/21\) gives \(b<22/105<2/9\) in the fourth band. For \(c=21\), the last band gives \(b<7/30<4/17\). All displayed tail gaps are at most \(c\) in their respective bands. Thus the exact admitted head equality faces are covered.
+\item
+  \textbf{Two through five heads, remaining signatures.} The multi-head terminal certificate contains 18,460 whole-region graphs; the selected 7,524 are among its 18,458 graphs for \(2\le p\le5\). Each source leaf has a literal calendar, and the checked graph handles every continuous complement branch.
+\item
+  \textbf{Six heads.} The only selected signatures are the eleven singleton tails \((11),\ldots,(21)\) and the pair \((21,21)\). The first preliminary multi-head archive supplies complete graphs for \((14),\ldots,(20),(21,21)\): eight regions and 1,587 nodes. For \((11)\), the strict guard is \(C<19/24\). The actual seven-role vector has minimum \(1/11\), hence actual total minus minimum is \(C<19/24<3403/4290\); the marked-charge theorem supplies its ordinary word. For \((12),(13),(21)\), the exceptional six-head certificate supplies three graphs with 1,371 nodes. It first covers the closed marked branch \(h_5-h_6\ge V((c))-3403/4290\): merging \(h_6\) with the tail into a paid \(2h_6\) parent gives six roles and \[
+   E'-\min=\max(C+h_6-h_5,\ C-h_6)<3403/4290.
+  \] The tail rate \(1/c\le h_6\) makes alternation of this parent valid. Here \(C<V((c))\), \(h_6\ge1/11\), and \(V((c))\le d\) make both inequalities strict, even at the dividing equality. The complementary narrow band has an exact continuous cover graph. No further six-head region is needed for \eqref{eq:B.7}.
+\end{enumerate}
+
+For clarity, here is the soundness rule behind the finite certificates in items 1--4. For a periodic word of length \(P\), let a chosen head appear \(m\) times per period, and let \(\mu(\ell)\) be its least count over the \(P\) cyclic windows of length \(\ell\), \(1\le\ell<P\). The word supplies the ordinary head rate \(r\) exactly when
+
+\begin{equation}
+r\le m/P,\qquad
+ r<\frac{\mu(\ell)+1}{\ell}\quad(1\le\ell<P).
+\tag{B.8}\label{eq:B.8}
+\end{equation}
+
+These are the periodic tests of Lemma~\ref{stmt:A.1}. The minimum rational cap can be closed only when every residual condition is still strict there; otherwise it is open. For an integer tail with deadline \(c\), Lemma~\ref{stmt:A.1} gives the equivalent condition that every cyclic occurrence gap is at most \(c\). These are service tests on the same physical word. A fully paid cyclic split into \(k\) children divides an ordinary parent cap by \(k\), retaining its strict or closed flag, by Lemma~\ref{stmt:A.2}. This is the preliminary multi-head test and one of the exceptional six-head tests. Alternatively, if a carrier is coloured cyclically among \(k\) integer children and has \(\nu\) occurrences per word period, its child phases repeat after \(Pk/\gcd(k,\nu)\) slots. The one-head and the exceptional six-head gap templates test the actual child gaps through this complete phase cycle, either by expansion or by equivalent occurrence-index arithmetic. The multi-head terminal certificate checks literal words directly. A grouped real parent pays its full ordinary rate; an integer carrier may use either the fully paid test or the separate actual-gap test.
+
+A continuous-cover graph node represents sorted heads with exact lower bounds \(h_i\ge\ell_i\) or \(h_i>\ell_i\), plus \(C<V(B)\). The exceptional six-head certificate\textquotesingle s three single-tail graphs also retain their stated strict narrow-band condition \(h_5-h_6<V((c))-\alpha\), where \(\alpha=3403/4290\). In particular, a lower bound \(h_5\ge\ell_5\) implies the strict lower bound \(h_6>\ell_5-(V((c))-\alpha)\); the verifier propagates this additional bound before each node test. Its checked source box gives one common word with rational head caps \(v_i\), each open or closed. The complement of \(h_i\le v_i\) is \(h_i>v_i\); the complement of \(h_i<v_i\) is \(h_i\ge v_i\). The graph includes every cap-failure child not proved empty and propagates its bound through the ordering \(h_1\ge\cdots\ge h_p\). To omit a child, the checker uses the strict sum bound: with zero-based head indices,
+
+\begin{equation}
+h_i<H_i:=
+ \min_{0\le k\le i}
+ \frac{V(B)-\sum_{j<k}\ell_j-\sum_{j>i}\ell_j}{i-k+1}.
+\tag{B.9}\label{eq:B.9}
+\end{equation}
+
+Indeed, \(h_k,\ldots,h_i\ge h_i\), so \(C<V(B)\) implies each inequality in \eqref{eq:B.9}. If \(v_i\ge H_i\), either kind of cap failure is impossible. An empty leaf is valid when \(\sum_i\ell_i\ge V(B)\).
+
+The other terminal is an exact two-parent envelope. Sort all actual rates as \(r_1\ge\cdots\ge r_n\), \(n=p+q\); the tail order above is compatible with this because heads are at least \(1/11\). If some cut \(j r_1+(n-j)r_{j+1}\le1\), \(1\le j<n\), holds, the two-router construction following Lemma~\ref{stmt:A.2} supplies all labels using cycles of lengths \(j\) and \(n-j\). Equality at one is allowed. If every cut fails, put \(t=h_1\). The failure inequalities, the node lower bounds, and \(C<V(B)\) imply
+
+\begin{equation}
+\begin{aligned}
+ &a\le t\le b,\quad\\
+ a&=\max\!\left(\ell_1,\frac1n,
+       \max_{p\le j<n}\frac{1-(n-j)/c_{j-p+1}}j\right),
+ \\
+ b&=V(B)-\sum_{i=2}^p\ell_i,
+\end{aligned}
+\tag{B.10}\label{eq:B.10}
+\end{equation} \begin{equation}
+C\ge f(t):=
+ t+\sum_{j=1}^{p-1}
+ \max\!\left(\ell_{j+1},\frac{1-jt}{n-j}\right).
+\tag{B.11}\label{eq:B.11}
+\end{equation}
+
+If \(a>b\), failure is impossible. Otherwise \(f\) is piecewise affine; checking its endpoints and its finitely many switch points proves \(f(t)\ge V(B)\) throughout the closed outer interval, again contradicting the strict source guard. The certificate checks these rational inequalities and the complete cap-complement graph, including strictness flags and reachability. Lemma~\ref{stmt:A.4} then gives service for every real head vector at its root, including irrational values and equal-head faces. Every physical tail test uses \(c\), never its discounted denominator \(c+1\). The exact source files are listed in the supplementary material.
+
+\subsection{Proof of the seven-label case and the paired eight-label case}\label{sec:B.4}
+
+For the seven-label case, \(F_0<d\), so \ref{sec:B.2} proves \eqref{eq:B.4}. The terminal has at most seven labels and a nonempty tail.
+
+For the paired case, \(F_0=\sum h_i+s\le d\). A first merge uses the original twins and leaves at most seven labels. Without a merge, eight labels survive with two period-21 twins and at most six heads. Thus both cases lie in \(\mathcal T\).
+
+The merge and stopping-pair bounds are strict. At an initial minimum \(\tau\), the second twin is strictly discounted. After a final promotion to \(\tau\), another tail likewise gives strict discount. If only one tail remains after a final promotion, the original twins were both below the head threshold. Promotions cannot cross that threshold, and each ordinary merge remains below it. The last merge from two tails to one therefore created a unique minimum \(2s<1/11\) below all heads: it preserved \(E\) and increased the minimum from \(s\) to \(2s\), decreasing \(E-s\) by \(s>0\). The designated period-11 merge is already covered by \eqref{eq:B.5}. Hence \eqref{eq:B.4} holds even on the paired equality face.
+
+Apply \ref{sec:B.3} and reverse the history as in \ref{sec:B.2}. This proves both ordinary statements, with at most fifteen moves in the paired case.
+
+\section{The upper paired band}\label{sec:C}
+
+Put \(d=5/6\) and use the ordinary and weak service conventions \eqref{eq:2}. All labels remain distinct when their rates coincide.
+
+\begin{theorem}\label{stmt:C.1}
+
+ Let \(h_1,\ldots,h_6,\delta\in\mathbb R\) satisfy
+
+\begin{equation}
+h_i\ge\delta\ge\frac1{11},\qquad
+ \sum_{i=1}^6h_i+\delta=d.
+\tag{C.1}\label{eq:C.1}
+\end{equation}
+
+Then one bilateral word on seven distinct labels supplies \(W_i(h_i)\) for the six heads and \(W_P(2\delta)\) for a marked label \(P\). In particular, one bilateral word on eight distinct labels supplies
+
+\begin{equation}
+W(h_1),\ldots,W(h_6),W(\delta),W(\delta)
+\tag{C.2}\label{eq:C.2}
+\end{equation}
+
+with the last two contracts assigned to separate labels. The theorem is unsorted: an ordering of heads is used only during the proof and is undone by relabelling. It includes repeated rates, irrational rates, and every closed face of \eqref{eq:C.1}. The simplex already implies \(\delta\le d/7=5/42\).
+
+\end{theorem}
+
+\subsection{The closed eleventh-to-tenth strip}\label{sec:C.1}
+
+Here \(1/11\le\delta\le1/10\). Sort the heads as \(h_1\ge\cdots\ge h_6\ge\delta\). Pair adjacent heads, and form four parent roles with rates
+
+\begin{equation}
+(2h_1,2h_3,2h_5,2\delta).
+\tag{C.3}\label{eq:C.3}
+\end{equation}
+
+For a sorted four-role vector \(r_1\ge\cdots\ge r_4>0\), an ordinary common word exists if \(kr_1+(4-k)r_{k+1}\le1\) for some \(k=0,1,2,3\), by the two-router construction following Lemma~\ref{stmt:A.2}. The case \(k=0\) uses a single cycle. For \eqref{eq:C.3} the four possible prices are
+
+\begin{equation}
+8h_1,\qquad 2h_1+6h_3,\qquad 4h_1+4h_5,\qquad
+ 6h_1+2\delta.
+\tag{C.4}\label{eq:C.4}
+\end{equation}
+
+If any price is at most one, the parents have ordinary service. Alternate each of the first three parent streams between its two head children. Lemma~\ref{stmt:A.2} gives both children the larger head rate of their pair. The marked parent remains a single role. This gives ordinary, hence weak, service at all seven target rates. In particular, equality in a price is accepted.
+
+Insert \(2\delta\) into the sorted list of heads. It cannot have rank four or lower, even with an adverse tie choice: three heads at least \(2\delta\), the other three at least \(\delta\), and the discounted \(\delta\) would force \(d\ge10\delta\ge10/11>d\). If the mark has rank three, then \(h_1,h_2\ge2\delta\ge h_3\), and the simplex yields
+
+\[
+ h_1+h_3\le d-6\delta,\qquad h_3\le d-8\delta.
+\]
+
+Consequently \(2h_1+6h_3\le6d-44\delta=5-44\delta\le1\), so the second price in \eqref{eq:C.4} works. Any boundary tie may be assigned a compatible rank; a rank-three assignment is already settled by this inequality.
+
+It remains to handle rank one and rank two after all four prices in \eqref{eq:C.4} fail strictly. Two finite exact covers establish the source on this residual domain. Their variables are \(x=(h_1,\ldots,h_6,\delta)\), with the exact equality \(\sum x_i=d\). Each root contains the head order, the closed strip, the stated marked rank, and strict failure of \eqref{eq:C.4}.
+
+There are two kinds of actual sources at accepted branches. A \emph{literal source} is a period \(w\) of length \(P\), together with rational caps \(b_i>0\) for its seven labels. If label \(i\) occurs \(c_i\) times per period and \(\mu_i(\ell)\) is its least count in any cyclic window of length \(\ell\), with \(\mu_i(0)=0\), the sufficient closed cap conditions are
+
+\begin{equation}
+Pb_i\le c_i,\qquad
+ \ell b_i\le\mu_i(\ell)+1\quad(1\le\ell<P).
+\tag{C.5}\label{eq:C.5}
+\end{equation}
+
+By Lemma~\ref{stmt:A.1}, the same bilateral repetition serves every real rate vector below the caps, including irrational vectors and cap equality. The finite verification recomputes these cyclic minima from the literal periods.
+
+A \emph{forest source} contains one or two actual rooted trees whose seven leaves are the seven labels. Every internal node has at least two children; at each node its ordered occurrence stream is routed cyclically to those children. Let \(w_i\) be the product of arities on the path to leaf \(i\). One root suffices if \(\max_i w_i r_i\le1\). For two roots with leaf sets \(A,B\), the sufficient condition is
+
+\begin{equation}
+\max_{i\in A}w_i r_i+\max_{j\in B}w_j r_j\le1,
+  \quad\text{equivalently}\quad
+  w_i r_i+w_jr_j\le1\quad(i\in A,j\in B).
+\tag{C.6}\label{eq:C.6}
+\end{equation}
+
+Lemma~\ref{stmt:A.2} proves ordinary service at each leaf\textquotesingle s requested rate. The certificate includes the trees themselves; its acceptance rule checks the leaf partition and arities, and derives their linear conditions. It may omit a condition only when the sorted-rate order makes it dominated by a retained one. The forest inequalities are sufficient source guards, with no converse asserted.
+
+Each source is represented by a finite list of closed rational linear conditions on \(x\): coordinate caps for a literal word, or the tree inequalities \eqref{eq:C.6}. At a source node, either all conditions hold and that source works, or the point has a first failing condition. The certificate has one child for every such failure, retaining earlier conditions and imposing the strict negation of the failed one. The acceptance rule verifies this child list and its reachability. At an infeasibility leaf, it verifies a rational nonnegative dual combination of the accumulated rows and \(\sum x_i=d\). Giving every strict row a common positive slack \(\varepsilon\), the combination derives \(\varepsilon\le u\le0\). Since finitely many strict rows admit a common positive slack exactly when they are simultaneously satisfied, this excludes all real points in the leaf, including irrational ones. Child indices increase and neither root has a pending branch. Lemma~\ref{stmt:A.4} therefore covers both complete roots.
+
+The analytic rank argument, paired sources, and the two finite covers exhaust the closed strip \(1/11\le\delta\le1/10\). They give one weak seven-label word for every point of this real strip.
+
+\subsection{The tenth band and the conversion to two twins}\label{sec:C.2}
+
+For \(\delta\ge1/10\), the four paired prices \eqref{eq:C.4} give a short analytic argument on most of the band. Put \(e_i=h_i-\delta\), so that \(e_i\ge0\) and \(\sum_i e_i=d-7\delta\). By the ordering of the heads,
+
+\begin{equation}
+12e_1+24e_3+4e_5\le12\sum_{i=1}^{6}e_i.
+\tag{C.7}\label{eq:C.7}
+\end{equation}
+
+Indeed, the difference is \(12(e_2-e_3)+12e_4+8e_5+12e_6\ge0\). Hence the weighted average of two paired prices satisfies
+
+\begin{equation}
+\begin{aligned}
+\frac45(2h_1+6h_3)+\frac15(4h_1+4h_5)
+&=8\delta+\frac15(12e_1+24e_3+4e_5)\\
+&\le2-\frac{44}{5}\delta.
+\end{aligned}
+\tag{C.8}\label{eq:C.8}
+\end{equation}
+
+If \(\delta\ge5/44\), the right side is at most one. At least one of these two actual prices therefore succeeds, and the construction in \ref{sec:C.1} gives ordinary service to the six heads and the mark.
+
+It remains to cover \(1/10\le\delta\le5/44\) where all four prices in \eqref{eq:C.4} fail strictly. Sorting the heads, the position of \(2\delta\) and the division at \(5/48\) reduce this residual domain to three finite real-polyhedral covers. Each cover supplies one weak seven-label source on every cell, with all strict failure branches and closed faces accounted for. The Lean proof in the supplementary material verifies these three covers and the sorting and relabelling steps. This establishes the upper-band theorem, including \(\delta=1/10\).
+
+Finally, alternate the marked occurrences between two distinct new labels. Lemma~\ref{stmt:A.2} turns \(W_P(2\delta)\) into \(W(\delta)\) for each twin, preserving all six head streams. This proves \eqref{eq:C.2}.
+
+The face \(\delta=1/11\) belongs to both this source and the middle source of Appendix~\ref{sec:D}.
+
+\section{The middle real certificate}\label{sec:D}
+
+This appendix proves the middle-band case of Theorem~\ref{stmt:3}. We construct schedules on regions of rate space and show that these regions cover the whole band. The finite cover is checked with rational arithmetic, while the rates in the theorem may be arbitrary real numbers.
+
+Use the service conventions \eqref{eq:2}, and put \(d=5/6\) and
+
+\begin{equation}
+\begin{aligned}
+K=\{x=(x_0,\ldots,x_6)\in\mathbb R^7:
+ &x_0\ge\cdots\ge x_6,\\
+ &\quad \sum_{i=0}^6x_i=d,\quad
+ \frac1{21}\le x_6\le\frac1{11}\}.
+\end{aligned}
+\tag{D.1}\label{eq:D.1}
+\end{equation}
+
+\begin{theorem}\label{stmt:D.1}
+
+ For every \(x\in K\), there exists a bilateral word giving simultaneous weak service to eight distinct labels at rates
+
+\begin{equation}
+(r_0,\ldots,r_7)=(x_0,\ldots,x_5,x_6,x_6).
+\tag{D.2}\label{eq:D.2}
+\end{equation}
+
+\end{theorem}
+
+The two final labels have equal requested rates, but occupy distinct slots. The actual sum of the eight rates is \(d+x_6\), so the theorem does not follow from an ordinary total-density bound of \(d\). Permuting the first six labels after constructing a word removes the ordering convention in \eqref{eq:D.1}; ties do not identify labels.
+
+\subsection{Literal periodic sources}\label{sec:D.1}
+
+Let \(w\) repeat a period of length \(P>0\) bilaterally. Fix a label with \(c>0\) occurrences at positions \(p_0<\cdots<p_{c-1}\) in that period, extended by \(p_{j+c}=p_j+P\). For \(1\le k\le c\), define
+
+\begin{equation}
+H_k=\max_{0\le j<c}(p_{j+k}-p_j).
+\tag{D.3}\label{eq:D.3}
+\end{equation}
+
+By Lemma~\ref{stmt:A.1}, for \(r>0\) the repeated word satisfies \(W_i(r)\) if and only if
+
+\begin{equation}
+Pr\le c,\qquad r(H_k-1)\le k\quad(1\le k\le c).
+\tag{D.4}\label{eq:D.4}
+\end{equation}
+
+For a rational cap \(r=p/q\), these are the integer comparisons \(pP\le qc\) and \(p(H_k-1)\le qk\), with equality allowed.
+
+A literal source record contains seven positive, nonincreasing rational caps \(a=(a_0,\ldots,a_6)\) and an actual nonempty period on labels \(0,\ldots,7\). The verifier applies \eqref{eq:D.4} separately to the eight cap rates \((a_0,\ldots,a_5,a_6,a_6)\); it requires every label to occur. By monotonicity of weak service, this one word serves every point \(x\in K\) with \(x_i\le a_i\) for all seven coordinates. A cap equality belongs to this served set.
+
+\subsection{Continuous ordinary sources from two actual trees}\label{sec:D.2}
+
+A finite full rooted tree has one distinct target label at each leaf and at least two children at every internal node. A leaf\textquotesingle s weight is the product of its ancestor arities; a one-leaf tree has weight \(1\). Lemma~\ref{stmt:A.2} gives a leaf of weight \(w\) ordinary service at rate \(R/w\) from an ordinary root at rate \(R\).
+
+For two disjoint trees with leaf sets \(A,B\), weights \(w_i,v_j\), and requested rates \(r_i\), put \(R_A=\max_{i\in A}w_ir_i\) and \(R_B=\max_{j\in B}v_jr_j\). The two-router construction gives one common ordinary word whenever \(R_A+R_B\le1\). Irrational rates, tied rates and equality in this guard are included.
+
+The finite forest menu is reproducible without treating arbitrary price vectors as sources. Let \(\mathcal T_1=\{(1)\}\). For each integer partition \(n=n_1+\cdots+n_k\), \(k\ge2\), choose one weight multiset from each \(\mathcal T_{n_j}\), multiply every weight by \(k\), concatenate, and sort; discard duplicate resulting tuples. This produces precisely the weight multisets of actual full trees: attachment proves realizability, and splitting any tree at its root proves the converse. To assign forest indices, sort each \(\mathcal T_n\) lexicographically. For \(s=1,\ldots,7\) in order, put the first \(s\) of the sorted eight roles \eqref{eq:D.2} on the left, then list each pair from \(\mathcal T_s\times\mathcal T_{8-s}\) in lexicographic order. Assign smaller weights to earlier roles within a side. This zero-based enumeration contains 222 forest types. Each type represents actual trees, and the certificate uses 64 of them.
+
+For one type, \(R_A+R_B\le1\) is equivalent to all its cross-root inequalities
+
+\begin{equation}
+w_i r_i+v_jr_j\le1\qquad(i\in A, j\in B).
+\tag{D.5}\label{eq:D.5}
+\end{equation}
+
+Each is a linear form \(c\cdot x\le1\) in the seven coordinates. If a cross-root pair consists of the two final labels, its two coefficients add on \(x_6\); the labels themselves remain distinct leaves. The seven flat source types are direct instances of the same routing argument. Type 0 is the single eight-leaf star, valid when \(8x_0\le1\). Type \(s\in\{1,\ldots,6\}\) consists of stars on the first \(s\) and last \(8-s\) roles, valid when
+
+\begin{equation}
+s x_0+(8-s)r_s\le1,
+\tag{D.6}\label{eq:D.6}
+\end{equation}
+
+where roles are indexed from zero. Sorted rates make these upper bounds on the two root prices. Every accepted flat or forest source supplies ordinary, hence weak, service to all eight labels.
+
+\subsection{Exact regions and whole-region inequalities}\label{sec:D.3}
+
+A region is \eqref{eq:D.1}\textquotesingle s order and sum equation intersected with rational coordinate intervals \(l_i\le x_i\le u_i\), where each lower and upper endpoint may independently be strict. Normalize lower bounds backward by suffix maxima and upper bounds forward by prefix minima. When equal numerical bounds propagate through order, propagate the strict flag as well. This leaves the region unchanged and makes both bound vectors nonincreasing.
+
+The verifier discards a region if some \(l_i>u_i\); if \(l_i=u_i\) with either endpoint open; if \(\sum l_i>d\) or \(\sum u_i<d\); or if an extreme sum equals \(d\) with a corresponding endpoint open. Each test contradicts the bounds and sum equation. Only this soundness is needed: a region that passes the tests may be retained whether or not it contains a point.
+
+For each nonempty region, derive safe closed coordinate bounds
+
+\begin{equation}
+\begin{aligned}
+ U_i&=\min\left(u_i,\ \min_{0\le j\le i}
+ \frac{d-\sum_{k<j}l_k-\sum_{k>i}l_k}{i-j+1}\right),\\
+ L_i&=\max\left(l_i,\ \max_{i\le j\le6}
+ \frac{d-\sum_{k<i}u_k-\sum_{k>j}u_k}{j-i+1}\right).
+\end{aligned}
+\tag{D.7}\label{eq:D.7}
+\end{equation}
+
+Indeed, \(x_j,\ldots,x_i\ge x_i\) gives the first family of upper bounds after using lower bounds outside that block. Likewise \(x_i,\ldots,x_j\le x_i\) and the upper bounds outside that block give the lower bounds. All incoming points therefore lie in the closed relaxation \(L_i\le x_i\le U_i\), \(\sum x_i=d\). A word leaf is accepted if \(U_i\le a_i\) for every coordinate.
+
+For a flat or forest leaf, the verifier upper-bounds each required price form \(c\cdot x\) on that closed relaxation. For any rational \(\lambda\), a sufficient bound is
+
+\begin{equation}
+\Phi_\lambda=\lambda d
+ +\sum_{c_i>\lambda}(c_i-\lambda)U_i
+ +\sum_{c_i<\lambda}(c_i-\lambda)L_i.
+\tag{D.8}\label{eq:D.8}
+\end{equation}
+
+Indeed, use \(\sum x_i=d\) and bound each term of \(\sum_i(c_i-\lambda)x_i\) at its appropriate endpoint. The verifier may compute this value by filling coordinates from \(L\) in decreasing order of \(c_i\), up to \(U_i\); its stopping coefficient is a choice of \(\lambda\), and the computed value equals \(\Phi_\lambda\). It may also evaluate the bound directly at all coefficients and choose the least. If the closed relaxation is empty, there is nothing to serve. Otherwise requiring such a bound to be at most one proves the price inequality for every incoming real point. No optimality assertion is required.
+
+\subsection{Covering the middle band}\label{sec:D.4}
+
+The root region has \(l_i=1/21\) for every coordinate, \(u_0=\cdots=u_5=d\), \(u_6=1/11\), and all endpoints closed. With order and sum, this is exactly \(K\). A split node holds a verified literal source with cap vector \(a\). It immediately serves the closed part \(R\cap\{x_i\le a_i\text{ for all }i\}\). Its remaining part is the disjoint union, in coordinate order, of
+
+\begin{equation}
+R_i=R\cap\{x_j\le a_j\ (j<i),\quad x_i>a_i\},
+ \qquad i=0,\ldots,6.
+\tag{D.9}\label{eq:D.9}
+\end{equation}
+
+The failed inequality is strict. In particular, \(x_i=a_i\) stays on the served side, including at the boundary of \(K\). Each \(R_i\) is reconstructed by intersecting interval bounds and propagating order. The child list contains one identifier for every branch not discarded by the proved-empty tests of \ref{sec:D.3}. If all residuals are discarded, the source serves the entire incoming region.
+
+The verifier checks all literal sources and regenerates the actual tree menu of \ref{sec:D.2}. Starting at \(K\), it reconstructs each path region, checks the full child list, and accepts a leaf only if \eqref{eq:D.7} implies its word caps or \eqref{eq:D.8} implies every required price inequality. It checks that each node is reached once and that there are no unresolved leaves. The first-failure regions partition the source complement, the discard tests are sound, and the leaf bounds apply throughout their regions. Lemma~\ref{stmt:A.4} therefore proves Theorem~\ref{stmt:D.1} from these finite facts. The cover and the program checking them are supplied in the supplement.
+\end{document}

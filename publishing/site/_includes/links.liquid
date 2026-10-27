@@ -1,0 +1,20 @@
+{%- assign pdf_url = include.release.pdf | relative_url -%}
+{%- assign source_url = site.repository_url | append: "/tree/" | append: include.release.source_ref | append: "/" | append: include.release.source_root -%}
+{%- assign package_name = include.release.package | split: "/" | last -%}
+{%- assign package_url = include.release.zenodo_url | append: "/files/" | append: package_name | append: "?download=1" -%}
+{%- if include.release.github_package_url -%}
+  {%- assign package_url = include.release.github_package_url -%}
+{%- endif -%}
+{%- if include.format == "html" -%}
+<a href="{{ include.paper.url | relative_url }}">Details &amp; material</a>
+<a href="{{ pdf_url | escape }}">PDF {{ include.release.version | escape }}</a>
+{%- elsif include.format == "material" -%}
+<a class="package-link" href="{{ package_url | escape }}">Download complete package (ZIP, {{ include.release.version | escape }})</a>
+<a href="{{ source_url | escape }}">Browse on GitHub</a>
+{%- elsif include.format == "readme-overview" -%}
+[PDF {{ include.release.version }}]({{ include.release.pdf | absolute_url }}) · [Details & material]({{ include.paper.key }}/)
+{%- elsif include.format == "readme-paper" -%}
+**[Read paper (PDF, {{ include.release.version }})]({{ include.release.pdf | absolute_url }})** · [Paper page]({{ include.paper.url | absolute_url }})
+{%- elsif include.format == "readme-material" -%}
+[Download complete package (ZIP, {{ include.release.version }})]({{ package_url }})
+{%- endif -%}

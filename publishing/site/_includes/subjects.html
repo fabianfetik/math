@@ -1,0 +1,4 @@
+{%- for code in include.release.subjects -%}
+  {%- assign subject = site.data.subjects[code] -%}
+  <abbr class="subject" title="{{ subject.name | escape }}">{{ code | escape }}</abbr>{% unless forloop.last %}<span class="subject-separator" aria-hidden="true">{{ include.separator }}</span>{% endunless %}
+{%- endfor -%}

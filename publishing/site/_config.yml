@@ -1,0 +1,31 @@
+title: Papers — Fabian Fetik
+description: Mathematical papers and supplementary material.
+url: https://fabianfetik.github.io
+baseurl: /math
+repository_url: https://github.com/fabianfetik/math
+owner:
+  name: Fabian Fetik
+  orcid: https://orcid.org/0009-0002-2527-5396
+timezone: UTC
+plugins: []
+collections:
+  papers:
+    output: true
+    permalink: /:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      kind: overview
+  - scope:
+      path: ""
+      type: papers
+    values:
+      layout: paper
+      kind: paper
+      header_image: null
+liquid:
+  error_mode: strict
+  strict_variables: true
+  strict_filters: true
+strict_front_matter: true

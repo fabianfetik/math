@@ -1,0 +1,10 @@
+<li>
+  <article>
+    <h2><a href="{{ include.paper.url | relative_url }}">{{ include.release.title | escape }}</a></h2>
+    <p class="publication">{{ include.release.status | escape }} · <time datetime="{{ include.release.date }}">{{ include.release.date | date: "%-d %B %Y" }}</time> · {{ include.release.version | escape }}{% if include.release.subjects.size > 0 %}<span class="subjects-inline"> · <span class="visually-hidden">Subjects: </span>{% include subjects.html release=include.release separator=" / " %}</span>{% endif %}</p>
+    <p class="summary">{{ include.release.summary | escape }}</p>
+    <nav class="paper-links" aria-label="Links for {{ include.release.title | escape }}">
+      {% include links.liquid paper=include.paper release=include.release format="html" %}
+    </nav>
+  </article>
+</li>

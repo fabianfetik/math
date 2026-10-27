@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /_repository/catalogue.json
+---
+{
+  "baseurl": {{ site.baseurl | jsonify }},
+  "repository_url": {{ site.repository_url | jsonify }},
+  "subjects": {{ site.data.subjects | jsonify }},
+  "works": [
+    {% for paper in site.papers %}
+    {
+      "key": {{ paper.key | jsonify }},
+      "current": {{ paper.current | jsonify }},
+      "concept_doi": {{ paper.concept_doi | jsonify }},
+      "url": {{ paper.url | jsonify }},
+      "releases": {{ paper.releases | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
