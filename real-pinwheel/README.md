@@ -11,7 +11,7 @@ Tasks must recur indefinitely under timing constraints given by real-valued peri
 
 ## Supplementary material
 
-[Download complete package (ZIP, v1)](https://zenodo.org/records/23018098/files/real-pinwheel-5-6-v1.zip?download=1)
+[Download complete package (ZIP, v1)](https://github.com/fabianfetik/math/releases/download/real-pinwheel-v1/real-pinwheel-5-6-v1.zip)
 
 | Material | Contents |
 | --- | --- |

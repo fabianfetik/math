@@ -11,7 +11,7 @@ Each task must occur exactly twice, with a positive integer deadline bounding it
 
 ## Supplementary material
 
-[Download complete package (ZIP, v1)](https://zenodo.org/records/23089289/files/two-visits-v1.zip?download=1)
+[Download complete package (ZIP, v1)](https://github.com/fabianfetik/math/releases/download/two-visits-v1/two-visits-v1.zip)
 
 | Material | Contents |
 | --- | --- |
