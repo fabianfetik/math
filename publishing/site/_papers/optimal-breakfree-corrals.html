@@ -1,0 +1,98 @@
+---
+{
+  "key": "optimal-breakfree-corrals",
+  "header_image": {
+    "path": "/assets/optimal-breakfree-corrals-header.svg",
+    "width": 2289,
+    "height": 654
+  },
+  "current": "v1",
+  "concept_doi": "10.5281/zenodo.24393805",
+  "releases": [
+    {
+      "work": "optimal-breakfree-corrals",
+      "version": "v1",
+      "title": "Optimal Breakfree Corrals: Existence, Counting, and Rainbow Path Factors",
+      "date": "2026-11-20",
+      "status": "Preprint",
+      "subjects": ["math.CO"],
+      "authors": [
+        {
+          "name": "Fabian Fetik",
+          "citation_name": "Fetik, F.",
+          "orcid": "https://orcid.org/0009-0002-2527-5396"
+        }
+      ],
+      "summary": "A breakfree corral places rows on a cycle with prescribed gaps and disjoint arrival sites. The paper determines the minimum order at every height and bounds the number of asymmetric optimal corrals using a rainbow path-factor theorem.",
+      "abstract": "A breakfree corral of height h and order n has h rows on a cycle of length n(n + 1)/2. Each row starts at a chosen site and takes clockwise steps of lengths 1, …, n in some order. The hn arrival sites, one after each step, are pairwise distinct. Counting requires n ≥ 2h − 1. We construct a corral of order 2h − 1 for every positive height. Together with the larger-order construction of Binięda, Dębski, Gutowski and Milewski, this establishes existence exactly when n ≥ 2h − 1.\n\nAt optimal order we consider physical partitions up to a common rotation or reflection, with the rows unlabelled. If Aₕ is the number of such classes with no nonidentity symmetry, then log Aₕ = Θ(h² log h) as h → ∞. For every h = 2 (mod 4), h ≥ 6, we also give an explicit family with an exact asymmetric orbit count and at least 2^(h²/4 − h − 1) classes. Every optimal corral of odd prime height is asymmetric.\n\nWe also prove a path-factor theorem for sufficiently large finite abelian groups of odd order. Given a near-spanning vertex set, a compatible set of nonzero differences and small initial and terminal sets, it produces paths covering the vertices and using each difference once. The construction determines the pairing between the prescribed endpoint sets. It gives a single cycle when the endpoint sets are empty. The single-path case supplies the terrace completion used in the diversity construction.",
+      "doi": "10.5281/zenodo.24393806",
+      "zenodo_url": "https://zenodo.org/records/24393806",
+      "pdf": "optimal-breakfree-corrals/optimal-breakfree-corrals-v1.pdf",
+      "pdf_sha256": "0a94428a8810c20294ab35c995edc87bb540f1fdfedbc97d7fb1b01c4167322c",
+      "package": "optimal-breakfree-corrals/optimal-breakfree-corrals-v1-source.tar.gz",
+      "package_sha256": "959e312665048819725474f6baf3cb49488398f93e4fcbba912774724bf13507",
+      "github_release_url": null,
+      "github_package_url": null,
+      "source_ref": "optimal-breakfree-corrals-v1",
+      "source_root": "optimal-breakfree-corrals",
+      "materials": [
+        {
+          "label": "Manuscript and figures",
+          "path": "optimal-breakfree-corrals/v1/paper",
+          "kind": "directory",
+          "description": "Editable article, TeX sources and figures"
+        },
+        {
+          "label": "Construction and checker",
+          "path": "optimal-breakfree-corrals/v1/paper/supplement",
+          "kind": "directory",
+          "description": "Python programs, height-seven certificate and its checker"
+        },
+        {
+          "label": "Lean formalization",
+          "path": "optimal-breakfree-corrals/v1/lean",
+          "kind": "directory",
+          "description": "Selected formal proofs, audit and pinned toolchain"
+        },
+        {
+          "label": "Reproduction guide",
+          "path": "optimal-breakfree-corrals/v1/README.md",
+          "kind": "file",
+          "description": "Integrity checks, build instructions and license notices"
+        }
+      ],
+      "material_note": "The package includes the height-seven certificate and Lean proofs for selected results. The formal-scope guide identifies the formal statements and their assumptions."
+    }
+  ]
+}
+---
+<p>A breakfree corral of height
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="h"><mi>h</mi></math>
+and order
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n"><mi>n</mi></math>
+has <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="h"><mi>h</mi></math>
+rows on a cycle of length
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n(n + 1)/2"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>.
+Each row starts at a chosen site and takes clockwise steps of lengths
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="1, …, n"><mn>1</mn><mo>,</mo><mo>…</mo><mo>,</mo><mi>n</mi></math>
+in some order. The <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="hn"><mi>h</mi><mi>n</mi></math>
+arrival sites, one after each step, are pairwise distinct. Counting requires
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n ≥ 2h − 1"><mi>n</mi><mo>≥</mo><mn>2</mn><mi>h</mi><mo>−</mo><mn>1</mn></math>.
+We construct a corral of order
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="2h − 1"><mn>2</mn><mi>h</mi><mo>−</mo><mn>1</mn></math>
+for every positive height. Together with the larger-order construction of Binięda, Dębski, Gutowski and Milewski, this establishes existence exactly when
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="n ≥ 2h − 1"><mi>n</mi><mo>≥</mo><mn>2</mn><mi>h</mi><mo>−</mo><mn>1</mn></math>.</p>
+
+<p>At optimal order we consider physical partitions up to a common rotation or reflection, with the rows unlabelled. If
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="Aₕ"><msub><mi>A</mi><mi>h</mi></msub></math>
+is the number of such classes with no nonidentity symmetry, then
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="log Aₕ = Θ(h² log h)"><mi>log</mi><mspace width="0.167em"/><msub><mi>A</mi><mi>h</mi></msub><mo>=</mo><mi>Θ</mi><mo>(</mo><msup><mi>h</mi><mn>2</mn></msup><mspace width="0.167em"/><mi>log</mi><mspace width="0.167em"/><mi>h</mi><mo>)</mo></math>
+as <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="h → ∞"><mi>h</mi><mo>→</mo><mi>∞</mi></math>.
+For every
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="h = 2 (mod 4)"><mi>h</mi><mo>=</mo><mn>2</mn><mspace width="0.25em"/><mo>(</mo><mi>mod</mi><mspace width="0.167em"/><mn>4</mn><mo>)</mo></math>,
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="h ≥ 6"><mi>h</mi><mo>≥</mo><mn>6</mn></math>,
+we also give an explicit family with an exact asymmetric orbit count and at least
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" aria-label="2^(h²/4 − h − 1)"><msup><mn>2</mn><mrow><mfrac><msup><mi>h</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>−</mo><mi>h</mi><mo>−</mo><mn>1</mn></mrow></msup></math>
+classes. Every optimal corral of odd prime height is asymmetric.</p>
+
+<p>We also prove a path-factor theorem for sufficiently large finite abelian groups of odd order. Given a near-spanning vertex set, a compatible set of nonzero differences and small initial and terminal sets, it produces paths covering the vertices and using each difference once. The construction determines the pairing between the prescribed endpoint sets. It gives a single cycle when the endpoint sets are empty. The single-path case supplies the terrace completion used in the diversity construction.</p>

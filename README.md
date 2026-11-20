@@ -1,6 +1,14 @@
 <!-- Generated from publishing/site/ by Jekyll. Run make update; edit the catalogue or templates. -->
 [Website](https://fabianfetik.github.io/math/)
 
+### [Optimal Breakfree Corrals: Existence, Counting, and Rainbow Path Factors](https://fabianfetik.github.io/math/optimal-breakfree-corrals/)
+
+Preprint · 20 November 2026 · v1 · math.CO
+
+A breakfree corral places rows on a cycle with prescribed gaps and disjoint arrival sites. The paper determines the minimum order at every height and bounds the number of asymmetric optimal corrals using a rainbow path-factor theorem.
+
+[PDF v1](https://fabianfetik.github.io/math/optimal-breakfree-corrals/optimal-breakfree-corrals-v1.pdf) · [Details & material](optimal-breakfree-corrals/)
+
 ### [Sharp density thresholds for finite two-visit scheduling](https://fabianfetik.github.io/math/two-visits/)
 
 Preprint · 1 October 2026 · v1 · cs.DM / math.CO / cs.DS

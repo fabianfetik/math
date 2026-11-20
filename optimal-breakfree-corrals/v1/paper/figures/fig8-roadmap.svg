@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="484" viewBox="0 0 1100 484" role="img" aria-labelledby="title desc">
+<title id="title">The order of choices in Theorem 9 and its use</title>
+<desc id="desc">One sample is fixed before the query. For a query, the special layers place the endpoints, the ordinary transitions build a path system, and the colour bank allows every extra fragment to be attached. One exact matching closes the construction. The router setting is chosen after that match. A single path closes the diversity prefix, leading to tiles, Latin choices, decoding, and the logarithmic count.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="DejaVu Sans, Liberation Sans, sans-serif" fill="#253442" stroke-linecap="round" stroke-linejoin="round">
+<text x="20.00" y="25.00" font-size="17.5" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>Before any query</tspan></text>
+<rect x="20" y="82" width="160" height="74" fill="#dceaf1" stroke="none" rx="6"/>
+<text x="28.00" y="104.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>One sample</tspan></text>
+<text x="28.00" y="125.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>fixed first</tspan></text>
+<text x="28.00" y="149.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>B.6.2</tspan></text>
+<rect x="200" y="82" width="160" height="74" fill="#dceaf1" stroke="none" rx="6"/>
+<text x="208.00" y="104.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Transitions</tspan></text>
+<text x="208.00" y="125.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>uses Pippenger</tspan></text>
+<text x="208.00" y="149.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>B.5</tspan></text>
+<rect x="380" y="41" width="160" height="74" fill="#dceaf1" stroke="none" rx="6"/>
+<text x="388.00" y="63.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Absorber</tspan></text>
+<text x="388.00" y="84.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>∀</tspan><tspan font-style="italic">U</tspan><tspan> ∃</tspan><tspan font-style="italic">A</tspan><tspan>(</tspan><tspan font-style="italic">U</tspan><tspan>) ∀</tspan><tspan font-style="italic">S</tspan></text>
+<text x="388.00" y="108.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>B.2</tspan></text>
+<rect x="380" y="123" width="160" height="74" fill="#dceaf1" stroke="none" rx="6"/>
+<text x="388.00" y="145.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Remainder</tspan></text>
+<text x="388.00" y="166.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>uses AKS</tspan></text>
+<text x="388.00" y="190.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>B.3</tspan></text>
+<rect x="560" y="82" width="160" height="74" fill="#dceaf1" stroke="none" rx="6"/>
+<text x="568.00" y="104.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Exact match</tspan></text>
+<text x="568.00" y="125.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>Theorem B.1</tspan></text>
+<text x="568.00" y="149.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>B.4</tspan></text>
+<rect x="740" y="82" width="160" height="74" fill="#dceaf1" stroke="none" rx="6"/>
+<text x="748.00" y="104.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Router</tspan></text>
+<text x="748.00" y="125.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>switch supply</tspan></text>
+<text x="748.00" y="149.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>B.6.1</tspan></text>
+<line x1="542" y1="78.0" x2="556" y2="119.0" stroke="#596976" stroke-width="1.6"/>
+<polygon points="556.00,119.00 549.82,112.66 557.01,110.20" fill="#596976"/>
+<line x1="542" y1="160.0" x2="556" y2="119.0" stroke="#596976" stroke-width="1.6"/>
+<polygon points="556.00,119.00 557.01,127.80 549.82,125.34" fill="#596976"/>
+<text x="20.00" y="218.00" font-size="17.5" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>For one query</tspan></text>
+<text x="150.00" y="218.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>B.6.3</tspan></text>
+<rect x="20" y="232" width="160" height="74" fill="#f5e4d1" stroke="none" rx="6"/>
+<text x="28.00" y="262.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Place X, Y</tspan></text>
+<text x="28.00" y="287.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>special layers</tspan></text>
+<rect x="200" y="232" width="160" height="74" fill="#f5e4d1" stroke="none" rx="6"/>
+<text x="208.00" y="262.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Build paths</tspan></text>
+<text x="208.00" y="287.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>layer transitions</tspan></text>
+<line x1="182" y1="269.0" x2="196" y2="269.0" stroke="#253442" stroke-width="2.0"/>
+<polygon points="196.00,269.00 188.00,272.80 188.00,265.20" fill="#253442"/>
+<rect x="380" y="232" width="160" height="74" fill="#f5e4d1" stroke="none" rx="6"/>
+<text x="388.00" y="262.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Join fragments</tspan></text>
+<text x="388.00" y="287.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>via colour bank</tspan></text>
+<line x1="362" y1="269.0" x2="376" y2="269.0" stroke="#253442" stroke-width="2.0"/>
+<polygon points="376.00,269.00 368.00,272.80 368.00,265.20" fill="#253442"/>
+<rect x="560" y="232" width="160" height="74" fill="#f5e4d1" stroke="none" rx="6"/>
+<text x="568.00" y="262.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Close exactly</tspan></text>
+<text x="568.00" y="287.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>one matching</tspan></text>
+<line x1="542" y1="269.0" x2="556" y2="269.0" stroke="#253442" stroke-width="2.0"/>
+<polygon points="556.00,269.00 548.00,272.80 548.00,265.20" fill="#253442"/>
+<rect x="740" y="232" width="160" height="74" fill="#f5e4d1" stroke="none" rx="6"/>
+<text x="748.00" y="262.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Set router</tspan></text>
+<text x="748.00" y="287.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>after closing</tspan></text>
+<line x1="722" y1="269.0" x2="736" y2="269.0" stroke="#253442" stroke-width="2.0"/>
+<polygon points="736.00,269.00 728.00,272.80 728.00,265.20" fill="#253442"/>
+<rect x="920" y="232" width="160" height="74" fill="#f5e4d1" stroke="none" rx="6"/>
+<text x="928.00" y="262.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Theorem 9</tspan></text>
+<text x="928.00" y="287.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>cycle or </tspan><tspan font-style="italic">K</tspan><tspan> paths</tspan></text>
+<line x1="902" y1="269.0" x2="916" y2="269.0" stroke="#253442" stroke-width="2.0"/>
+<polygon points="916.00,269.00 908.00,272.80 908.00,265.20" fill="#253442"/>
+<line x1="280.0" y1="158" x2="280.0" y2="228" stroke="#596976" stroke-width="1.6"/>
+<polygon points="280.00,228.00 276.20,220.00 283.80,220.00" fill="#596976"/>
+<line x1="640.0" y1="158" x2="640.0" y2="228" stroke="#596976" stroke-width="1.6"/>
+<polygon points="640.00,228.00 636.20,220.00 643.80,220.00" fill="#596976"/>
+<line x1="820.0" y1="158" x2="820.0" y2="228" stroke="#596976" stroke-width="1.6"/>
+<polygon points="820.00,228.00 816.20,220.00 823.80,220.00" fill="#596976"/>
+<text x="20.00" y="371.00" font-size="17.5" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>Diversity at every sufficiently large height</tspan></text>
+<text x="415.00" y="371.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>Section 8</tspan></text>
+<rect x="20" y="387" width="160" height="74" fill="#eae2ee" stroke="none" rx="6"/>
+<text x="28.00" y="409.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Close prefix</tspan></text>
+<text x="28.00" y="430.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>by Theorem 9</tspan></text>
+<text x="28.00" y="454.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>8.1–8.2</tspan></text>
+<rect x="200" y="387" width="160" height="74" fill="#eae2ee" stroke="none" rx="6"/>
+<text x="208.00" y="409.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Lift to tiles</tspan></text>
+<text x="208.00" y="430.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>Lemma 11</tspan></text>
+<text x="208.00" y="454.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>8.3</tspan></text>
+<line x1="182" y1="424.0" x2="196" y2="424.0" stroke="#596976" stroke-width="1.6"/>
+<polygon points="196.00,424.00 188.00,427.80 188.00,420.20" fill="#596976"/>
+<rect x="380" y="387" width="160" height="74" fill="#eae2ee" stroke="none" rx="6"/>
+<text x="388.00" y="409.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Latin choices</tspan></text>
+<text x="388.00" y="430.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>vary each copy</tspan></text>
+<text x="388.00" y="454.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>8.4</tspan></text>
+<line x1="362" y1="424.0" x2="376" y2="424.0" stroke="#596976" stroke-width="1.6"/>
+<polygon points="376.00,424.00 368.00,427.80 368.00,420.20" fill="#596976"/>
+<rect x="560" y="387" width="160" height="74" fill="#eae2ee" stroke="none" rx="6"/>
+<text x="568.00" y="409.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Decode</tspan></text>
+<text x="568.00" y="430.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">A</tspan><tspan dy="5" font-size="72%">h</tspan><tspan dy="-5"> ≥ </tspan><tspan font-style="italic">L</tspan><tspan dy="5" font-size="72%">r</tspan><tspan dy="-11" font-size="72%">h</tspan></text>
+<text x="568.00" y="454.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>8.5</tspan></text>
+<line x1="542" y1="424.0" x2="556" y2="424.0" stroke="#596976" stroke-width="1.6"/>
+<polygon points="556.00,424.00 548.00,427.80 548.00,420.20" fill="#596976"/>
+<rect x="740" y="387" width="160" height="74" fill="#eae2ee" stroke="none" rx="6"/>
+<text x="748.00" y="409.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Lower bound</tspan></text>
+<text x="748.00" y="430.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Sans"><tspan>Theorem 10</tspan></text>
+<line x1="722" y1="424.0" x2="736" y2="424.0" stroke="#596976" stroke-width="1.6"/>
+<polygon points="736.00,424.00 728.00,427.80 728.00,420.20" fill="#596976"/>
+<rect x="913" y="387" width="180" height="74" fill="#eae2ee" stroke="none" rx="6"/>
+<text x="921.00" y="409.00" font-size="17.5" fill="#253442" text-anchor="start" font-family="DejaVu Sans" font-weight="700"><tspan>Asymptotics</tspan></text>
+<text x="921.00" y="430.00" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan>log </tspan><tspan font-style="italic">A</tspan><tspan dy="5" font-size="72%">h</tspan><tspan dy="-5">=Θ(</tspan><tspan font-style="italic">h</tspan><tspan dy="-6" font-size="72%">2</tspan><tspan dy="6"> log </tspan><tspan font-style="italic">h</tspan><tspan>)</tspan></text>
+<text x="921.00" y="454.00" font-size="17" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>with Theorem 8</tspan></text>
+<line x1="902" y1="424.0" x2="909" y2="424.0" stroke="#596976" stroke-width="1.6"/>
+<polygon points="909.00,424.00 901.00,427.80 901.00,420.20" fill="#596976"/>
+<path d="M 1000.0 308 V 334 H 8 V 424.0 H 14" fill="none" stroke="#596976" stroke-width="1.6"/>
+<polygon points="18.00,424.00 8.00,428.50 8.00,419.50" fill="#596976"/>
+<text x="990.00" y="327.00" font-size="17" fill="#596976" text-anchor="end" font-family="DejaVu Sans"><tspan>single path, </tspan><tspan font-style="italic">K</tspan><tspan> = 1</tspan></text>
+</g></svg>

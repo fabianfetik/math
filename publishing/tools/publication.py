@@ -80,12 +80,16 @@ def read_catalogue(path):
             require(release["doi"] != work["concept_doi"], f"Concept DOI used as version DOI: {label}")
             record_id = release["doi"].split("zenodo.", 1)[1]
             require(release["zenodo_url"] == f"https://zenodo.org/records/{record_id}", f"DOI/record mismatch: {label}")
-            for artifact, extension in (("pdf", ".pdf"), ("package", ".zip")):
+            artifact_suffixes = {
+                "pdf": (f"-{version}.pdf",),
+                "package": (f"-{version}.zip", f"-{version}.tar.gz", f"-{version}-source.tar.gz"),
+            }
+            for artifact, suffixes in artifact_suffixes.items():
                 path = safe_path(ROOT, release[artifact])
-                require(path.name.endswith(f"-{version}{extension}"), f"Unversioned {artifact}: {label}")
+                require(path.name.endswith(suffixes), f"Unexpected {artifact} filename: {label}: {path.name}")
                 expected = release[f"{artifact}_sha256"]
                 require(re.fullmatch(r"[0-9a-f]{64}", expected), f"Invalid {artifact} SHA-256: {label}")
-                # Complete ZIPs may be external; any local copy must still match.
+                # Complete packages may be external; any local copy must still match.
                 if artifact == "pdf" or path.exists():
                     require(path.is_file(), f"Missing {artifact}: {release[artifact]}")
                     require(digest(path) == expected, f"SHA-256 mismatch: {release[artifact]}")

@@ -23,8 +23,8 @@ Tasks must recur indefinitely under timing constraints given by real-valued peri
 
 The Lean sources formalize the named subresults; the main theorem also uses written arguments and finite certificates. The complete supplementary package includes proof data, dependency pins and reproduction instructions.
 
-For the complete release, including any bundled data archives, use the ZIP.
-The package READMEs and manifests describe that complete download.
+The complete package includes any bundled data archives. Its READMEs and
+manifests describe the contents.
 
 ## Citation
 

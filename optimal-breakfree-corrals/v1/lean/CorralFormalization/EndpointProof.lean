@@ -1,0 +1,41 @@
+import CorralFormalization.EndpointProof.Sampling.FullAvailability
+import CorralFormalization.EndpointProof.Probability.SelectorAvailability
+import CorralFormalization.EndpointProof.Selector.SwitchAvailability
+import CorralFormalization.EndpointProof.Selector.Assembly.ColoredSelectorAvailability
+import CorralFormalization.EndpointProof.Selector.Assembly.FixedCardinality
+import CorralFormalization.EndpointProof.Probability.SelectorsAndAffineFlows
+import CorralFormalization.EndpointProof.Probability.Cyclic
+import CorralFormalization.EndpointProof.Probability.SelectorsSixRootsAndCovers
+import CorralFormalization.EndpointProof.Probability.QuadraticDeletion
+import CorralFormalization.EndpointProof.Probability.PairedCoverAtCoreCapacity
+import CorralFormalization.EndpointProof.Flow.AbelianTransport.Access
+import CorralFormalization.EndpointProof.Flow.Cover.Parity
+import CorralFormalization.EndpointProof.Factor.Uniform
+import CorralFormalization.EndpointProof.Factor.Prefix
+import CorralFormalization.EndpointProof.Matching.CoreCapacityReceiver
+import CorralFormalization.EndpointProof.Matching.AbsorptionAssembly.DisjointAssembly
+import CorralFormalization.EndpointProof.Matching.AbsorptionAssembly.Deletion
+import CorralFormalization.EndpointProof.Matching.UniversalCore
+import CorralFormalization.EndpointProof.Matching.Fractional.RoundingAKSSource
+import CorralFormalization.EndpointProof.Matching.Fractional.ActualRemainder.RawSupplied
+import CorralFormalization.EndpointProof.Matching.UniformExactMatching
+import CorralFormalization.EndpointProof.Matching.UniversalCore.CoreFailureRate
+import CorralFormalization.EndpointProof.Factor.CommonFactorSample
+import CorralFormalization.EndpointProof.Factor.PhysicalNearMatching
+import CorralFormalization.EndpointProof.Factor.InventoryBudget
+import CorralFormalization.EndpointProof.Factor.CycleCompletion
+import CorralFormalization.EndpointProof.Factor.AugmentedRouterBudget
+import CorralFormalization.EndpointProof.Factor.LayerArithmetic
+import CorralFormalization.EndpointProof.Router.EndpointRouting
+import CorralFormalization.EndpointProof.Factor.UniformPhysicalCompletion
+import CorralFormalization.EndpointProof.Factor.PippengerCompletion
+import CorralFormalization.Results.CompletionFromMatching
+
+/-!
+Checked ingredients for the endpoint-completion proof. Uniform exact matching,
+the common layered sample, full global router, actual physical cycle and its
+path-factor cut are connected to the uniform endpoint statement. The resulting
+theorems include an AKS-and-Pippenger route and a Pippenger-only route;
+the external matching results themselves are not proved here. See each
+theorem's explicit inputs.
+-/

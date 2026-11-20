@@ -22,8 +22,8 @@ Each task must occur exactly twice, with a positive integer deadline bounding it
 
 The proofs are analytic. The supplied programs include the construction algorithm, an independent certificate checker and bounded exact checks. Reproduction instructions and the complete data are included in the supplementary package.
 
-For the complete release, including any bundled data archives, use the ZIP.
-The package READMEs and manifests describe that complete download.
+The complete package includes any bundled data archives. Its READMEs and
+manifests describe the contents.
 
 ## Citation
 

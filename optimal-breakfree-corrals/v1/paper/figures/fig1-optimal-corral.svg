@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+<title id="title">An optimal corral of height three</title>
+<desc id="desc">Left: the three rows of an optimal corral on the 15-site cycle as rings; each arc is a gap, coloured by its length, and each numbered spoke ends at the row occupying that site. Every ring shows each of the five colours once. Right: three rows of five points fill exactly the 1 + 2 + 3 + 4 + 5 = 15 sites, the equality case of hn &lt;= n(n+1)/2.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="DejaVu Sans, Liberation Sans, sans-serif" fill="#253442" stroke-linecap="round" stroke-linejoin="round">
+<text x="250.0" y="36.0" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">0</text>
+<text x="344.3629011935856" y="56.0574538269166" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">1</text>
+<text x="422.40959951075547" y="112.76169932474488" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">2</text>
+<text x="470.64511178047564" y="196.3080573050122" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">3</text>
+<text x="480.7290797254394" y="292.2506034780956" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">4</text>
+<text x="450.9178936779898" y="384.0" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">5</text>
+<text x="386.36617853185373" y="455.6919426949878" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">6</text>
+<text x="298.2355122697202" y="494.9302433702429" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">7</text>
+<text x="201.76448773027982" y="494.9302433702429" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">8</text>
+<text x="113.63382146814627" y="455.6919426949878" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">9</text>
+<text x="49.08210632201022" y="384.0" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">10</text>
+<text x="19.27092027456061" y="292.2506034780957" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">11</text>
+<text x="29.354888219524355" y="196.30805730501223" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">12</text>
+<text x="77.59040048924453" y="112.76169932474488" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">13</text>
+<text x="155.63709880641437" y="56.05745382691657" font-size="17" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">14</text>
+<path d="M 250.00 155.00 A 107.0 107.0 0 0 1 293.52 164.25 L 281.32 191.66 A 77.0 77.0 0 0 0 250.00 185.00 Z" fill="#f0d58a" stroke="white" stroke-width="2"/>
+<path d="M 293.52 164.25 A 107.0 107.0 0 0 1 351.76 228.94 L 323.23 238.21 A 77.0 77.0 0 0 0 281.32 191.66 Z" fill="#b3dab2" stroke="white" stroke-width="2"/>
+<path d="M 351.76 228.94 A 107.0 107.0 0 0 1 312.89 348.56 L 295.26 324.29 A 77.0 77.0 0 0 0 323.23 238.21 Z" fill="#cbc1e6" stroke="white" stroke-width="2"/>
+<path d="M 312.89 348.56 A 107.0 107.0 0 0 1 157.34 315.50 L 183.32 300.50 A 77.0 77.0 0 0 0 295.26 324.29 Z" fill="#f2b3ab" stroke="white" stroke-width="2"/>
+<path d="M 157.34 315.50 A 107.0 107.0 0 0 1 250.00 155.00 L 250.00 185.00 A 77.0 77.0 0 0 0 183.32 300.50 Z" fill="#9fcdc9" stroke="white" stroke-width="2"/>
+<path d="M 400.17 277.78 A 151.0 151.0 0 0 1 218.61 409.70 L 224.84 380.36 A 121.0 121.0 0 0 0 370.34 274.65 Z" fill="#f2b3ab" stroke="white" stroke-width="2"/>
+<path d="M 218.61 409.70 A 151.0 151.0 0 0 1 161.24 384.16 L 178.88 359.89 A 121.0 121.0 0 0 0 224.84 380.36 Z" fill="#f0d58a" stroke="white" stroke-width="2"/>
+<path d="M 161.24 384.16 A 151.0 151.0 0 0 1 99.83 277.78 L 129.66 274.65 A 121.0 121.0 0 0 0 178.88 359.89 Z" fill="#b3dab2" stroke="white" stroke-width="2"/>
+<path d="M 99.83 277.78 A 151.0 151.0 0 0 1 188.58 124.05 L 200.78 151.46 A 121.0 121.0 0 0 0 129.66 274.65 Z" fill="#cbc1e6" stroke="white" stroke-width="2"/>
+<path d="M 188.58 124.05 A 151.0 151.0 0 0 1 400.17 277.78 L 370.34 274.65 A 121.0 121.0 0 0 0 200.78 151.46 Z" fill="#9fcdc9" stroke="white" stroke-width="2"/>
+<path d="M 394.91 131.52 A 195.0 195.0 0 0 1 418.87 359.50 L 392.89 344.50 A 165.0 165.0 0 0 0 372.62 151.59 Z" fill="#cbc1e6" stroke="white" stroke-width="2"/>
+<path d="M 418.87 359.50 A 195.0 195.0 0 0 1 290.54 452.74 L 284.31 423.39 A 165.0 165.0 0 0 0 392.89 344.50 Z" fill="#b3dab2" stroke="white" stroke-width="2"/>
+<path d="M 290.54 452.74 A 195.0 195.0 0 0 1 64.54 201.74 L 93.08 211.01 A 165.0 165.0 0 0 0 284.31 423.39 Z" fill="#9fcdc9" stroke="white" stroke-width="2"/>
+<path d="M 64.54 201.74 A 195.0 195.0 0 0 1 105.09 131.52 L 127.38 151.59 A 165.0 165.0 0 0 0 93.08 211.01 Z" fill="#f0d58a" stroke="white" stroke-width="2"/>
+<path d="M 105.09 131.52 A 195.0 195.0 0 0 1 394.91 131.52 L 372.62 151.59 A 165.0 165.0 0 0 0 127.38 151.59 Z" fill="#f2b3ab" stroke="white" stroke-width="2"/>
+<line x1="250.0" y1="46.0" x2="250.0" y2="170.0" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="337.85511490437284" y1="64.6741811491982" x2="287.41977116297363" y2="177.9538178968807" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="410.51928230311717" y1="117.46778902648663" x2="383.76606858593095" y2="141.5564908554055" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="455.4282075197532" y1="195.25232921501134" x2="337.49719949915414" y2="233.57043651750485" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="464.81672939954706" y1="284.57814806581314" x2="385.25497777008513" y2="276.21587100440087" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="437.06148721743875" y1="370.0" x2="405.88457268119896" y2="352.0" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="376.9616144951742" y1="436.74767078498866" x2="304.07624321090753" y2="336.42956348249515" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="294.908925216636" y1="473.27988175850203" x2="287.4241043471967" y2="438.06656813208497" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="205.09107478336398" y1="473.27988175850203" x2="221.72401004878472" y2="395.0280736997976" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="123.03838550482583" y1="436.74767078498866" x2="170.06120568822365" y2="372.0263112349928" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="62.93851278256125" y1="370.0" x2="170.32566285183162" y2="308.0" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="35.18327060045297" y1="284.5781480658132" x2="114.74502222991484" y2="276.2158710044009" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="44.57179248024681" y1="195.2523292150114" x2="78.80982706687234" y2="206.3769410125095" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="89.48071769688283" y1="117.46778902648663" x2="116.23393141406905" y2="141.5564908554055" stroke="#7d8a94" stroke-width="1.2"/>
+<line x1="162.14488509562716" y1="64.67418114919818" x2="194.6838165416912" y2="137.75781776060626" stroke="#7d8a94" stroke-width="1.2"/>
+<text x="269.12787555523386" y="178.01042073248988" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#f0d58a" stroke-width="5" paint-order="stroke">1</text>
+<text x="318.3693239439203" y="206.43998421498503" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#b3dab2" stroke-width="5" paint-order="stroke">2</text>
+<text x="337.49719949915414" y="296.42956348249515" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#cbc1e6" stroke-width="5" paint-order="stroke">3</text>
+<text x="230.87212444476614" y="357.9895792675101" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#f2b3ab" stroke-width="5" paint-order="stroke">4</text>
+<text x="170.32566285183165" y="222.0" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#9fcdc9" stroke-width="5" paint-order="stroke">5</text>
+<text x="329.93879431177635" y="378.0263112349928" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#f2b3ab" stroke-width="5" paint-order="stroke">4</text>
+<text x="194.68381654169116" y="392.24218223939374" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#f0d58a" stroke-width="5" paint-order="stroke">1</text>
+<text x="132.22054508531636" y="336.00000000000006" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#b3dab2" stroke-width="5" paint-order="stroke">2</text>
+<text x="132.22054508531636" y="200.0" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#cbc1e6" stroke-width="5" paint-order="stroke">3</text>
+<text x="329.9387943117763" y="157.97368876500713" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#9fcdc9" stroke-width="5" paint-order="stroke">5</text>
+<text x="429.0139411662892" y="249.18487661182238" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#cbc1e6" stroke-width="5" paint-order="stroke">3</text>
+<text x="355.80134541264516" y="413.62305898749054" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#b3dab2" stroke-width="5" paint-order="stroke">2</text>
+<text x="116.23393141406908" y="388.4435091445945" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#9fcdc9" stroke-width="5" paint-order="stroke">5</text>
+<text x="94.11542731880104" y="178.0" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#f0d58a" stroke-width="5" paint-order="stroke">1</text>
+<text x="249.99999999999997" y="88.0" font-size="17" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif" stroke="#f2b3ab" stroke-width="5" paint-order="stroke">4</text>
+<circle cx="250.0" cy="170.0" r="7.5" fill="#253442" stroke="white" stroke-width="1.6"/>
+<circle cx="287.41977116297363" cy="177.9538178968807" r="7.5" fill="#253442" stroke="white" stroke-width="1.6"/>
+<circle cx="337.49719949915414" cy="233.57043651750485" r="7.5" fill="#253442" stroke="white" stroke-width="1.6"/>
+<circle cx="304.07624321090753" cy="336.42956348249515" r="7.5" fill="#253442" stroke="white" stroke-width="1.6"/>
+<circle cx="170.32566285183162" cy="308.0" r="7.5" fill="#253442" stroke="white" stroke-width="1.6"/>
+<rect x="377.75497777008513" y="268.71587100440087" width="15.0" height="15.0" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<rect x="214.22401004878472" y="387.5280736997976" width="15.0" height="15.0" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<rect x="162.56120568822365" y="364.5263112349928" width="15.0" height="15.0" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<rect x="107.24502222991484" y="268.7158710044009" width="15.0" height="15.0" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<rect x="187.1838165416912" y="130.25781776060626" width="15.0" height="15.0" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<polygon points="383.76606858593095,131.8064908554055 393.51606858593095,141.5564908554055 383.76606858593095,151.3064908554055 374.01606858593095,141.5564908554055" fill="#253442" stroke="white" stroke-width="1.6"/>
+<polygon points="405.88457268119896,342.25 415.63457268119896,352.0 405.88457268119896,361.75 396.13457268119896,352.0" fill="#253442" stroke="white" stroke-width="1.6"/>
+<polygon points="287.4241043471967,428.31656813208497 297.1741043471967,438.06656813208497 287.4241043471967,447.81656813208497 277.6741043471967,438.06656813208497" fill="#253442" stroke="white" stroke-width="1.6"/>
+<polygon points="78.80982706687234,196.6269410125095 88.55982706687234,206.3769410125095 78.80982706687234,216.1269410125095 69.05982706687234,206.3769410125095" fill="#253442" stroke="white" stroke-width="1.6"/>
+<polygon points="116.23393141406905,131.8064908554055 125.98393141406905,141.5564908554055 116.23393141406905,151.3064908554055 106.48393141406905,141.5564908554055" fill="#253442" stroke="white" stroke-width="1.6"/>
+<text x="250.00" y="270.00" font-size="24" fill="#253442" text-anchor="middle" font-family="DejaVu Serif"><tspan>ℤ</tspan><tspan dy="7" font-size="72%">15</tspan></text>
+<text x="655" y="70" font-size="19" fill="#253442" text-anchor="middle" font-family="DejaVu Sans">occupied sites</text>
+<text x="890" y="70" font-size="19" fill="#253442" text-anchor="middle" font-family="DejaVu Sans">cycle length</text>
+<circle cx="590" cy="128" r="8" fill="#253442" stroke="white" stroke-width="1.6"/>
+<circle cx="624" cy="128" r="8" fill="#253442" stroke="white" stroke-width="1.6"/>
+<circle cx="658" cy="128" r="8" fill="#253442" stroke="white" stroke-width="1.6"/>
+<circle cx="692" cy="128" r="8" fill="#253442" stroke="white" stroke-width="1.6"/>
+<circle cx="726" cy="128" r="8" fill="#253442" stroke="white" stroke-width="1.6"/>
+<rect x="582" y="164" width="16" height="16" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<rect x="616" y="164" width="16" height="16" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<rect x="650" y="164" width="16" height="16" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<rect x="684" y="164" width="16" height="16" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<rect x="718" y="164" width="16" height="16" fill="#253442" stroke="white" rx="0" stroke-width="1.6"/>
+<polygon points="590,205.6 600.4,216 590,226.4 579.6,216" fill="#253442" stroke="white" stroke-width="1.6"/>
+<polygon points="624,205.6 634.4,216 624,226.4 613.6,216" fill="#253442" stroke="white" stroke-width="1.6"/>
+<polygon points="658,205.6 668.4,216 658,226.4 647.6,216" fill="#253442" stroke="white" stroke-width="1.6"/>
+<polygon points="692,205.6 702.4,216 692,226.4 681.6,216" fill="#253442" stroke="white" stroke-width="1.6"/>
+<polygon points="726,205.6 736.4,216 726,226.4 715.6,216" fill="#253442" stroke="white" stroke-width="1.6"/>
+<text x="658.00" y="270.00" font-size="20" fill="#253442" text-anchor="middle" font-family="DejaVu Serif"><tspan font-style="italic">h</tspan><tspan> × </tspan><tspan font-style="italic">n</tspan><tspan> = 3 × 5</tspan></text>
+<text x="772" y="180" font-size="30" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">=</text>
+<rect x="822" y="92" width="22" height="22" fill="#f0d58a" stroke="none" rx="0"/>
+<text x="855" y="110" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Serif">1</text>
+<rect x="822" y="123" width="22" height="22" fill="#b3dab2" stroke="none" rx="0"/>
+<rect x="847" y="123" width="22" height="22" fill="#b3dab2" stroke="none" rx="0"/>
+<text x="880" y="141" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Serif">2</text>
+<rect x="822" y="154" width="22" height="22" fill="#cbc1e6" stroke="none" rx="0"/>
+<rect x="847" y="154" width="22" height="22" fill="#cbc1e6" stroke="none" rx="0"/>
+<rect x="872" y="154" width="22" height="22" fill="#cbc1e6" stroke="none" rx="0"/>
+<text x="905" y="172" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Serif">3</text>
+<rect x="822" y="185" width="22" height="22" fill="#f2b3ab" stroke="none" rx="0"/>
+<rect x="847" y="185" width="22" height="22" fill="#f2b3ab" stroke="none" rx="0"/>
+<rect x="872" y="185" width="22" height="22" fill="#f2b3ab" stroke="none" rx="0"/>
+<rect x="897" y="185" width="22" height="22" fill="#f2b3ab" stroke="none" rx="0"/>
+<text x="930" y="203" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Serif">4</text>
+<rect x="822" y="216" width="22" height="22" fill="#9fcdc9" stroke="none" rx="0"/>
+<rect x="847" y="216" width="22" height="22" fill="#9fcdc9" stroke="none" rx="0"/>
+<rect x="872" y="216" width="22" height="22" fill="#9fcdc9" stroke="none" rx="0"/>
+<rect x="897" y="216" width="22" height="22" fill="#9fcdc9" stroke="none" rx="0"/>
+<rect x="922" y="216" width="22" height="22" fill="#9fcdc9" stroke="none" rx="0"/>
+<text x="955" y="234" font-size="17" fill="#253442" text-anchor="start" font-family="DejaVu Serif">5</text>
+<text x="890.00" y="270.00" font-size="20" fill="#253442" text-anchor="middle" font-family="DejaVu Serif"><tspan>1 + 2 + 3 + 4 + 5</tspan></text>
+<line x1="560" y1="300" x2="990" y2="300" stroke="#d7dfe3" stroke-width="1.2"/>
+<text x="775.00" y="352.00" font-size="22" fill="#253442" text-anchor="middle" font-family="DejaVu Serif"><tspan font-style="italic">h</tspan><tspan font-style="italic">n</tspan><tspan> ≤ </tspan><tspan font-style="italic">n</tspan><tspan>(</tspan><tspan font-style="italic">n</tspan><tspan> + 1)/2   ⇒   </tspan><tspan font-style="italic">n</tspan><tspan> ≥ 2</tspan><tspan font-style="italic">h</tspan><tspan> − 1</tspan></text>
+</g></svg>

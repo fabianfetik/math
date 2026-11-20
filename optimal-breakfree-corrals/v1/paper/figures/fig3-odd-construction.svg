@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="504" viewBox="0 0 1000 504" role="img" aria-labelledby="title desc">
+<title id="title">Matching the wrap gaps at height seven</title>
+<desc id="desc">The sites around the two cuts at 77 and 91 are shown for every row. The outlined pieces have equal length before or after the cuts, so each pair of new seams has the same lengths as the removed wrap gaps. The partners of rows five and six are exchanged relative to the cyclic shift.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="DejaVu Sans, Liberation Sans, sans-serif" fill="#253442" stroke-linecap="round" stroke-linejoin="round">
+<text x="40" y="38" font-size="23" fill="#253442" text-anchor="start">Matching the wrap gaps at height seven</text>
+<line x1="240" y1="92" x2="240" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="257" y1="92" x2="257" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="274" y1="92" x2="274" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="291" y1="92" x2="291" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="308" y1="92" x2="308" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="325" y1="92" x2="325" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="342" y1="92" x2="342" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="359" y1="92" x2="359" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="376" y1="92" x2="376" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="393" y1="92" x2="393" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="410" y1="92" x2="410" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="427" y1="92" x2="427" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="444" y1="92" x2="444" y2="424" stroke="#e6ebed" stroke-width="1"/>
+<line x1="223" y1="90" x2="223" y2="424" stroke="#596976" stroke-width="1.3" stroke-dasharray="7 6"/>
+<text x="223" y="82" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">77</text>
+<line x1="461" y1="90" x2="461" y2="424" stroke="#596976" stroke-width="1.3" stroke-dasharray="7 6"/>
+<text x="461" y="82" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">91 ≡ 0</text>
+<text x="651" y="82" font-size="16.5" fill="#596976" text-anchor="start">partner</text>
+<text x="723" y="82" font-size="16.5" fill="#596976" text-anchor="start">equal pieces</text>
+<text x="853" y="82" font-size="16.5" fill="#596976" text-anchor="start">wraps</text>
+<text x="927" y="82" font-size="16.5" fill="#596976" text-anchor="start">seams</text>
+<rect x="26" y="91" width="963" height="46" fill="#fbf2d3" stroke="none" rx="5"/>
+<rect x="172" y="100" width="51" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="223" y="100" width="136" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="359" y="100" width="51" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="410" y="100" width="51" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="461" y="100" width="51" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="173" y="101" width="49" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="197.5" y="119.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">3</text>
+<text x="291.0" y="119.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">8</text>
+<text x="384.5" y="119.0" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">3</text>
+<rect x="411" y="101" width="49" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="435.5" y="119.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">3</text>
+<text x="486.5" y="119.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">3</text>
+<rect x="355.5" y="110.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<rect x="406.5" y="110.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<circle cx="172" cy="114.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<circle cx="512" cy="114.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<text x="40.00" y="121.00" font-size="19" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">R</tspan><tspan dy="5" font-size="72%">0</tspan></text>
+<text x="657.00" y="120.00" font-size="17" fill="#a55632" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">D</tspan><tspan dy="5" font-size="72%">4</tspan></text>
+<text x="723.00" y="120.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> = 3</tspan></text>
+<text x="853.00" y="120.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Serif"><tspan>6, 11</tspan></text>
+<text x="927.00" y="120.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-weight="700">11, 6</tspan></text>
+<rect x="206" y="148" width="17" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="223" y="148" width="170" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="393" y="148" width="51" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="444" y="148" width="17" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="461" y="148" width="17" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="207" y="149" width="15" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="214.5" y="167.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">1</text>
+<text x="308.0" y="167.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">10</text>
+<text x="418.5" y="167.0" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">3</text>
+<rect x="445" y="149" width="15" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="452.5" y="167.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">1</text>
+<text x="469.5" y="167.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">1</text>
+<rect x="389.5" y="158.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<rect x="440.5" y="158.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<circle cx="206" cy="162.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<circle cx="478" cy="162.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<text x="40.00" y="169.00" font-size="19" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">R</tspan><tspan dy="5" font-size="72%">1</tspan></text>
+<text x="657.00" y="168.00" font-size="17" fill="#a55632" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">D</tspan><tspan dy="5" font-size="72%">5</tspan></text>
+<text x="723.00" y="168.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> = 1</tspan></text>
+<text x="853.00" y="168.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Serif"><tspan>2, 11</tspan></text>
+<text x="927.00" y="168.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-weight="700">11, 2</tspan></text>
+<rect x="189" y="196" width="34" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="223" y="196" width="17" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="240" y="196" width="187" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="427" y="196" width="34" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="461" y="196" width="170" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="190" y="197" width="32" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="206.0" y="215.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">2</text>
+<text x="231.5" y="215.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">1</text>
+<text x="333.5" y="215.0" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">11</text>
+<rect x="428" y="197" width="32" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="444.0" y="215.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">2</text>
+<text x="546.0" y="215.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">10</text>
+<rect x="236.5" y="206.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<rect x="423.5" y="206.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<circle cx="189" cy="210.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<circle cx="631" cy="210.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<text x="40.00" y="217.00" font-size="19" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">R</tspan><tspan dy="5" font-size="72%">2</tspan></text>
+<text x="657.00" y="216.00" font-size="17" fill="#a55632" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">D</tspan><tspan dy="5" font-size="72%">6</tspan></text>
+<text x="723.00" y="216.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> = 2</tspan></text>
+<text x="853.00" y="216.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Serif"><tspan>12, 3</tspan></text>
+<text x="927.00" y="216.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-weight="700">3, 12</tspan></text>
+<rect x="155" y="244" width="68" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="223" y="244" width="51" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="274" y="244" width="187" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<text x="189.0" y="263.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">4</text>
+<text x="248.5" y="263.0" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">3</text>
+<text x="367.5" y="263.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">11</text>
+<circle cx="223" cy="258.0" r="10" fill="none" stroke="#253442" stroke-width="2.2"/>
+<circle cx="461" cy="258.0" r="10" fill="none" stroke="#253442" stroke-width="2.2"/>
+<rect x="219.5" y="254.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<rect x="270.5" y="254.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<circle cx="155" cy="258.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<circle cx="461" cy="258.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<text x="40.00" y="265.00" font-size="19" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">R</tspan><tspan dy="5" font-size="72%">3</tspan></text>
+<text x="657.00" y="264.00" font-size="17" fill="#a55632" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">D</tspan><tspan dy="5" font-size="72%">0</tspan></text>
+<text x="723.00" y="264.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">f</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">f</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> = 0</tspan></text>
+<text x="853.00" y="264.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Serif"><tspan>4, 11</tspan></text>
+<text x="927.00" y="264.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-weight="700">4, 11</tspan></text>
+<rect x="121" y="292" width="102" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="223" y="292" width="34" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="257" y="292" width="51" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="308" y="292" width="153" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="461" y="292" width="34" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<text x="172.0" y="311.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">6</text>
+<rect x="224" y="293" width="32" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="240.0" y="311.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">2</text>
+<text x="282.5" y="311.0" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">3</text>
+<text x="384.5" y="311.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">9</text>
+<rect x="462" y="293" width="32" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="478.0" y="311.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">2</text>
+<rect x="253.5" y="302.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<rect x="304.5" y="302.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<circle cx="121" cy="306.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<circle cx="495" cy="306.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<text x="40.00" y="313.00" font-size="19" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">R</tspan><tspan dy="5" font-size="72%">4</tspan></text>
+<text x="657.00" y="312.00" font-size="17" fill="#a55632" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">D</tspan><tspan dy="5" font-size="72%">1</tspan></text>
+<text x="723.00" y="312.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">f</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">f</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> = 2</tspan></text>
+<text x="853.00" y="312.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Serif"><tspan>8, 11</tspan></text>
+<text x="927.00" y="312.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-weight="700">8, 11</tspan></text>
+<rect x="138" y="340" width="85" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="223" y="340" width="102" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="325" y="340" width="51" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="376" y="340" width="85" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="461" y="340" width="85" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="139" y="341" width="83" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="180.5" y="359.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">5</text>
+<text x="274.0" y="359.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">6</text>
+<text x="350.5" y="359.0" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">3</text>
+<rect x="377" y="341" width="83" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="418.5" y="359.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">5</text>
+<text x="503.5" y="359.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">5</text>
+<rect x="321.5" y="350.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<rect x="372.5" y="350.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<circle cx="138" cy="354.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<circle cx="546" cy="354.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<text x="40.00" y="361.00" font-size="19" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">R</tspan><tspan dy="5" font-size="72%">5</tspan></text>
+<text x="657.00" y="360.00" font-size="17" fill="#a55632" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">D</tspan><tspan dy="5" font-size="72%">3</tspan><tspan dy="-5">*</tspan></text>
+<text x="723.00" y="360.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> = 5</tspan></text>
+<text x="853.00" y="360.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Serif"><tspan>10, 11</tspan></text>
+<text x="927.00" y="360.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-weight="700">11, 10</tspan></text>
+<rect x="104" y="388" width="119" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="223" y="388" width="68" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="291" y="388" width="51" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="342" y="388" width="119" height="28" fill="#f5e4d1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="461" y="388" width="102" height="28" fill="#dceaf1" stroke="white" rx="0" stroke-width="1.2"/>
+<rect x="105" y="389" width="117" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="163.5" y="407.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">7</text>
+<text x="257.0" y="407.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">4</text>
+<text x="316.5" y="407.0" font-size="16.5" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">3</text>
+<rect x="343" y="389" width="117" height="26" fill="none" stroke="#253442" rx="0" stroke-width="2.2"/>
+<text x="401.5" y="407.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">7</text>
+<text x="512.0" y="407.0" font-size="16.5" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">6</text>
+<rect x="287.5" y="398.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<rect x="338.5" y="398.5" width="7" height="7" fill="#a55632" stroke="white" rx="1" stroke-width="1.2"/>
+<circle cx="104" cy="402.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<circle cx="563" cy="402.0" r="3.8" fill="#356d8b" stroke="white" stroke-width="1.2"/>
+<text x="40.00" y="409.00" font-size="19" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">R</tspan><tspan dy="5" font-size="72%">6</tspan></text>
+<text x="657.00" y="408.00" font-size="17" fill="#a55632" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">D</tspan><tspan dy="5" font-size="72%">2</tspan><tspan dy="-5">*</tspan></text>
+<text x="723.00" y="408.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> = </tspan><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> = 7</tspan></text>
+<text x="853.00" y="408.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Serif"><tspan>13, 11</tspan></text>
+<text x="927.00" y="408.00" font-size="16.5" fill="#253442" text-anchor="start" font-family="DejaVu Serif"><tspan font-weight="700">11, 13</tspan></text>
+<text x="40.00" y="458.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>Seams </tspan><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> + </tspan><tspan font-style="italic">f</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> and </tspan><tspan font-style="italic">t</tspan><tspan dy="4" font-size="72%">D</tspan><tspan dy="-4"> + </tspan><tspan font-style="italic">f</tspan><tspan dy="4" font-size="72%">C</tspan><tspan dy="-4"> reproduce the wrap gaps of </tspan><tspan font-style="italic">C</tspan><tspan dy="4" font-size="72%">s</tspan><tspan dy="-4"> and </tspan><tspan font-style="italic">D</tspan><tspan dy="4" font-size="72%">t</tspan><tspan dy="-4"> (Lemma 5).</tspan></text>
+<text x="40.00" y="482.00" font-size="16.5" fill="#596976" text-anchor="start" font-family="DejaVu Sans"><tspan>* Exchanged partners. The highlighted row </tspan><tspan font-style="italic">R</tspan><tspan dy="4" font-size="72%">0</tspan><tspan dy="-4"> is the example in Section 5.1.</tspan></text>
+</g></svg>

@@ -89,6 +89,7 @@ h1 { margin: 0; font-size: clamp(1.9rem, 4.5vw, 2.6rem); }
 .abstract { margin-top: 2rem; }
 .abstract h2, .citation h2, .supplementary-material h2 { margin: 0 0 0.65rem; font-size: 1.08rem; }
 .abstract p { margin: 0; }
+.abstract p + p { margin-top: 0.65rem; }
 math { font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", math; font-size: 1em; }
 
 .download-links { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 1.5rem; margin-top: 1.65rem; font-size: 0.86rem; }

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="452" viewBox="0 0 1000 452" role="img" aria-labelledby="title desc">
+<title id="title">Paths and a cycle in Z_11</title>
+<desc id="desc">Two directed paths in the integers modulo 11 cover W = {1, ..., 10}; they start at 1 and 5, end at 8 and 6, and their eight differences are distinct. The two dashed edges close them into one cycle and add the differences 8 and 6, so the cycle uses every nonzero difference once.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="DejaVu Sans, Liberation Sans, sans-serif" fill="#253442" stroke-linecap="round" stroke-linejoin="round">
+<line x1="199" y1="100" x2="304" y2="100" stroke="#356d8b" stroke-width="2.2"/>
+<polygon points="304.00,100.00 292.00,105.00 292.00,95.00" fill="#356d8b"/>
+<text x="252.5" y="86" font-size="20" fill="#356d8b" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">1</text>
+<line x1="364" y1="100" x2="469" y2="100" stroke="#356d8b" stroke-width="2.2"/>
+<polygon points="469.00,100.00 457.00,105.00 457.00,95.00" fill="#356d8b"/>
+<text x="417.5" y="86" font-size="20" fill="#356d8b" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">2</text>
+<line x1="529" y1="100" x2="634" y2="100" stroke="#356d8b" stroke-width="2.2"/>
+<polygon points="634.00,100.00 622.00,105.00 622.00,95.00" fill="#356d8b"/>
+<text x="582.5" y="86" font-size="20" fill="#356d8b" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">10</text>
+<line x1="694" y1="100" x2="799" y2="100" stroke="#356d8b" stroke-width="2.2"/>
+<polygon points="799.00,100.00 787.00,105.00 787.00,95.00" fill="#356d8b"/>
+<text x="747.5" y="86" font-size="20" fill="#356d8b" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">5</text>
+<line x1="801" y1="270" x2="696" y2="270" stroke="#a55632" stroke-width="2.2"/>
+<polygon points="696.00,270.00 708.00,265.00 708.00,275.00" fill="#a55632"/>
+<text x="747.5" y="304" font-size="20" fill="#a55632" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">4</text>
+<line x1="636" y1="270" x2="531" y2="270" stroke="#a55632" stroke-width="2.2"/>
+<polygon points="531.00,270.00 543.00,265.00 543.00,275.00" fill="#a55632"/>
+<text x="582.5" y="304" font-size="20" fill="#a55632" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">9</text>
+<line x1="471" y1="270" x2="366" y2="270" stroke="#a55632" stroke-width="2.2"/>
+<polygon points="366.00,270.00 378.00,265.00 378.00,275.00" fill="#a55632"/>
+<text x="417.5" y="304" font-size="20" fill="#a55632" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">3</text>
+<line x1="306" y1="270" x2="201" y2="270" stroke="#a55632" stroke-width="2.2"/>
+<polygon points="201.00,270.00 213.00,265.00 213.00,275.00" fill="#a55632"/>
+<text x="252.5" y="304" font-size="20" fill="#a55632" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">7</text>
+<path d="M 856 100 C 925 100, 925 270, 862 270" fill="none" stroke="#596976" stroke-width="1.8" stroke-dasharray="7 6"/>
+<polygon points="858.00,270.00 870.00,265.00 870.00,275.00" fill="#596976"/>
+<text x="911" y="192.0" font-size="20" fill="#596976" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">8</text>
+<path d="M 144 270 C 75 270, 75 100, 138 100" fill="none" stroke="#596976" stroke-width="1.8" stroke-dasharray="7 6"/>
+<polygon points="142.00,100.00 130.00,105.00 130.00,95.00" fill="#596976"/>
+<text x="89" y="192.0" font-size="20" fill="#596976" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">6</text>
+<circle cx="170" cy="100" r="26" fill="#dceaf1" stroke="#356d8b" stroke-width="3"/>
+<text x="170" y="107" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">1</text>
+<circle cx="335" cy="100" r="26" fill="#dceaf1" stroke="#356d8b" stroke-width="1.5"/>
+<text x="335" y="107" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">2</text>
+<circle cx="500" cy="100" r="26" fill="#dceaf1" stroke="#356d8b" stroke-width="1.5"/>
+<text x="500" y="107" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">4</text>
+<circle cx="665" cy="100" r="26" fill="#dceaf1" stroke="#356d8b" stroke-width="1.5"/>
+<text x="665" y="107" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">3</text>
+<circle cx="830" cy="100" r="26" fill="#dceaf1" stroke="#356d8b" stroke-width="3"/>
+<text x="830" y="107" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">8</text>
+<text x="170" y="62" font-size="17" fill="#356d8b" text-anchor="middle" font-family="DejaVu Sans">start</text>
+<text x="830" y="62" font-size="17" fill="#356d8b" text-anchor="middle" font-family="DejaVu Sans">end</text>
+<circle cx="830" cy="270" r="26" fill="#f5e4d1" stroke="#a55632" stroke-width="3"/>
+<text x="830" y="277" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">5</text>
+<circle cx="665" cy="270" r="26" fill="#f5e4d1" stroke="#a55632" stroke-width="1.5"/>
+<text x="665" y="277" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">9</text>
+<circle cx="500" cy="270" r="26" fill="#f5e4d1" stroke="#a55632" stroke-width="1.5"/>
+<text x="500" y="277" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">7</text>
+<circle cx="335" cy="270" r="26" fill="#f5e4d1" stroke="#a55632" stroke-width="1.5"/>
+<text x="335" y="277" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">10</text>
+<circle cx="170" cy="270" r="26" fill="#f5e4d1" stroke="#a55632" stroke-width="3"/>
+<text x="170" y="277" font-size="20" fill="#253442" text-anchor="middle" font-weight="700" font-family="DejaVu Serif">6</text>
+<text x="830" y="318" font-size="17" fill="#a55632" text-anchor="middle" font-family="DejaVu Sans">start</text>
+<text x="170" y="318" font-size="17" fill="#a55632" text-anchor="middle" font-family="DejaVu Sans">end</text>
+<text x="274.00" y="387.00" font-size="17" fill="#596976" text-anchor="end" font-family="DejaVu Sans"><tspan>differences</tspan></text>
+<rect x="291.0" y="362" width="40" height="36" fill="#dceaf1" stroke="none" rx="0"/>
+<text x="311.0" y="387" font-size="18" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">1</text>
+<rect x="333.0" y="362" width="40" height="36" fill="#dceaf1" stroke="none" rx="0"/>
+<text x="353.0" y="387" font-size="18" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">2</text>
+<rect x="375.0" y="362" width="40" height="36" fill="#f5e4d1" stroke="none" rx="0"/>
+<text x="395.0" y="387" font-size="18" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">3</text>
+<rect x="417.0" y="362" width="40" height="36" fill="#f5e4d1" stroke="none" rx="0"/>
+<text x="437.0" y="387" font-size="18" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">4</text>
+<rect x="459.0" y="362" width="40" height="36" fill="#dceaf1" stroke="none" rx="0"/>
+<text x="479.0" y="387" font-size="18" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">5</text>
+<rect x="502.0" y="363" width="38" height="34" fill="white" stroke="#596976" rx="0" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="521.0" y="387" font-size="18" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">6</text>
+<rect x="543.0" y="362" width="40" height="36" fill="#f5e4d1" stroke="none" rx="0"/>
+<text x="563.0" y="387" font-size="18" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">7</text>
+<rect x="586.0" y="363" width="38" height="34" fill="white" stroke="#596976" rx="0" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="605.0" y="387" font-size="18" fill="#596976" text-anchor="middle" font-family="DejaVu Serif">8</text>
+<rect x="627.0" y="362" width="40" height="36" fill="#f5e4d1" stroke="none" rx="0"/>
+<text x="647.0" y="387" font-size="18" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">9</text>
+<rect x="669.0" y="362" width="40" height="36" fill="#dceaf1" stroke="none" rx="0"/>
+<text x="689.0" y="387" font-size="18" fill="#253442" text-anchor="middle" font-family="DejaVu Serif">10</text>
+<text x="500.00" y="432.00" font-size="17" fill="#596976" text-anchor="middle" font-family="DejaVu Sans"><tspan>solid: two paths covering </tspan><tspan font-style="italic">W</tspan><tspan> = {1, …, 10} in </tspan><tspan>ℤ</tspan><tspan dy="5" font-size="72%">11</tspan><tspan dy="-5">  ·  dashed: closing edges give one cycle</tspan></text>
+</g></svg>

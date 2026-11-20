@@ -1,0 +1,2541 @@
+{
+  "files": {
+    "LICENSE.md": {
+      "bytes": 560,
+      "sha256": "e6f45102d70b7c169d129ed295a773e6f31e69ba6aad822f00e4e48d055c46d0"
+    },
+    "README.md": {
+      "bytes": 1415,
+      "sha256": "4c9c7689c28d4ad365d4e4859fee578e048a6e99a7f315272c70d7d42b6550cf"
+    },
+    "lean/Audit.lean": {
+      "bytes": 1709,
+      "sha256": "10f58125b212e3dfa4b63dbbf8416dc165f1c757ef37bd86915a58089c4a7d88"
+    },
+    "lean/CorralFormalization.lean": {
+      "bytes": 2757,
+      "sha256": "d71a3fc38b4ec478160d54df54715d99dde36d8a8e93f35de54d1f1bace57e2f"
+    },
+    "lean/CorralFormalization/Arithmetic.lean": {
+      "bytes": 630,
+      "sha256": "fecdfcbb8a012d2f9702674b460c66a8bba2ecac49be445cba866a08576003d0"
+    },
+    "lean/CorralFormalization/Assembly.lean": {
+      "bytes": 1311,
+      "sha256": "f186de9759e4778b41ac1d7fc722e0b5cd9bc77838b518a9c551e4df017e3cde"
+    },
+    "lean/CorralFormalization/Bases.lean": {
+      "bytes": 2527,
+      "sha256": "9de3200c6ab5c795350a3e6c805e9de11b5adc9a4b19ec5b5eb3518ec97f3c26"
+    },
+    "lean/CorralFormalization/Basic.lean": {
+      "bytes": 2897,
+      "sha256": "83557d3de16986b243e21191657463861e71c1276368ca77be24d0a16dd6379a"
+    },
+    "lean/CorralFormalization/BucketGeometry.lean": {
+      "bytes": 14175,
+      "sha256": "7d1306e5f77bd9c98123db236119866d18f5b6eed5d63ad7df86d320355f7072"
+    },
+    "lean/CorralFormalization/ConstructionSupport/LatinTransfer.lean": {
+      "bytes": 25922,
+      "sha256": "5bd403d78f7f6e0071c69c8731f0d20f6570141ba57ca76ed1e584de01061851"
+    },
+    "lean/CorralFormalization/ConstructionSupport/PhysicalRows.lean": {
+      "bytes": 32999,
+      "sha256": "0318975d194e3e6291d75d305bb31865d3eb07f42431dba4b4d5994c38524222"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/GapRows.lean": {
+      "bytes": 4195,
+      "sha256": "95c97825dda765b64aa265563412c737ea11393c5c6701c95826d88dadd64d74"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Injective.lean": {
+      "bytes": 4503,
+      "sha256": "be0e8c5973231e3ef607b1c0ff04054f9b17dfa64d023266e422a4bdadb37a5e"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Intervals.lean": {
+      "bytes": 3145,
+      "sha256": "4a006bfb2c9628452d42b530689757f7378ff8f7b61d525661af3819f627f399"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Lift.lean": {
+      "bytes": 7880,
+      "sha256": "1de74e015e919c732e2947ee2d444dcf91790855b04d1cafd2d77943789586f1"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Partition.lean": {
+      "bytes": 5284,
+      "sha256": "d8f39791d850431c5d2ba4d8f15d9c19b46bd8425c7469ab9c52cb9936f7dd05"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Prefixes.lean": {
+      "bytes": 6413,
+      "sha256": "aa02113b654799a1c432210ec2ef7f4a1abb13e4c2ac2a1c39320747f141752c"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Projection.lean": {
+      "bytes": 9881,
+      "sha256": "65a0fa50db3ffb55a39cfdc55bac5545c257dc764c5920cc4848aced76ce7f04"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Reflection.lean": {
+      "bytes": 8320,
+      "sha256": "cef582550008d55c5c824938b5f92f5e1c34cad21293ca6cc988c3435c2dfbbf"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Rows.lean": {
+      "bytes": 2425,
+      "sha256": "21a675b92b1ed1fde29b2c48b6b8093a6d89f6a14f7917a8f439bc7083e65858"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Theorem.lean": {
+      "bytes": 4547,
+      "sha256": "94ce4795726bc8439edfeb1e41d5f5982d3ab5918e2f1945a3133d9106a968bf"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Even/Word.lean": {
+      "bytes": 6665,
+      "sha256": "6d64ddf47adc72eaa09b294ea50c45cdf4b56f110d0a9e649ba965586471fc55"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Assignment.lean": {
+      "bytes": 22466,
+      "sha256": "6ba600ba3dcbee77b116824abfe3578c4cec70bdc167151c53f43c9d571b2247"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Buckets.lean": {
+      "bytes": 12069,
+      "sha256": "c4bcd423cf56124913f4881a2d91ff87dbbf9b215f07c682c722bedcd6869293"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/CoreGaps.lean": {
+      "bytes": 5507,
+      "sha256": "16a52e9f28305b9ec43cccb7d621d0dd203a81a7dfbf099292cad4679a0d1e31"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Endpoints.lean": {
+      "bytes": 9454,
+      "sha256": "f3e560df4e90225b03fcf2db9df263afce538136da5be0f4ac60f307d57773cb"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Inventory.lean": {
+      "bytes": 7898,
+      "sha256": "37295b0495d5ddfc44a2b316d49e5efb9c90760bce6d496f34a96f5bfb052e0b"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Join.lean": {
+      "bytes": 6075,
+      "sha256": "c784d827b78664dbab87ca9d9da5bbbd1281a99dff17ec9fdaf15c73961d109b"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap.lean": {
+      "bytes": 251,
+      "sha256": "ca8fd92cac2d487dabb531b7fb82239d6575a543d58c7ac8480843c8dc75dc57"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap/BoundaryCut.lean": {
+      "bytes": 3045,
+      "sha256": "c17c0a8f2a46bbd3ccecfb00f3ee7c126916e4bcf392c04bfd80a391c6cced47"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap/Cut.lean": {
+      "bytes": 2441,
+      "sha256": "42c9f689ae2e1d4a603da1a2b54fc031e05b84b72ebf39e4f9ea84b51de72e2e"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap/Endpoints.lean": {
+      "bytes": 5899,
+      "sha256": "edfc7f77be2bec02e481765afe82cc373e551ba2d97e16820fb3c2d3a30b7d39"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap/Factors.lean": {
+      "bytes": 7359,
+      "sha256": "5eddb963308966570d83e0797a52e1d7d54fbd47f7b0314815510ce47e1aa593"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap/Inverse.lean": {
+      "bytes": 6038,
+      "sha256": "13fe69f4e4ee4de9f61100b1b6ca314718136b9f5bc29192588879d4d5eb731a"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap/Owner.lean": {
+      "bytes": 3264,
+      "sha256": "81157af33dd5a4452c1748637decb4710fc3f8e4ce8edea4b153c781559db0a9"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap/Theorem.lean": {
+      "bytes": 6424,
+      "sha256": "9bb2dc170aa87491a0f47123b6693db5ad0a32ee408d03819c6c7186799845a1"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/OneSwap/Word.lean": {
+      "bytes": 4688,
+      "sha256": "0d46a67990052c34adcbd88285ed6bac07b84b56291cd5192060e67f0203c1b9"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/PhysicalFactor.lean": {
+      "bytes": 12844,
+      "sha256": "b70f55746bcc39b999b5e047f618c14ae4129a2800ca0f4ad0de25784aad9468"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Quotients.lean": {
+      "bytes": 7761,
+      "sha256": "f604589febb2acf2acce5a9bfeda68c3387d3dbf8a52c6fa243aec8a889c1e78"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Theorem.lean": {
+      "bytes": 2831,
+      "sha256": "1630adbdd4cfa0afe790e50f275942e01d5256899cdb2b9bc6f7a8379f45347a"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Transversal.lean": {
+      "bytes": 7237,
+      "sha256": "4be7934afad5539fc57842e74afe4a10d70501d2b03d7a5844ff2557a98ac0a0"
+    },
+    "lean/CorralFormalization/Constructions/Optimal/Odd/Word.lean": {
+      "bytes": 38993,
+      "sha256": "9111bbbb8ac2aa92be366fbb2c6d3aae4c767f1053c82b1f0946a74dd7d19e1d"
+    },
+    "lean/CorralFormalization/Core.lean": {
+      "bytes": 12255,
+      "sha256": "38037a54b6e6230f303dc397bd684a65ed5d9b407c86904f0670a094ac8557fe"
+    },
+    "lean/CorralFormalization/CorralFromRows.lean": {
+      "bytes": 5547,
+      "sha256": "c6198647899b8d6f10121e8219e9b38d4cea25b7b7b0947cd269e0b96a431f4c"
+    },
+    "lean/CorralFormalization/CorralRows.lean": {
+      "bytes": 6330,
+      "sha256": "0bd0649dd19959a819494440ac903b0d1c14dc794f9688a1ebb0ecfc89e278f3"
+    },
+    "lean/CorralFormalization/Counting.lean": {
+      "bytes": 920,
+      "sha256": "35d4fccf817a77006fdc82aa35c80e441f8fc96bd68801493f099f2ed0be4e06"
+    },
+    "lean/CorralFormalization/CyclicShift.lean": {
+      "bytes": 9426,
+      "sha256": "5ccb5d028b45517bdd6237fb7d87ac6c220eb89d8024c15a88d723d9e6a60ef9"
+    },
+    "lean/CorralFormalization/DiversityCompletion/BaselineFromCorral.lean": {
+      "bytes": 4911,
+      "sha256": "469375449e4d9977b90faf6f03bf765574f607e456313997a1460b806a42d6ae"
+    },
+    "lean/CorralFormalization/DiversityCompletion/CanonicalLatinFrame.lean": {
+      "bytes": 13604,
+      "sha256": "f31df01bee699864c1a2bc48d0560f70cb71f5ea8ddb3284ae983da9674dafa1"
+    },
+    "lean/CorralFormalization/DiversityCompletion/CanonicalTailOrbits.lean": {
+      "bytes": 10215,
+      "sha256": "96dee460559cbe4b8da795af5fb18cea1bf845bf2bdb47d8bb59fc0002125178"
+    },
+    "lean/CorralFormalization/DiversityCompletion/CarrierEvenSupport.lean": {
+      "bytes": 11331,
+      "sha256": "ea5fd9829aac147a015dbddf974d3ed0d18d9b459ada9294455aaddd5b5e73d9"
+    },
+    "lean/CorralFormalization/DiversityCompletion/CarrierPartition.lean": {
+      "bytes": 22657,
+      "sha256": "e96360855271fbc2c4b1fd57e534ab40292ca946db3204f85f2206df0ed747dd"
+    },
+    "lean/CorralFormalization/DiversityCompletion/ConnectorSpliceOrbits.lean": {
+      "bytes": 1379,
+      "sha256": "bea3aae233a94d7d59d8edbbcec3d00a1ca8953726a51fc7e291a930dec16311"
+    },
+    "lean/CorralFormalization/DiversityCompletion/ConnectorTerracePhysical.lean": {
+      "bytes": 1250,
+      "sha256": "45d84126f3727191ce1577e630017f89fcb6a77e07d4225f0a071edfd2bfa46d"
+    },
+    "lean/CorralFormalization/DiversityCompletion/CyclicEndpointConnectorOrbits.lean": {
+      "bytes": 3493,
+      "sha256": "9187dbc2201c28f370a4243f70c63e41a9d0cc8c47b73c2f0a55a1be405b9899"
+    },
+    "lean/CorralFormalization/DiversityCompletion/CyclicEndpointInvariants.lean": {
+      "bytes": 12311,
+      "sha256": "5e9f15add0f7eeb83ad5e3986beb9b1b845db4c35003f9a6af5a8c15f13654dc"
+    },
+    "lean/CorralFormalization/DiversityCompletion/CyclicGeometry.lean": {
+      "bytes": 13879,
+      "sha256": "815a0806d6ecbacdffe2cdbb66d104c0c6f4975c706b0cbf82cacb6cce52ad0e"
+    },
+    "lean/CorralFormalization/DiversityCompletion/CyclicReplacement.lean": {
+      "bytes": 9416,
+      "sha256": "e37c5efb012ac3a3a291b3a375cc4b8609366232af575e49e985bd4c5d5013d1"
+    },
+    "lean/CorralFormalization/DiversityCompletion/DirectedTerraceCompletion.lean": {
+      "bytes": 6906,
+      "sha256": "c5c2dce886c1f54022ed42dc1ae68b660dca05bcdd55f19cb8be1bfee284e02a"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EndpointPathSupplier.lean": {
+      "bytes": 4706,
+      "sha256": "093e28e091bc1d8daf75f504e8b306f98978d39aa0cca8537e1a9896b1ad7d05"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EndpointSplice.lean": {
+      "bytes": 11592,
+      "sha256": "4a168adda3dcd83e601c82661513ff3b8d69333f11440a3c13174eaf07fcc9b7"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenAInjective.lean": {
+      "bytes": 4529,
+      "sha256": "08f2f111faf3eb5532e261a5758a11c6cf9278f3c755a5454340291866955ea7"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenAMarker.lean": {
+      "bytes": 3603,
+      "sha256": "b0d7002d8485d30fd57d01e9148dbe1e6185ee046c87598fed7faabc00e158c2"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenActualOrbit.lean": {
+      "bytes": 1736,
+      "sha256": "d434221b348138e12575f1a6b45f3846ea3b0b5c7dfe27f3e49e6f32b611f11d"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenAlphabet.lean": {
+      "bytes": 15420,
+      "sha256": "84be46fe067d04415caa291c38a6195ef9a25206ada1ec3fdc3534d72c0d01aa"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenAlphabetValidity.lean": {
+      "bytes": 9063,
+      "sha256": "7094e09003bb1c50b33640f347e882e9dd44391776a980e2e989f2e60f3ddaf8"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenBMarker.lean": {
+      "bytes": 4403,
+      "sha256": "118e24c7a6a64202e894cb0fe0addbb160cf4c3a6a6f5010f8a1b5c776459c5b"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenConcreteAssembly.lean": {
+      "bytes": 8197,
+      "sha256": "4de796ea69df963dc274c48ac7dd200a1defc4a9a087fe82708b2abd92bfad8d"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenConcreteCorral.lean": {
+      "bytes": 3750,
+      "sha256": "47de0c12c03720e5dd18f75cc5855d958f58976cf7f57a31e41b361031619870"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenCountLower.lean": {
+      "bytes": 1395,
+      "sha256": "cacc45bc1d6f985d7781e97a894702a499c5a5deadc2017c3dab8be1d3795164"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenGlobalOrbit.lean": {
+      "bytes": 2061,
+      "sha256": "649c446660c60740f7ea9fd14c6298a72e324c1cc8a627dc7fc21578ecfd59f2"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenKForm.lean": {
+      "bytes": 1518,
+      "sha256": "877c17c0408fd3e3a8dea3aa8aa840633332112d7909a7c21f05548091b62071"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenLabelCount.lean": {
+      "bytes": 3076,
+      "sha256": "cf501015c42c2d3a706a25fd0194262aca70e0faefbd4d10c7f2849a0c692753"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenMarkerExclusion.lean": {
+      "bytes": 3903,
+      "sha256": "fee07e8e0ba2ad235c02cd5d733b80b42b10e02dfaa280ac355bcb32286f7808"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenPhysicalRealization.lean": {
+      "bytes": 2423,
+      "sha256": "76bbbac4f580d7d6b7efa9848983f3b236d5a314dcb942655563d11fe4452537"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenSwitchFamily.lean": {
+      "bytes": 1067,
+      "sha256": "b590dc3137b6b6f7022fac2f3540bdd8a0a22b722b8cce1cfdb2165354e671e8"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenSwitchFamilyOrbits.lean": {
+      "bytes": 679,
+      "sha256": "80537002f892c4b8bc6732ff5b47239b74b66bc17184e835f67de66e64d7de19"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenSwitches.lean": {
+      "bytes": 37513,
+      "sha256": "d4979aa79d2d79f780e6848248712e26041706c2a81011e535e810412f17ed99"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenSwitchesB.lean": {
+      "bytes": 30069,
+      "sha256": "8b2703f5752e059cf9e654b943c52e87ee98f4d13ad03583daea803dd3f9e96a"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenSwitchesC.lean": {
+      "bytes": 26542,
+      "sha256": "15380fe6be0ef2357c64dce50c4b0ce2d9a70a55a982c32adabf93ed31c1078c"
+    },
+    "lean/CorralFormalization/DiversityCompletion/EvenTranslationReflection.lean": {
+      "bytes": 2159,
+      "sha256": "3077e67bf945297627ef6b6172b72d2585ef256ef73697ad75d0be25c77c9486"
+    },
+    "lean/CorralFormalization/DiversityCompletion/FixedGapPositions.lean": {
+      "bytes": 3056,
+      "sha256": "5e2e64e624e0e690841473cc836af421e92a34e7bebc00f772a4dab6b608f549"
+    },
+    "lean/CorralFormalization/DiversityCompletion/FixedSeedAssembly.lean": {
+      "bytes": 4769,
+      "sha256": "a01fccd5644f1787aba6a95cc8cbd6e2cb4298dbc9f8841859d69b432a42f5d0"
+    },
+    "lean/CorralFormalization/DiversityCompletion/FixedSeedCorralClock.lean": {
+      "bytes": 1392,
+      "sha256": "59c09c6f3007a6b29a2a708d5477c6d0a09aaec339b06b89e9ed6931cde2771a"
+    },
+    "lean/CorralFormalization/DiversityCompletion/FixedSeedEquivariance.lean": {
+      "bytes": 1728,
+      "sha256": "32dbe3e411fd281e5f10859a71b710d0f1fcd133f581c6e05d78f0167febc7d9"
+    },
+    "lean/CorralFormalization/DiversityCompletion/FrameOrbits.lean": {
+      "bytes": 3664,
+      "sha256": "629de563eb3e303f0bee3eaf88ae10c652cfed71d672a28881d7af097cbca437"
+    },
+    "lean/CorralFormalization/DiversityCompletion/GlobalTileCorral.lean": {
+      "bytes": 10437,
+      "sha256": "f14779c222aa95fec41e60e0a04720bd9dde9492c84bf3185268b04ac3579629"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorFixedData.lean": {
+      "bytes": 7428,
+      "sha256": "c4baf92527572fc755611aafd46353b8a0e3a54bc4dece439732ac48f7e1ea1a"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorFixedSeparation.lean": {
+      "bytes": 8133,
+      "sha256": "deb306d1d3bfb08b6bd82220746f85cf554553b6c7a2d44028fb60913664bd41"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorFreshPools.lean": {
+      "bytes": 6150,
+      "sha256": "3fbc96ceb6131faab4de153f94ca1839d68d5d36254da389044f1d80d4468702"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorFunction.lean": {
+      "bytes": 3626,
+      "sha256": "8e81d12da48711eb0163a42946679fb0280fa91cb90b28e5091e58514e9f486e"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorGreedy.lean": {
+      "bytes": 3661,
+      "sha256": "a999eed9000b18f6cf7106551f7e90bb3655b47e8b160f61f6aa7a0ffcf6bca6"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorGreedyBands.lean": {
+      "bytes": 9377,
+      "sha256": "ce422edffb5a2276f84ac10d97f4c7a859b3b2c3e39e8a4eb38939f7966067e0"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorGreedyRun.lean": {
+      "bytes": 6627,
+      "sha256": "8422e1bce4f4c5f47d64bf6b101a2d12304162b9d23afddd6eefa4e90561a89d"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorInterleave.lean": {
+      "bytes": 7874,
+      "sha256": "2a8555df591ef2e5a3ceb9bc354454e4bfb29657a18c3aaba1035ba7f4c612bd"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorPathGaps.lean": {
+      "bytes": 8379,
+      "sha256": "7d763448de45accabe30b3faafa50b1a83b3dec7807ccb090caeb2e04774fb09"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorPathShape.lean": {
+      "bytes": 5249,
+      "sha256": "b8a1bf017bd7dc90c266321959e15e34fd0d9d39b8caf7ad39da6d4f23619c49"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorPrefix.lean": {
+      "bytes": 12428,
+      "sha256": "842f649235f6ae52bde30555dc2c7168877eed9e9ffb453e3e14d01f8e23957e"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinConnectorRainbowPrefix.lean": {
+      "bytes": 9016,
+      "sha256": "5a72bc6155883c81a152d41f74fc55d10471fb6377854aed6d439f6f725fefa9"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinCorralConstruction.lean": {
+      "bytes": 8000,
+      "sha256": "b9bc74465731c4ceb51ee11adae0644310d009f3b9ad519b5f84de7f4da153a7"
+    },
+    "lean/CorralFormalization/DiversityCompletion/LatinPrefixFrame.lean": {
+      "bytes": 10161,
+      "sha256": "e5cd8aad45fdb5d82d5f276f7d4f8c86997844f208a2fd7bfbea4c5cf5a64f1a"
+    },
+    "lean/CorralFormalization/DiversityCompletion/OptimalCorralCensus.lean": {
+      "bytes": 9737,
+      "sha256": "6a121f4d55b8c18529c527dfa74b5a483a4697e382a99d9be6bb6c377e29ad60"
+    },
+    "lean/CorralFormalization/DiversityCompletion/PhaseReflection.lean": {
+      "bytes": 7223,
+      "sha256": "17675c8cd82f83a359b15ba78fb2ca4a3d89e37f0774bf7572c60eae2620083f"
+    },
+    "lean/CorralFormalization/DiversityCompletion/PhaseTiling.lean": {
+      "bytes": 7503,
+      "sha256": "a097d7e8798614e68e136e1d720c1efcf5aeb4a52d38fb83bd50c40d10d2ec9b"
+    },
+    "lean/CorralFormalization/DiversityCompletion/PhysicalLatinFrame.lean": {
+      "bytes": 7088,
+      "sha256": "de371243b260f9abf7e24ee607cc9adab30766560c0ee336fb3c9382f5eec85b"
+    },
+    "lean/CorralFormalization/DiversityCompletion/RealizedCorralOrbits.lean": {
+      "bytes": 3528,
+      "sha256": "136635157433aef4d0c9f3740f344ad55088c56bbd1e2ec5527ccf8651b3ab22"
+    },
+    "lean/CorralFormalization/DiversityCompletion/ReflectionCount.lean": {
+      "bytes": 2643,
+      "sha256": "a915c0390c7921d3e52b14b1c9aea594972eeb68c214426499ef5a11b484194c"
+    },
+    "lean/CorralFormalization/DiversityCompletion/SeedASeparation.lean": {
+      "bytes": 2142,
+      "sha256": "94e763e80cb9a7e56645785d6aa234a14569c673792c5bbfee9c7434adecbe79"
+    },
+    "lean/CorralFormalization/DiversityCompletion/SeedBSeparation.lean": {
+      "bytes": 1264,
+      "sha256": "c5ae4156f0b149b1e0b85df426fb44b7b9bc2971008636ca7dbd8b38cab6644f"
+    },
+    "lean/CorralFormalization/DiversityCompletion/SeedMarker.lean": {
+      "bytes": 8680,
+      "sha256": "23611820ade98f6005104fb7ce7fc15c183587aaef32b497c9c83944757e683c"
+    },
+    "lean/CorralFormalization/DiversityCompletion/SeedSeparation.lean": {
+      "bytes": 3971,
+      "sha256": "1133f1409b9decf75816f4588edfed7cad354c6622ef62133eeac2d4805f36f6"
+    },
+    "lean/CorralFormalization/DiversityCompletion/TailInvariance.lean": {
+      "bytes": 5838,
+      "sha256": "460dd3782620d30fbf2c2cdf504c6c4f284b95466f3c5fd5938c7ba30f463d73"
+    },
+    "lean/CorralFormalization/DiversityCompletion/TailMarker.lean": {
+      "bytes": 24004,
+      "sha256": "4409ac68a8aa6acb6e8d70ed6f8ed9fde9b1b2984bf8db0076c6899c5f181c0c"
+    },
+    "lean/CorralFormalization/DiversityCompletion/TerraceLift.lean": {
+      "bytes": 12412,
+      "sha256": "16b1585e13e86dd67e5664a5073a362576fa342efd9c6ac10551b411d8291e72"
+    },
+    "lean/CorralFormalization/DiversityCompletion/ThreeTilePartition.lean": {
+      "bytes": 12042,
+      "sha256": "976c336aae25c6821b2aa3f1d1106710524de1e79cbb23040ae98701552df9d5"
+    },
+    "lean/CorralFormalization/DiversityCompletion/TileFrameOrbits.lean": {
+      "bytes": 3174,
+      "sha256": "9478fa3d77317e5847ddbb9db873a6fea0ee552bc4aba1f9230b18c1dda365e9"
+    },
+    "lean/CorralFormalization/DiversityCompletion/TileGapWords.lean": {
+      "bytes": 9428,
+      "sha256": "e9e76377c2ab070c6b00b2be0cc0931d91ebf7e5f6d54e93d37ee20f2b742599"
+    },
+    "lean/CorralFormalization/DiversityCompletion/TileMarkers.lean": {
+      "bytes": 7536,
+      "sha256": "b2b0559a5110e767e54865803fcafff48e9f915071f2a439af7d56f2886b8791"
+    },
+    "lean/CorralFormalization/DiversityCompletion/TilePhaseOrbits.lean": {
+      "bytes": 3538,
+      "sha256": "d0ac5e46341a2077a2a135d14f7028a202318ad055d9b1155cc606a15e97c810"
+    },
+    "lean/CorralFormalization/DiversityCompletion/TwoTilePartition.lean": {
+      "bytes": 8494,
+      "sha256": "237734a423f88f93ffa685ae7d015d3c697b60fbe4b1682c5d0fd65d7e283f2e"
+    },
+    "lean/CorralFormalization/DiversityCompletion/WordBridge.lean": {
+      "bytes": 18273,
+      "sha256": "13613c0182ce94682de05352c312c043bc1f45bb2aac388bbe12527b3d953aa9"
+    },
+    "lean/CorralFormalization/EndpointProof.lean": {
+      "bytes": 2673,
+      "sha256": "cef523161d20bab941969da0778e34a2bee9883c1fdf85e9873e7ce0c14943b4"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/AffineAvailability/ActiveSlots.lean": {
+      "bytes": 3912,
+      "sha256": "6252fb7f99160435b7dae1f144e8df8fac13aa61b3017edd6e9f934ff1603518"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/AffineAvailability/AffineCategorical.lean": {
+      "bytes": 20446,
+      "sha256": "d75b342141f59b22c42ac95485e56a8f989f739017987674f7da2a8d8878c117"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/AffineAvailability/FloorPacking.lean": {
+      "bytes": 1875,
+      "sha256": "abe0b7aa7ed4d1a456f51e3b64d6adea39be3c1c3b5bdb20fffd8e0d037bdea0"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/AffineAvailability/StarExample.lean": {
+      "bytes": 5474,
+      "sha256": "1f2d9f843110579c6230c7dda00efb1439a9714b2a72a42f114dc6fc82921909"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/AffineAvailability/SwitchExample.lean": {
+      "bytes": 4399,
+      "sha256": "498304354dcca84376914c551f73c79c52b90dbadcd831ca027dc028ee12080e"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/BufferCategoricalCounts.lean": {
+      "bytes": 12719,
+      "sha256": "e88cb2bff259d732e7ad9a70fbb2f9cfd16c65b6b212b0325ba7089ec6f5791a"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/CandidatePacking/CompleteCollision.lean": {
+      "bytes": 8737,
+      "sha256": "d9a49e2d341c23ad62e92e78ef18c7fcc1367efdfa8be4ecb6cd586d0feb0b43"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/CandidatePacking/Packing.lean": {
+      "bytes": 9534,
+      "sha256": "716fa7714f889e4547161922419df677b7dec24dda08cf68ed369b098b3218cc"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/CategoricalQLaw.lean": {
+      "bytes": 5014,
+      "sha256": "a490b074e9a5424b3d3c6532c33f218df061d58b38d13fb0f0b31774d5b775a4"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/FreeDensityOrdinaryCover.lean": {
+      "bytes": 7437,
+      "sha256": "e12eedd4d4719a02371986d2bb6ac5bf513198f121146465071fe1d84e94a8ed"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/FreeDensityPairedCover.lean": {
+      "bytes": 6227,
+      "sha256": "bd64f9efd632d869c19f7cee270db142205706699a4ed56332d230ff7fe84690"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/GenericAffineFibers.lean": {
+      "bytes": 18846,
+      "sha256": "aa52c60271b692e1bbeee72c62217e5c1a73610f5f7ae5f2804a55b81a13d43c"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/PackedAvailability/ExistingLaw.lean": {
+      "bytes": 3081,
+      "sha256": "3db646f638437b98bae92b13881f431e27307334350e27eee97e9cfdd70785b8"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/PackedAvailability/HeterogeneousChernoff.lean": {
+      "bytes": 4184,
+      "sha256": "2396b7150fa3bdff1f9b6dabed5cc191efe20867c0b0f5de0253f3b7255c693b"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/PackedAvailability/PackedCategorical.lean": {
+      "bytes": 20153,
+      "sha256": "9ed0b489017e26a93685cbe7dca99144f8bcec04c6183ddc4d93e6b2737f5578"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/PackedAvailabilityChernoff.lean": {
+      "bytes": 8734,
+      "sha256": "325a13c5f009d6118f6347a208ea18a71fca52d721f7dfd76e2e4c1eb5194eb5"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/SelectorPrimitiveChernoff.lean": {
+      "bytes": 11242,
+      "sha256": "71880a108941f837895c3c785307213ddf83c7d7352f740a6450e7b143f097fe"
+    },
+    "lean/CorralFormalization/EndpointProof/AbsorberInputs/TetrahedronCategoricalCounts.lean": {
+      "bytes": 11579,
+      "sha256": "3627064901dd8bd2b54f672fff0b143bf55ce31beba022245c7965bb32ecd36b"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Adapter.lean": {
+      "bytes": 1508,
+      "sha256": "c244f54acbe1f507dfe551364411549c7f0dabab690dadaff48e759c838ab28a"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/Asymptotics.lean": {
+      "bytes": 1884,
+      "sha256": "d0b5b48d63c50b8876675bc0a2de660c7c427b3a117219e18c98a16ea0857663"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/BankBounds.lean": {
+      "bytes": 2406,
+      "sha256": "785eb24d502709a47559f8c012e21ccf9c4f702e47ab0c990c6cd7a93b54c497"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/CanonicalDivision.lean": {
+      "bytes": 1726,
+      "sha256": "35b15d9edccd3f0a432dec5089cdaf8d608e76daa3416c268fdfa572d7d9ce36"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/Capped.lean": {
+      "bytes": 8547,
+      "sha256": "c348623e0fbb73be11f475a3c1db05fe5181ed5b43531dbf8dad36dcda6cd202"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/CappedFamily.lean": {
+      "bytes": 3742,
+      "sha256": "c6b7c9bd3c4808406e40f57977cf0fd4d802a590daa300758b7517defb996d96"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/ColourPools.lean": {
+      "bytes": 11192,
+      "sha256": "1ea79f12b42da23066f72e2572439377b422908d001aad170deb4d2aea7167d2"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/ContractedClosure.lean": {
+      "bytes": 4890,
+      "sha256": "c47cb18c9d0a7b11aef34636f94c0ecb3b3be5da784cd25977541f0ba8ea3086"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/ExactClosing.lean": {
+      "bytes": 3865,
+      "sha256": "3d45bbdcc55e3bbc95ec41effff8229047353b928c14120fc2cbb09146dd996d"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/FinalSettings.lean": {
+      "bytes": 3200,
+      "sha256": "a29a0d792472ae59119c89fb63b35eeca89cecda81f2a30445ecaaac61bd1559"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/Forced.lean": {
+      "bytes": 3683,
+      "sha256": "a72a07b0877419b49872d2e75b221e02a273d24a04eb2d3bcf386995861cb7d8"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/ForcedFamily.lean": {
+      "bytes": 5775,
+      "sha256": "ff83dabc61b26582d81a50f014ea33be88b89aea840f0f328a6a88ea0161bad3"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/ForcedSpecialLayers.lean": {
+      "bytes": 10360,
+      "sha256": "ad296f2b373d98e5c2eeaf36b6f5f8a9f4d2d17a2519b89ac8d576f5bfb8d824"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/GenericLayers.lean": {
+      "bytes": 6248,
+      "sha256": "8f5c2ffb2a6011cfac34d0363d7987d994206de14dc16084425d5b6033b15440"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/LayerBudgetBounds.lean": {
+      "bytes": 5344,
+      "sha256": "7134c1204ad817f7f8077c02e95ab8960b68e5e6152f59f78efda51af8b60294"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/OrdinaryInput.lean": {
+      "bytes": 15297,
+      "sha256": "02a2f4385be9b6640989f6589a61351cdeca696843c611f7f62ecd05fdb317f8"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/PhysicalRouter.lean": {
+      "bytes": 10305,
+      "sha256": "f8a051b73824e86542f3bc2018df75f03b510b471d6c0212cc6792ca89ffb333"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/Prepare.lean": {
+      "bytes": 6506,
+      "sha256": "2e77ca6fb78af0353d0039e2c019ba43b7c853f1f7029f0d52fe51ae0cb8e94f"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/PreparedOutcome.lean": {
+      "bytes": 3959,
+      "sha256": "63cea52d9d338363101ea3cd0b848ead95e6af971f1d7c11cb951903c8d9887f"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/Protected.lean": {
+      "bytes": 11048,
+      "sha256": "227e0026564ff94c353b4e93b0a9d604859d43bfe176e96e8053488eed8d9d9a"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/RawRoles.lean": {
+      "bytes": 4366,
+      "sha256": "a964d604cdb056535e749403c1d7bf4898025708c3116e5b0015b0f9f8e17a2b"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/ReserveRoom.lean": {
+      "bytes": 4209,
+      "sha256": "d8e685d8329b6c182c41dffcdf2c949d1005a9e1641a67c936cc2f7070bef4ff"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/RouterLedger.lean": {
+      "bytes": 3723,
+      "sha256": "a4a3f254e71d17f6f41a44ec805e50fe1a5ea10aeef7a5d71094ee146acb5da1"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/UniformContracted.lean": {
+      "bytes": 4177,
+      "sha256": "7d5f6241284ba0adae5415619f7d740e4a4de746796bb190d728b801a3d50726"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/UniformOrdinary.lean": {
+      "bytes": 7173,
+      "sha256": "fd8fce50f77d126aa9fd33f40e92afc78bc847e5ba3837770b63e7bdf256006d"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/VirtualClosure.lean": {
+      "bytes": 5847,
+      "sha256": "03e99ed773d4efe68b125ad02d134b62411139dc0a605532a952ba8473de9ff3"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Allocation/WholeOrdinary.lean": {
+      "bytes": 3972,
+      "sha256": "94434f13a07e67d37b3e8bf88cfb6bd066938a374a54420090c645a56f1fba78"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/AugmentedRouterBudget.lean": {
+      "bytes": 2958,
+      "sha256": "4123b0ad66ecc8f727bbf5590bee62d47fcb5d2f1d17864346defe339b9962b2"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/ClosingLedger/ExactEditBound.lean": {
+      "bytes": 2809,
+      "sha256": "3c402f4ed20321efc73e7dac8e449d28e0803f77fa941c2025131544d01c7c6f"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/ClosingLedger/Finite.lean": {
+      "bytes": 3195,
+      "sha256": "da6fd158e0d025a09d569edcc7b37dde172c7c6402262c93e6a3791c13b3948d"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/ClosingLedger/Prepared.lean": {
+      "bytes": 5508,
+      "sha256": "7034b24043cce6a924b192875542fbe9e9845e676d529b8cdd4f0d37c6ecb89c"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/ClosingMatching.lean": {
+      "bytes": 4918,
+      "sha256": "f8630b0b72f454a94b8cabb6e782b33238763a76d01620fdfa05974588ebdb25"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/CommonFactorSample.lean": {
+      "bytes": 3970,
+      "sha256": "8f7803dd447c774f7ca9681ad929d58b2e1815809b4b87a8314a4ae1d6411868"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/CycleCompletion.lean": {
+      "bytes": 5470,
+      "sha256": "8f9ac334469ec579f25bea1bbe01021476d9bcc00058b3fa7e2c0fc84bc40767"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/CycleCut.lean": {
+      "bytes": 27436,
+      "sha256": "13a764a97a28421486edc5c4dacbc41c767ad0af3c2bfb9b38fb6ac46ef193f7"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/CycleExpansion/Conclusion.lean": {
+      "bytes": 5837,
+      "sha256": "7918414d51ac58c280e4d7e0c0a4eac70f286e42c3703bf9492da6a6ef663df7"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/CycleExpansion/Core.lean": {
+      "bytes": 8664,
+      "sha256": "59c4e7767d9f683f01c060c3b4b278d98168894fbc1270fe38d721e8dee04bee"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/CycleExpansion/Labels.lean": {
+      "bytes": 9685,
+      "sha256": "b128ba0f958fb29dd9be9ce822a3fe98a99bc86b0a01df3384a78279bac53d57"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/CycleExpansion/Prepared.lean": {
+      "bytes": 4528,
+      "sha256": "d2bbc2a3f0ef27de7b2d7d0e8d4cddc72389100012fb937e4dee437947424cb3"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/FactorParameters.lean": {
+      "bytes": 7220,
+      "sha256": "4947c3f5ecefb1d9815f10f23d6da58ef770764ae3e5c814b32b4171d4965a69"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/FragmentChecksum.lean": {
+      "bytes": 7883,
+      "sha256": "59a2a77d64f5a12e978e57e5e55ab505a818f32ee269e58428a2088dcf6b1c2a"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/InventoryBudget.lean": {
+      "bytes": 2522,
+      "sha256": "4c20507db96365af67ab684aa94984c71ef9504355f9e6766436112859c376a7"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Join.lean": {
+      "bytes": 36523,
+      "sha256": "5d20d03b356ee53ddf1da651e602c224f419f50b80e5e1f0271366387c458764"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/LayerArithmetic.lean": {
+      "bytes": 1339,
+      "sha256": "2accc36d477174274ed3ef5df56ea5ffdcf5fc95ecb303860f69a2ff568ef348"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/LayerFourier.lean": {
+      "bytes": 1186,
+      "sha256": "ab2a77617aad313565e54609e5682ce74c3ba0a3364b6f7c67a4d47264a2fe96"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/LayeredTransitions.lean": {
+      "bytes": 7345,
+      "sha256": "e9e629951bc9fcbddab063fd73e241ec9526a111874a96760c907e9fc03bf4ad"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Attach.lean": {
+      "bytes": 7748,
+      "sha256": "aad313f542444570da5b701ab5e135978e4d17d9655bcb6250ede198df51a3cb"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Core.lean": {
+      "bytes": 9846,
+      "sha256": "7d825954b38e2ffe5a31aa6b2f1e43e599e2631ee23c19c9f2d568fe17c4188c"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Counts.lean": {
+      "bytes": 10334,
+      "sha256": "66a736ea23effc413a450f6730a301c19724999ee8e1007af0c43a657a747330"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Donors.lean": {
+      "bytes": 11432,
+      "sha256": "28b1720baca72ada352dd368b7fcf244466e129e3215f65e9ed80ea089602439"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Edges.lean": {
+      "bytes": 8822,
+      "sha256": "7388f3570abe01c70d05edc005931e6a1b1328be27eef8043076abe8d2089ea3"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Extend.lean": {
+      "bytes": 10848,
+      "sha256": "10b9ae84a0af54a0cdc888dc8278ebb07f5c0275277c1ee963edae7f5445db53"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Inventories.lean": {
+      "bytes": 6661,
+      "sha256": "9e10ec48628771fe831dc1751a62a046cda0ca006b844651436d1f07674a0b27"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Layers.lean": {
+      "bytes": 7283,
+      "sha256": "6adbb3bf8a7eea2f060042e4bd218d9a61cde6aa1eea0150a8cb9fee46f8e429"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Merge.lean": {
+      "bytes": 10639,
+      "sha256": "560ca8c59bddc64157126df9b745a5f6053728144d28e989f5e8fa5831a4f0f6"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/NearInput.lean": {
+      "bytes": 2924,
+      "sha256": "a32e2fb6e5f079c08a4194609c668dd7a522bb2101881346b6983904e3a807bf"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/OrdinaryFragments/Outcome.lean": {
+      "bytes": 6770,
+      "sha256": "ac6015ffbfb3f265628d05dba6be4f067bcf3c8a25037dc5f06478bce3be01b9"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/ParameterBudget.lean": {
+      "bytes": 5584,
+      "sha256": "bc9181e1d62018ad6df5806ae499653c37f32c42a1143baaec49eb2b6b1f2b44"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/PhysicalNearMatching.lean": {
+      "bytes": 8258,
+      "sha256": "1a3b4f4a81d089ec624b18c3a61216d11faa559734e7691d4bb597a9614e505e"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/PippengerCompletion.lean": {
+      "bytes": 11968,
+      "sha256": "881c4e7f9079d6bec24642df9966fd1be2d0ab8ff66d2d870f994e25d8dee8da"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Prefix.lean": {
+      "bytes": 2997,
+      "sha256": "3d326466ac1c0aa49a606f1dcac4a85f1ea20c78f446877a899bb0c779f4a37f"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/RouterAttachment/Closing.lean": {
+      "bytes": 2733,
+      "sha256": "adf99db7fb30fe3e3ca16ce385ef5db2039e51e97b04dcc9a127e44b3b0f0205"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/RouterAttachment/Core.lean": {
+      "bytes": 8948,
+      "sha256": "ddf3d7f896a89d67bc5e3e411bfee8e6617b089e35e46dbdc8f05601df93641e"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/RouterAttachment/Physical.lean": {
+      "bytes": 7148,
+      "sha256": "697d5397c5215dddb9fce01d7952c26871979534f885a1960448d1c7c92dcb36"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/RouterAttachment/Prepared.lean": {
+      "bytes": 10898,
+      "sha256": "7ffdb317d2ee78f1ad0437924816e44c4cc9dcd131810ce54f76c38be86283e7"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/RouterBudget.lean": {
+      "bytes": 4194,
+      "sha256": "07db8cab05cccc9865480e67d9ad987be4ad466f5be26dfc7dd8aee387cc324a"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/Uniform.lean": {
+      "bytes": 3078,
+      "sha256": "2619073c9dba564d04f37680e61360815f5fc5db804a7421db62dd7eadc75656"
+    },
+    "lean/CorralFormalization/EndpointProof/Factor/UniformPhysicalCompletion.lean": {
+      "bytes": 2116,
+      "sha256": "3ee5bd93f26baeda0ed7478108bae4456272e427abdbfb0782a08fd4faa6d17e"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/AbelianTransport/Access.lean": {
+      "bytes": 6688,
+      "sha256": "5481e817e04e174cf53db19863dae78d5674a639f8c7e1bd55c48fbd40ddcf75"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/AbelianTransport/AdditiveModel.lean": {
+      "bytes": 7431,
+      "sha256": "8a511174470c4c0c5b39d807aefbc4455b953f1fb3f7e4955ba0a458f49c2608"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/AbelianTransport/CompatibleRing.lean": {
+      "bytes": 2314,
+      "sha256": "8222264d8668cada3885e97d42634730bb7835132b44172c95b005fd17dd0d96"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/AbelianTransport/Theorem.lean": {
+      "bytes": 2640,
+      "sha256": "dc3359c93039337b283f2fe1cfdc61986e0c52b6373159e0c914493858779724"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/AffineAvailability.lean": {
+      "bytes": 2613,
+      "sha256": "cf97eac7998d0d8d26337aa0bea1b07da89947decdf4d0530bd4a2c7f3f6b20e"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Algebra.lean": {
+      "bytes": 6926,
+      "sha256": "34d24092eb8cd0f4109308913261b10219121eb33f67b681f4f9c68613053941"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cases.lean": {
+      "bytes": 4084,
+      "sha256": "e46f10a894f58657043c471b8ca90027d9214c93ba6724767fa0741e3db4b5e0"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cover/ConcreteSupplier.lean": {
+      "bytes": 9492,
+      "sha256": "c76bb6d8a49395586916525ecb21d4bd60377d818a5db28ff3be710ef2a66ec0"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cover/Iteration.lean": {
+      "bytes": 11652,
+      "sha256": "337a84dfd02b9455f23d2a2b48d67ddb49e9f71bf32c9d51966f53b6f3f2c8bd"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cover/PairedInventories.lean": {
+      "bytes": 2626,
+      "sha256": "8c1b25efad2f0380c924e0e229d1a36649e6de04a5203e1c01ebc19ac00b7d29"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cover/Parity.lean": {
+      "bytes": 3599,
+      "sha256": "6761077757103c2afc8d29e30db56d7fd1de14d2784d92ecd3abf83b256101e0"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cover/Partial.lean": {
+      "bytes": 6293,
+      "sha256": "49b9e1c4f05cf87547914891a5e437e136dcfeffacf19c9b9f9f1720391b06ce"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cover/Partition.lean": {
+      "bytes": 5239,
+      "sha256": "3f9e6ba3abb8b194c274ec095235c06810a998df9c71b783f6cb2ab51bd69201"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cover/Sums.lean": {
+      "bytes": 3781,
+      "sha256": "2f6721861c9444df529fa1108ee1efe9d94a8dbaac91cb176a83ab0b8765202c"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Cover/Supplier.lean": {
+      "bytes": 2460,
+      "sha256": "ade4dbdbb878ad11804f25dc9c1211384e3bfa869eed4ce7190203a83c66c5be"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Exceptional.lean": {
+      "bytes": 8024,
+      "sha256": "dfe334cefa9493292dadcc48a5c8b20cb0d09a02f521967a9f0f5fe9e43605c1"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Inventories.lean": {
+      "bytes": 6177,
+      "sha256": "08147f1e8471872712ef6e55a6209b2c8808d62d072129828f3727b486103a60"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/LayoutSelection.lean": {
+      "bytes": 9562,
+      "sha256": "f14e1f1b1aa2422444de3b9d2da7106354c07783d9ebaeda6684bfdf50172edc"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Matchings.lean": {
+      "bytes": 8295,
+      "sha256": "dd94469007f79910a2902661e700e86da04abbd3a74d681dba0ac34ec362c792"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/PackedOrbitSupply.lean": {
+      "bytes": 8151,
+      "sha256": "3b0b095ee5539af2367716a75d3a5f031a6a13fbf408143545c2f58e52fabd98"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Packing.lean": {
+      "bytes": 12842,
+      "sha256": "0dc400634b7d014616db721ebd3c2444e536bc1ecfb2ab8ee1b42700b4832b05"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Results.lean": {
+      "bytes": 10897,
+      "sha256": "1766c21c20d00ce4e81b6d288dc63e7a03b7050e59317acaa57fce4b19fccaa4"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/Concentration.lean": {
+      "bytes": 8058,
+      "sha256": "5aca71e63d3e506c37a1e519c0738e968e60898c906d79e8b3f1dff47cd25268"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/ConcentrationTails.lean": {
+      "bytes": 9971,
+      "sha256": "8e660b1485565ea94405d030cfaf003db6243e7c7972175992943463f840afc5"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/Construction.lean": {
+      "bytes": 10971,
+      "sha256": "ca51068f4ed8106413bd227da2e5f60a8e09b68a57e13306e0e6a4a76a95f120"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/DeletionAndCounts.lean": {
+      "bytes": 12876,
+      "sha256": "eda90eff0413285d5eaec80708aa8a3b11f617859ba52dbcebbc6684d4a94b00"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/PairedCover.lean": {
+      "bytes": 12590,
+      "sha256": "6eaa3156a531959cc7303a04f5052c4967e6ccfa5db135b6a55b746bc5b2a656"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/Reservoir.lean": {
+      "bytes": 1486,
+      "sha256": "759575103e68c3c4aecc969597361e659ed421068eed5f045829cd963126a407"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/SectionExpectation.lean": {
+      "bytes": 15416,
+      "sha256": "b4a374e5e32bba9c9ac8f3f78d60c0caa89301c5041c62c9fa3993fe0869718c"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/SectionSensitivity.lean": {
+      "bytes": 14362,
+      "sha256": "f38ffaa1d84e3f07583e690e1f06db2e870088725fcac42bb80859fd2caa5c9b"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/Sensitivity.lean": {
+      "bytes": 10026,
+      "sha256": "5a5c2925d2edbf7d22ba181a79bbbde9bd26c52b9a126adcd13a4e37ecc4c2fd"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/Supplier.lean": {
+      "bytes": 2285,
+      "sha256": "51e0e690f83add887e47bb91fe8b1d219c884d7ed3f3619a8a84444db88e24f9"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/TotalExpectation.lean": {
+      "bytes": 12510,
+      "sha256": "501e3a09840df0770325fd6adfc5f5ab991bf3164ac641ab9aa0b62d14da6fb4"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/ValidityBridge.lean": {
+      "bytes": 13021,
+      "sha256": "1afbcf573dc373cf257e622956919f8a0a01b56f343418524f6a5ade09c3aacf"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/Tetrahedron/ValidityCounts.lean": {
+      "bytes": 17034,
+      "sha256": "320afabf251ef338c565139e27929991598ed9c6b177286e8625b44bcdcc7f1b"
+    },
+    "lean/CorralFormalization/EndpointProof/Flow/UniversalSupply.lean": {
+      "bytes": 5072,
+      "sha256": "46eb76e9f6029c716984f917af1a82e251695757a831ad25de263e4324cb533d"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/AbsorptionAssembly/ActualTarget.lean": {
+      "bytes": 4173,
+      "sha256": "f7fa55af03ed75e2438a6e2f9124f0d9a2eeee73484007dd248b1bdcca6da356"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/AbsorptionAssembly/Deletion.lean": {
+      "bytes": 7162,
+      "sha256": "63be10a112e2f4bc3c63b776cd9cd1b8b50a36a7f94bd030e07963c9396d228d"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/AbsorptionAssembly/DisjointAssembly.lean": {
+      "bytes": 3396,
+      "sha256": "695551bb1effaef1a507d87644878e516f134e6ed28b0769210da5716f9a7a69"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/AbsorptionAssembly/FiniteAssembly.lean": {
+      "bytes": 8387,
+      "sha256": "2b3bb6621624c85f4ecdcfacdcb9d52b3343a586437fb39e288857e83591e956"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/AbsorptionAssembly/PhysicalMatching.lean": {
+      "bytes": 5814,
+      "sha256": "9c9b6fd1e5ff379a71e7c03d728a1c90b60678b7658b9d3a759d9450cddd4f67"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/AbsorptionAssembly/PhysicalReceiver.lean": {
+      "bytes": 8015,
+      "sha256": "b2a37d1ddc34c7cbd46f35e7f1e82a5c06f4492c4b2edb5e5c54a64359b9cdb0"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/CoreCapacityReceiver.lean": {
+      "bytes": 2822,
+      "sha256": "29038ee74e39985573cf25d5b8bb9eb36288b67e3d87595b4abcdd110917de81"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/ActualRemainderFromBite.lean": {
+      "bytes": 2749,
+      "sha256": "60ac9006bc30e3225c8e70fa9a3e0fc87f908eac349c6623efa282b18dbe60df"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/BiteTrace.lean": {
+      "bytes": 6746,
+      "sha256": "1d814cbc9f2d3e98c4f11d738992e3d45d8d2607e0d049d6b49a1c7f2336c910"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/CommonThreshold.lean": {
+      "bytes": 2919,
+      "sha256": "f41268f0f8d3c2675e0aa8b22390d0ddbfde791d4bbbb5fc7f4a773d90dfff0d"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/Contraction.lean": {
+      "bytes": 6066,
+      "sha256": "fa1ce0c1e8a27834bcdb4e54875d2567256ecf8bf2af844ff22616941e9fa6c2"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/DegreeVertexRatio.lean": {
+      "bytes": 12863,
+      "sha256": "01d141dd541d2e262d8e6b194a6b6dbc6b3cd10e8787aea4f4a3bd13ead67dca"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/GraphStep.lean": {
+      "bytes": 8289,
+      "sha256": "ec4a8b62c8cad394eabda0ab2f8b40f6908277854c6a199df9bc6c7bc36c67ab"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/NativeSource.lean": {
+      "bytes": 3680,
+      "sha256": "c232ce23e749705f752cc9534c9e6eaf01bf1428701eb4a93dab49e02c0c56b1"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/NearRegularFromBite.lean": {
+      "bytes": 3584,
+      "sha256": "916d567067c72bcc4bb83813b6f08a74d8e4222d27863b14937cd9a7c117fb01"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/SourceBite.lean": {
+      "bytes": 11041,
+      "sha256": "7da106bbeb088d893e4abbde60b51c8676f0bc9f625fa8388222b965b75b4388"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/StoppingBounds.lean": {
+      "bytes": 12810,
+      "sha256": "926bab6d91ee54b8d8b8242a6e67b2e9d44e5dca6d23be62072e6ea667aca146"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/TerminatingIteration.lean": {
+      "bytes": 7386,
+      "sha256": "7fe22a7a3bba1a9bd2c796a3515ccd78640653e8f074176e03c2d09e73b0e4bb"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/TraceRate.lean": {
+      "bytes": 3313,
+      "sha256": "f4ae121762cc7240eb57ce196e97886e10e83ecfc86831a28ed8dc26dffaf82e"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/VertexSubtype.lean": {
+      "bytes": 17296,
+      "sha256": "ae602365c7dece234544f8225010b65948228a921d393aecbb06a54deaeb6f9c"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/AKSIteration/WasteBounds.lean": {
+      "bytes": 4959,
+      "sha256": "7d6ddd957d6e029e6ef6001bfbb051cebb30415a28e53707470569dcb99e8965"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualReindex.lean": {
+      "bytes": 4394,
+      "sha256": "ab4f6415bb4e1e24dda28d6953f59a259a47fe4f66df8b1e9bd5df3ce011be77"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualReindexBan.lean": {
+      "bytes": 4601,
+      "sha256": "2700bc01e7c786163ab8ee5e731b5c8de3cb37397359c55e434e91961945dc4f"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/Adapter.lean": {
+      "bytes": 8434,
+      "sha256": "e98c12b34d587339ed29465a2ca73a34293aeb725513c193da1bd10ec76a9ac3"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/Budget.lean": {
+      "bytes": 5086,
+      "sha256": "21a6814a3edd9c1c9b3dd400f8fbd488f9d833e7ae135ef83a8f6dbaee6ba141"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/Canonical.lean": {
+      "bytes": 10332,
+      "sha256": "4bd91649db8d7c3bd4d7595ad10618a529c5705a074373f9e2d82b40a2c6b884"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/Geometry.lean": {
+      "bytes": 6629,
+      "sha256": "bcad759d272e29d94d8973f1ae022adbbbf76cca2dfe4be88ec3c84ea5802fec"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/Physical.lean": {
+      "bytes": 9602,
+      "sha256": "ff35b6fa9fe7ce4ba6fcc40dbf5ff8bda90b8c1a159e584351ecd375d27b4cfb"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/RawAdapter.lean": {
+      "bytes": 9243,
+      "sha256": "82304bd46c40ba7932c949c29a4bc376d6c2840e80e8172dbf8250ac174616f4"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/RawSupplied.lean": {
+      "bytes": 3074,
+      "sha256": "c518dc4948663dd9987946d4e6de6abcb67df1d2e939c2cfb466d7108b1fbe2d"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/RootedCounting.lean": {
+      "bytes": 9091,
+      "sha256": "ae8f8aea283cef815662f28c583b31e2accdb0284f7257525994d09ba53adf42"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRemainder/Size.lean": {
+      "bytes": 6534,
+      "sha256": "d17135e3fc0a6c41384dd65341a9e2b1bcf4ab8c99d1d502c463a23f7b899f92"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualRobust.lean": {
+      "bytes": 5570,
+      "sha256": "e8dfddf26bb5f153e78a4e3e14609a924e180298708044c55a1890018306bf7c"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/ActualWeightsFromSmallSquare.lean": {
+      "bytes": 5138,
+      "sha256": "f4255c400cb6ba1c758186d2b3f49909270851ae81a88b66938e8013edb2f31f"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/BalancedChart.lean": {
+      "bytes": 3439,
+      "sha256": "b84244e62365b5e9da11b5bf8276168e9482cc39fa12ce9493568dfeff4601f3"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/Fourier/ActualRawSpectral.lean": {
+      "bytes": 6276,
+      "sha256": "65c5620801b4624e31a6ee3bd26aed57fc61bf8a1360cf9fdc2044fa4d95843f"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/Fourier/Convolution.lean": {
+      "bytes": 8281,
+      "sha256": "b3e63fcf07b08714ca39ee7ae47e4d85a57f293dc4be2f01ef6d7838fcbfb33f"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/Fourier/RawMasks.lean": {
+      "bytes": 2683,
+      "sha256": "08e962d1601e1dfdec82246f2a7c87e7c0f41d7d0024698643cab01308b0dea5"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/Fourier/Restriction.lean": {
+      "bytes": 8232,
+      "sha256": "fc04e1922c1b24b5ce8bc38afbcd8ead41f5e4cd22b42a04904d2b613f88fe82"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/Fourier/ThreeBlocks.lean": {
+      "bytes": 4783,
+      "sha256": "748f3ed2403dd2e15ded875e01a5968e53d575431db1a164dfd931d067d5798b"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/PhysicalFractionalSupplier.lean": {
+      "bytes": 2912,
+      "sha256": "c74ac155cff4cfdfd1e62a0b2cce2cab45e3e944441abee959fb2daf562175b0"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/PippengerExactMatching.lean": {
+      "bytes": 34847,
+      "sha256": "4d050160e077d87422e70329ab09a056ce83c976cbcf9796f07e22acb58a488a"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/QuantitativeJointEvent.lean": {
+      "bytes": 4447,
+      "sha256": "58b6db489a9563ede5ddf94cd96b3e7c83f14820c8628919070eeac84e560ced"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RawEvent/ActualMatrix.lean": {
+      "bytes": 11811,
+      "sha256": "eeeda52479b2b3ae8d18dddc38dfca7f5b70a5b78c49dd39585462b9718b427d"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RawEvent/Adaptive.lean": {
+      "bytes": 9601,
+      "sha256": "17148291e52c82eb32bf41ed878000586c9496cff008c76c7bdfe6cb772b9733"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RawEvent/Candidates.lean": {
+      "bytes": 7792,
+      "sha256": "fa4fb1ffaba0dc6a10dddaf923d1f9732c0e5b3f05c32a96fb5d499c72185580"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RawEvent/Concentration.lean": {
+      "bytes": 8889,
+      "sha256": "d971c74fb5457008a3c459599b7fb5670cb6dfec08caf3c188c663cbbfe605e8"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RawEvent/Joint.lean": {
+      "bytes": 10214,
+      "sha256": "2c4ea2b48cf6bb7c063b14c2fead2ccc08ddffbba580510001c3491e6c16dad5"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RawEvent/Original.lean": {
+      "bytes": 10179,
+      "sha256": "84ee247ed5ed06e1c95620e6484ccab4953ea5351abd9504e9fa1dcd5c4b1dbd"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RawEvent/RowSum.lean": {
+      "bytes": 7759,
+      "sha256": "2cd414bbc663ef30d9fc0b82b224baf11cebee5589fbb8557bb40667b548d7d1"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/ActualBlocks.lean": {
+      "bytes": 9913,
+      "sha256": "a400942e0cf17d2857eca9f7879c95e47a46c2b04883d39bd1b7b9e254ddaeeb"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/ActualSquare.lean": {
+      "bytes": 4181,
+      "sha256": "a41ecb16750e1f2fb2375b2f7515e7fc63f4871708268b8b7ed104b0db6815c4"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/Blocks.lean": {
+      "bytes": 8118,
+      "sha256": "ab798e1a5e4501eb905c81ff1e5113f0c673686f2f2ff0e4afc276b1b2b09a28"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/Correction.lean": {
+      "bytes": 6203,
+      "sha256": "c429f1057de859ccba2d3b4b917a84e93083763e01500d27f88cd0523a81162f"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/Ideal.lean": {
+      "bytes": 4502,
+      "sha256": "c28a0ee0956e0a9646902df753dd8262f661be73dde04aafe4dfe708439ce4f2"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/Incidence.lean": {
+      "bytes": 9244,
+      "sha256": "42dcf7ac3700de2b97c5f911d04070599f465344be43150c857ffb8af1636658"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/Neumann.lean": {
+      "bytes": 4344,
+      "sha256": "50ebea03de2b8661e79222224ad9fbf0257f5dc2950a6539548976d9d3ccf575"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/NormalizeSpectral.lean": {
+      "bytes": 6896,
+      "sha256": "b514f1b0a0a7d36a35d494ca1f544a2787c74e9f80201604325a23c0cbc7ad97"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/Norms.lean": {
+      "bytes": 7068,
+      "sha256": "bd718437da887023efe67e578e5d2515c03ed5fdf659cbfb0cbdb242a8fcb116"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/Perturbation.lean": {
+      "bytes": 3726,
+      "sha256": "94b45dd84329177ecd4ee475b17db7c34a0fd2ce02f4aba624b3ace06415b2f4"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/PhysicalCoordinates.lean": {
+      "bytes": 6427,
+      "sha256": "60101d98db37886379ab387575a4d135f02b4b0179d8aeb56322f82c64f9deb9"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/RawEstimates.lean": {
+      "bytes": 3740,
+      "sha256": "f225d048d69a229923d16a813fb80364cdcf74dd40cc8d10986c6f73f51a6301"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/RawSquare.lean": {
+      "bytes": 4981,
+      "sha256": "95989b04e54a29e63c55a6047df437bda0cd4b3ddf6c7df3dce3b6d51c07b8a4"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/Robust.lean": {
+      "bytes": 4497,
+      "sha256": "3a86ab5bfa4cb04b7bc3f3d35f27ad050e6a53af7490f77635850c248fbaaeb6"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RobustWeights/SpectralSquare.lean": {
+      "bytes": 3616,
+      "sha256": "f8d6b50607f41f7dbe3c235e2de86e4f8fcc66a1235443df47698ba666f5afa5"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/Rounding.lean": {
+      "bytes": 5274,
+      "sha256": "c8b80d34360ca1b694649a54780234dafc101a0753de7ba0b600332fc3e1be1d"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RoundingAKSBounds.lean": {
+      "bytes": 6275,
+      "sha256": "adabe4b6b8a7fadd8c6cf502536e6b84a3ce3dd4dcf388399c1249ceac148557"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RoundingAKSBridge.lean": {
+      "bytes": 10755,
+      "sha256": "fd5d0c07d09760318f1ef2c872c5ad1bef7c49960cf3775be6d8c4bc557b1062"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RoundingAKSSource.lean": {
+      "bytes": 8783,
+      "sha256": "1b776267b55b87abb845f4042350d5e8c3a35a9b5076ffc78c5f3b0447911a0a"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RoundingHypergraph.lean": {
+      "bytes": 6089,
+      "sha256": "7a986cd5fd29c77c77a8d733794e21f9c2b5df33a7ba39c4873f9a4a918d8a65"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RoundingStep.lean": {
+      "bytes": 6789,
+      "sha256": "35ee92b7ebad3704e92068bf6175f82777c8e6a4b3bef64a6d9994277680f08c"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/Fractional/RoundingTheorem.lean": {
+      "bytes": 6370,
+      "sha256": "91951072b3c6b4aa6aaedc05ec7e4ea94527b934217ccd6db58021858bedd82c"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniformExactMatching.lean": {
+      "bytes": 4277,
+      "sha256": "d169ff6652433b92d6304d4b9f8c1aeff1e61d2584e1d53d06e1b30328bd09ad"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore.lean": {
+      "bytes": 927,
+      "sha256": "3ccc42b520495aa2929dda11f8050468a9527d88dab6b3c0163573b910ebd727"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/Availability.lean": {
+      "bytes": 15971,
+      "sha256": "d3118a1c0a62863f2c5a9a94bc71d7b15d8430c5f14603e72f4595fadae33537"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/Candidates.lean": {
+      "bytes": 23607,
+      "sha256": "d76b9689bc7d9fe57e916a0382101a2588e0bf6185dbb8e4dd90db488b023453"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/Concentration.lean": {
+      "bytes": 14226,
+      "sha256": "2928d097a10f762ffcb4da00152b8b797b68f9e58ccfcec721c98d4bf33598ae"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/CoreConnection.lean": {
+      "bytes": 2915,
+      "sha256": "7348d85a9256e5e91f294036a35f3b2e46bb9befc91cb1314ad231653494d328"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/CoreProbability.lean": {
+      "bytes": 12984,
+      "sha256": "1818e9a3240c572ca0a2c8b9215b5601cef2f41c406e8ac68daaac6a8388d203"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/CoreTail.lean": {
+      "bytes": 8813,
+      "sha256": "7e843a86329f0983b9720013bb64f023b311b26d1684be650e0986a4eb383916"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/Inventory.lean": {
+      "bytes": 3633,
+      "sha256": "5c295dccd1df6dc7b8c79d32b066166fc8e79f824a9b55db4ad916944f52168a"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/InventoryBudget.lean": {
+      "bytes": 15778,
+      "sha256": "923bd41ddb6ecf5be014df5caea0b497e78f4e37cae899f04c57c59fa9817d70"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/RawMinusCore.lean": {
+      "bytes": 6275,
+      "sha256": "87864ad3197d88c556a5c931311584034ed35d313de930f5945d0bd0c1173f4e"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/Buffer/Sections.lean": {
+      "bytes": 17385,
+      "sha256": "e077f28cfc5392350434ee7a4840ac68a08690938a57edac0b5bc0cb8c82cbda"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/BufferMatching.lean": {
+      "bytes": 2726,
+      "sha256": "cf228674212f345b62029478fa0dcd00c044118df9d6ce3dfb89c33ee2559b84"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/BufferSelection.lean": {
+      "bytes": 6631,
+      "sha256": "88b37aac3951cdb2a88fd070f722d0bb4e72fe9afc5d2dd228eec213804fafb1"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/CoreAssembly.lean": {
+      "bytes": 11361,
+      "sha256": "b5eea940bfab317efbd3c83c3ec9c8410dc68bbb15f59a897a0e58c45b667a70"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/CoreFailureRate.lean": {
+      "bytes": 3779,
+      "sha256": "8e82a3db1d7a4c347e3cf5b7caebe2a20864855a3345b43a1028854d530ff0ad"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/CoreFractionalJoint.lean": {
+      "bytes": 2485,
+      "sha256": "f34c8a9b122b60ff6ce0de97795dcb0ef3fa969b7185b7dc48c7e68c6af973f9"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/CoreFractionalRate.lean": {
+      "bytes": 5811,
+      "sha256": "abfc055d84ca3312448ff7c9379e8f7e6ecbc5d79cf6dc1915d3574cc599bc00"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/CoreOriginalJoint.lean": {
+      "bytes": 3133,
+      "sha256": "e97750992005461b1a1d575f2e74651fa0c8beb46350bdc5d923c460329bd9c5"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/CorePhysicalReceiver.lean": {
+      "bytes": 7958,
+      "sha256": "2591aa85d47f9fd3e1fbaf596d15244e46336405734bd841eee462cac093d3e4"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/CoreResidualCapacity.lean": {
+      "bytes": 5393,
+      "sha256": "2ae9956e0414a26dd5b99830b9b107ea7e3aa50800996de4b5978212e9a7ee16"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/ExactFromFractionalWeights.lean": {
+      "bytes": 4613,
+      "sha256": "b52158ab088c0c997aac34f0de69783fcd8754ba1df4f308bcf8319c62377392"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/ExactFromRawL2.lean": {
+      "bytes": 1770,
+      "sha256": "ef8cc750e39dcb8b1413c801daa747c49d7037c4bfea655603037223715ba15a"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/ExactFromRawSmallSquare.lean": {
+      "bytes": 1709,
+      "sha256": "66254d0b6ecfeff3cef3f4ab7db51f1553c1ccd7a96cff597b41bdfa86928ef4"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/ExactProbability.lean": {
+      "bytes": 5027,
+      "sha256": "35eeaa55fe887817131e0f4fcc77568b072c16924d40cb70a1ced4302a6bbba0"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/FromSupplies.lean": {
+      "bytes": 3736,
+      "sha256": "49877f6b069d28351d522c1ac8455fc432ca9ee21bfd688148622770e76b2ad0"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/PairCountInventory.lean": {
+      "bytes": 16207,
+      "sha256": "2d050b3537649db9bbdb357f6be0214bc51c52be7c5974f39adcfa97ab717988"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/PairInventory.lean": {
+      "bytes": 4969,
+      "sha256": "0643c5c72926ebe29964b023b7b2e2d8720582254d0973393c3812bf38ec2fc9"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/PairedCoverInventory.lean": {
+      "bytes": 12883,
+      "sha256": "55c183b666b315c35b650010aca24a187b2dbebc3365ae2e8263a2e092f5b855"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/PairedCoverProperties.lean": {
+      "bytes": 3867,
+      "sha256": "90225f10b9e30d796a55c328a93cec238637ac7a52f0d752870958ac61ce3f94"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/QuadraticCapacityBudget.lean": {
+      "bytes": 3375,
+      "sha256": "536504c1625613dfea9720925e2e2fa713350d4114fb26cbf01414d2f78141d4"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/RawSampleAlignment.lean": {
+      "bytes": 1936,
+      "sha256": "49ae470bf4d84c3bec97369618c640c79649ad1fd64e6dafff613f1d0b3b41cd"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/SampledCore.lean": {
+      "bytes": 5094,
+      "sha256": "d4211eecfe0460431f5d451c174b25e01792bf84a88a9f73d6196f4e1c1fe8f6"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/SelectorInstallation.lean": {
+      "bytes": 7652,
+      "sha256": "d1539bdb69b917e9375aae4cae7fff212ff0f29e572c0a05d8688a3d5ca25ce5"
+    },
+    "lean/CorralFormalization/EndpointProof/Matching/UniversalCore/TetrahedronToCore.lean": {
+      "bytes": 6057,
+      "sha256": "2f8d0e636166859d9fa622d7e02a698f3bdf029175e0a441ae4aa183e5a362f6"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/Cyclic.lean": {
+      "bytes": 1675,
+      "sha256": "f905760ef7b87d368ed4d0e8f3cd2250c56c17f048e38b5b6f106a072a7aef47"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/ExponentialMargin.lean": {
+      "bytes": 13126,
+      "sha256": "4915c2486f0c0e6a859c4b769853a4a58bccbd07d54f3e2f9fe8e2dd5ba6bcdb"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/FiniteEventAvailability.lean": {
+      "bytes": 3236,
+      "sha256": "7389e0b846ec81c9e74d22194c746f1a312b1ac32981b9307670d77a56b4ebbf"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/FiniteProductConcentration.lean": {
+      "bytes": 11792,
+      "sha256": "1b7ad78d779404a3970779f72d58df9f7c7f2ed54d8f944c764d1e8c347bb4e9"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/FlowAvailability.lean": {
+      "bytes": 6420,
+      "sha256": "6cab8945eccf23576990475fa219aa575cab9396632ef66668ed1ef033a1cbd3"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/FlowBudget.lean": {
+      "bytes": 5816,
+      "sha256": "9172c2087cd190fe5cb7a70b0a552c150b317fdd32445839dde4d8e85d91eda6"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/JointAvailability.lean": {
+      "bytes": 4600,
+      "sha256": "d840bd1139cb0b3227f7d2bb5046d3108939a4b69ce89115a928343dbea74220"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/Asymptotic.lean": {
+      "bytes": 5060,
+      "sha256": "ce6d97955935ce5d5e54670c3dccf98fd788ac440d6636ddbb0fdee0ca3a9d5c"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/Augmentation.lean": {
+      "bytes": 9457,
+      "sha256": "584612fa8947deb1859d3b9f8f58dbd601376290a47f2f9726331fa1d05d6813"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/Concentration.lean": {
+      "bytes": 8478,
+      "sha256": "a14f2ce2fa2947d3f0d610ccfee9786936fc173c23a33e7485204593d7948e8c"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/ExactMatching.lean": {
+      "bytes": 3680,
+      "sha256": "e0cddaa6d12cca4b5e8d909bb28ec16ae73e0f05930bf8a322530c07776d54cb"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/Fourier.lean": {
+      "bytes": 13285,
+      "sha256": "eebb294930889eb0086b38fee805805f1fffaf18c71b4c2edff3ccde43548ae8"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/FourierJoint.lean": {
+      "bytes": 6588,
+      "sha256": "4e22b9e4afffaf08e6d5ca7b3d02742be4f82442a906fec01c4fb45ea166f1d3"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/Joint.lean": {
+      "bytes": 5562,
+      "sha256": "5d6d9237a9028eedb082e3f485a0762119f2a1986fb4f00320ca5eb068f4590a"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/Model.lean": {
+      "bytes": 9360,
+      "sha256": "0188713db6311a7ed38fe6e2a3eb70fb6addd94f9af8ab2d93d0061af9348e06"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/PairBits.lean": {
+      "bytes": 3207,
+      "sha256": "63732c54b8841aa1b0b6dc635407cff948b9c993f6726f37485d0efbae3a50a8"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/PairSupply.lean": {
+      "bytes": 8232,
+      "sha256": "08234253ea32ca0b1969056b62402013f7f7994a33601ef644c767f7cd2c9130"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/RouterReservoir.lean": {
+      "bytes": 9741,
+      "sha256": "825ea32efa054d69c04e95507ef8ad8aeb6f5f26aae4260acdd3d1348e5b96cb"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/RouterSwitch.lean": {
+      "bytes": 9569,
+      "sha256": "3c8a47af5da2132a386d8ae825ed901ecca62234f995f176930e0c51af96f5c4"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/LayeredSample/TransitionFourier.lean": {
+      "bytes": 5262,
+      "sha256": "01303a338fd37d45467346675044d47e43ccb6e5b3156db411b860e3342303a2"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/PairInventoryCounts.lean": {
+      "bytes": 14031,
+      "sha256": "9a71fdc307ca8ade838357f4a7e2144c6c0f6e610815aa7e9534614cd48485a8"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/PairedCoverAtCoreCapacity.lean": {
+      "bytes": 6412,
+      "sha256": "ef4b4d8e46e37bdf51f66c24a1ef109ebbf6b07deb80524ef478910905cbe936"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/QuadraticDeletion.lean": {
+      "bytes": 17394,
+      "sha256": "399aec525fdcae7c6699dfeb50ebd1f45548b35d961daae37076722b35b71dd2"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/RateBudget.lean": {
+      "bytes": 6676,
+      "sha256": "121cd980f11379492a5c3e8d462e909df447f96d0adff797163235e4eb2c09bb"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SamplingParameterChoices.lean": {
+      "bytes": 2831,
+      "sha256": "681f604c0ed27ce1886ddf1af7f5dfdcc9be0b1add09ed6f0baf1a4ff18043e5"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SelectorAvailability.lean": {
+      "bytes": 4609,
+      "sha256": "e56962f255408bf41da2fc8eaaea5e175741483601a4bb1cd6d67d6b6f767fa1"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SelectorBudget.lean": {
+      "bytes": 1924,
+      "sha256": "2a8c4e11164fc44cfe78845d1a7dc27eee72f053f13938df22da81457c38ac9e"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SelectorPrimitivesAndAffineFlows.lean": {
+      "bytes": 3429,
+      "sha256": "7c298d3945cc458db74477d9f5a16c9e9fc21f7e892a81bed2405a6f281ee0bf"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SelectorSameSample.lean": {
+      "bytes": 10536,
+      "sha256": "2a528a26d3826c152bfdedb24787ff63452581e4ee61139bc652880967711f84"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SelectorSlack.lean": {
+      "bytes": 2236,
+      "sha256": "8069a5d4c6e814e483d8fb8bf5b416eb58c4ea97143151fcaaf46800d830e89a"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SelectorsAndAffineFlows.lean": {
+      "bytes": 3300,
+      "sha256": "953b8c6c9e6c2d2180d347c63ac37fa1c980878f81b2054b9ea8e9f93ef7b5ae"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SelectorsAndSixRootSupply.lean": {
+      "bytes": 3108,
+      "sha256": "84f79bcf580f644ffb6292a83715f6e1385906d6374616cead6a8116d85ad246"
+    },
+    "lean/CorralFormalization/EndpointProof/Probability/SelectorsSixRootsAndCovers.lean": {
+      "bytes": 7246,
+      "sha256": "ed49c2e2d09bfe759b84156924e398c45214feba2ccfe2b323952e0df7c578f3"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Bernoulli.lean": {
+      "bytes": 8880,
+      "sha256": "fd42f17b625ee36c7c355dcddb5e2dfbe81bde3dc9c45bba07f5024a9b6b4879"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Collisions.lean": {
+      "bytes": 7795,
+      "sha256": "b78f3da7b2cea2dfb0cbe77ef9dc43daf070d19f7d0fdb95a19d4392d3125b2f"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Composition.lean": {
+      "bytes": 8085,
+      "sha256": "beb26ae149f3b33c782270914fc00a7e240c0272b1f885e41cd5d172144ef05f"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Counts.lean": {
+      "bytes": 12548,
+      "sha256": "83b0d478f1b7a8f35a2be1b209566bab43998051ed892c26018bd577105f1c5b"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/EndpointRouting.lean": {
+      "bytes": 6155,
+      "sha256": "04d2ab1b72d7f730983cb127695b4afe724333293ebc353a9f5d4d6bb1220ab0"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Fibers.lean": {
+      "bytes": 4392,
+      "sha256": "29df30d34e2856d6887de1126fe4378be6a00248c2deb79122b091cd59a97faa"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/GlobalGeometry/Closing.lean": {
+      "bytes": 4850,
+      "sha256": "e70739c94cd75748fd460ecd0d4e34ca70880b15be4ac4ec7d2f9c95f7596e93"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/GlobalGeometry/Inventory.lean": {
+      "bytes": 7026,
+      "sha256": "64417592ea4d6b03e015ee7513353a8edc6c0b0b51b366b64fdca2279fc030ab"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/GlobalGeometry/Layer.lean": {
+      "bytes": 5558,
+      "sha256": "013ef57d5b40d694af10a873a122541c4a3f3f36063a0afa6c2fb59eac749171"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/GlobalGeometry/Reservoir.lean": {
+      "bytes": 4961,
+      "sha256": "87bf57f57ff5a1edd14c4448ce704f62b5f452f4e8c787f03d1f9b83ea52888a"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/GlobalGeometry/RouteCompletion.lean": {
+      "bytes": 4849,
+      "sha256": "c0f7e4729002243afb2d680ed42365a46b55cbb505584b16e99b2ace8fedb8fd"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/GlobalGeometry/Routes.lean": {
+      "bytes": 8967,
+      "sha256": "f073d1cd143957594da59bd9e802270509c8aa71719f8de99edb495fbfa05c70"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/GlobalGeometry/Support.lean": {
+      "bytes": 3465,
+      "sha256": "3fa53e9c1aef8f54dbc8dd3ce5e56e1260ad754eca547adb5bfacbf11e9685ac"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/GlobalGeometry/TwoLayer.lean": {
+      "bytes": 4353,
+      "sha256": "6ffa40fac495f7423dd2acc3a7ae7cc4a9bbebb21f4b3d559bc48035381ba495"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Greedy.lean": {
+      "bytes": 7861,
+      "sha256": "fd795a3fad1e248b327a554e07e242170ec8534776a6c108498682382c60ba46"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/IdleProjection.lean": {
+      "bytes": 6239,
+      "sha256": "22176d352c416012a07b79e097d164e38435d5c24249abaffc2f870cc715af9b"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Installation/Counts.lean": {
+      "bytes": 2955,
+      "sha256": "28a1854a1662394ce49eb178e413f00aea3cd97026d3567e63ec44526dc74c74"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Installation/Indexed.lean": {
+      "bytes": 3967,
+      "sha256": "8d5fa7af23db10fb3f7707fea60155098cf9816db267309b78652ff0651b9a45"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Installation/Installed.lean": {
+      "bytes": 4052,
+      "sha256": "aec23c801830d653f72c73024e660eac52bbb51dd73ef68dc72e44f8a96c62cf"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Installation/Legal.lean": {
+      "bytes": 4973,
+      "sha256": "81fbdf2f29738168a758d232efd32a766c5174ce0ce32670f7dde06f56e6c6ff"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Installation/Ports.lean": {
+      "bytes": 5325,
+      "sha256": "57fcbf22af3c93a604958fad24cd19662554f25dfc296fc7ba3de5c8f40d70a7"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Installation/Tables.lean": {
+      "bytes": 5618,
+      "sha256": "92d77d710d1d589552e8e3023d5141d1a8e7319a24ab6e134628eb989980aa23"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Installation/TwoLayerInstallation.lean": {
+      "bytes": 4654,
+      "sha256": "3a11f78c9e73ec2ba83c23111423f1796a6eb3c57cd2e65f8f730b28eda14a07"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/LayerAction.lean": {
+      "bytes": 5731,
+      "sha256": "b8d12519ba62d69fb127b9d3c600b3cf423d4a3780a038c3bc519d756d73542e"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/LayerGeometry.lean": {
+      "bytes": 7240,
+      "sha256": "4b6145ead0769f4b0b62c4ed48d9eb641dc6bde3a53388e47a03ceb23347a2c1"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Packing.lean": {
+      "bytes": 4395,
+      "sha256": "1d62e373fec2e14ab74b3bc149ea4c690c05063f407174936ebf6c5d95afce31"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Permutation.lean": {
+      "bytes": 10296,
+      "sha256": "7667bb856303fdecdb1aa6f3fb97773eb10b263f98fab9628d908f3d0727bd30"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Ports.lean": {
+      "bytes": 3785,
+      "sha256": "4d0ace3a7a4bbfd9fe340ae22cdbda6b92a4c1bbe86276313526f948132ca855"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/ReservoirEvent.lean": {
+      "bytes": 8811,
+      "sha256": "2df39b33f8f58c4980757f90fb7d00e996bba2efd953967641c06e56a493e30e"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Switch.lean": {
+      "bytes": 7246,
+      "sha256": "1167d244f48d5105baa647f46e7cf6c686191f6cbbf4616d5c16fd2b574fe7d0"
+    },
+    "lean/CorralFormalization/EndpointProof/Router/Trials.lean": {
+      "bytes": 9909,
+      "sha256": "2274f0f5b2de51f5f6ea19640733b81fe94636703fa73f33073b3c285aae3f26"
+    },
+    "lean/CorralFormalization/EndpointProof/Sampling/BlockAvailability.lean": {
+      "bytes": 15482,
+      "sha256": "43ee4f175f543ba364ae9cc46cfd264d60f3d57e13f15a3e7fa770730feee645"
+    },
+    "lean/CorralFormalization/EndpointProof/Sampling/FullAvailability.lean": {
+      "bytes": 6442,
+      "sha256": "a13ee6bf8482e75e64be3a32d75e0072c6db81bf8808ba4bf32bfb861764e249"
+    },
+    "lean/CorralFormalization/EndpointProof/Sampling/FullProduct.lean": {
+      "bytes": 11018,
+      "sha256": "60d6192c943f9dce72ed10a11b25390a1764ecb11ae1375f5a13238e4fdf5f88"
+    },
+    "lean/CorralFormalization/EndpointProof/Sampling/InverseOrbits.lean": {
+      "bytes": 3812,
+      "sha256": "0ce5669120082467ae846e2100c7f357357510588e2eb25de20438a950a2d166"
+    },
+    "lean/CorralFormalization/EndpointProof/Sampling/OriginalLaw.lean": {
+      "bytes": 3903,
+      "sha256": "e125d2f97eea2bffc9996e388e6e147aaf873558e18b5f427ec438be82a15a0c"
+    },
+    "lean/CorralFormalization/EndpointProof/Sampling/OriginalReservoir.lean": {
+      "bytes": 22360,
+      "sha256": "852f2d4dad749294b5af515610a58fd1c85a9e03443abff12656ae1da58bb76f"
+    },
+    "lean/CorralFormalization/EndpointProof/Sampling/ReservoirCoupling.lean": {
+      "bytes": 6011,
+      "sha256": "58faa6a9b5c5d8f8f4fb74bebc7088755ec25d073bd47003a95d77ccf17c1b65"
+    },
+    "lean/CorralFormalization/EndpointProof/Sampling/SharedSample.lean": {
+      "bytes": 8433,
+      "sha256": "932d62b664128449d4f5d9bf3900e785b3929f1e03fa124a158f350598957d73"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/ColoredSelectorAvailability.lean": {
+      "bytes": 3391,
+      "sha256": "06c435dfc7938421fe228839ee91ef9b16f486e89f7277ca769f351342c3dfb9"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/ColoredSelectors.lean": {
+      "bytes": 5140,
+      "sha256": "c558369871300fc08db93666b7268b8e5a37697ecaae7a2d694815d75b0d48d7"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality.lean": {
+      "bytes": 550,
+      "sha256": "021268c8954e6a97ed0531d1ec30e3dcdaefd0d7697150bfc1a03e9beeeef095"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/Compiler.lean": {
+      "bytes": 21333,
+      "sha256": "bc84c8cd6551593215725b2097742d051793bdd0816d2cabb18f4e213dc3535b"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/Expansion.lean": {
+      "bytes": 5765,
+      "sha256": "2059d121794eb654b6479bdcd05ddd47729e8f3d001991f948e54de69fada393"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/LocalSupply.lean": {
+      "bytes": 9957,
+      "sha256": "288a6cdb84c73e5a33fda9ac2cd7fbae84b986a949a0d8e394a22558b2fff09b"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/PermutationExistence.lean": {
+      "bytes": 16769,
+      "sha256": "05aeb4d866c60309ee6b02b1845bdd8d80b29f818ba93c4f602e3831546d8996"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/PermutationExistenceBlocks.lean": {
+      "bytes": 5298,
+      "sha256": "2976b0e15bc5ecc0298eedfdb2567bc2ad5cba5582b6f6276ba7a6bb056ec92d"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/PermutationExistenceGraphEvents.lean": {
+      "bytes": 12017,
+      "sha256": "f2a2ec209541dd7622f8329329ac8946ccc738126eabad4cb8bb60a1846ee2ef"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/PermutationExistenceNumerics.lean": {
+      "bytes": 6235,
+      "sha256": "1b14c9d966bf16e52960fca14abea3651dc1da13d3451c3d95894cbf62c06667"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/PermutationExistenceTheorem.lean": {
+      "bytes": 4914,
+      "sha256": "c1f0590d3173a3d750dadf8f7922b3658255d399df01d1f24143fc678510ce65"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/PermutationExistenceUnion.lean": {
+      "bytes": 6521,
+      "sha256": "71962f68d2d9237b8d20c4b272b79d6f7b4a5e07b0a1d0527e54e4dc2377143f"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/PermutationGraph.lean": {
+      "bytes": 5807,
+      "sha256": "e72c30fc39810c01c2ad3aee42d9945465a67223105ea737227dbfcfd0bb3e97"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/FixedCardinality/PortRouting.lean": {
+      "bytes": 22359,
+      "sha256": "f7d7059ae0b652bfe04dc105a2ec5606af625dfa9c363041020a04f0118d7703"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/ManySelectors.lean": {
+      "bytes": 12001,
+      "sha256": "e8feed5ec6f0cdcc001d6e54a56a3744553bb62ae13d202e007cceef1ee1a7fb"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/Matchings.lean": {
+      "bytes": 7878,
+      "sha256": "69e7a93272bd3c2b654ea8e6a6c19e4af9368954354622d5186fc5b2d3e8feb2"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/RotatedSwitches.lean": {
+      "bytes": 6552,
+      "sha256": "bd09052458bd4655ab0a77ec1a8b1da49c33c965945a41a89545dcbc9ecaec19"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/Splice.lean": {
+      "bytes": 5820,
+      "sha256": "2370bd878d426c3e2f51d93dc3eb8d22352c16d1b87f45888b1ff88f052a7e98"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/StarPath.lean": {
+      "bytes": 7906,
+      "sha256": "0413dd9aec22cf96ee72baea037f3667d4ff99217aa8d72892942997a71e0f4a"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Assembly/TaggedPairs.lean": {
+      "bytes": 3875,
+      "sha256": "ec6b838e13faf8cb191f706a65eb3336df2a7a0094ede28370c9ff74912321b4"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/PackedOrbitSupply.lean": {
+      "bytes": 17117,
+      "sha256": "b3b827cc96cf0e674954aa7d932f22bd47cb9b67ded081e58c97b31be7b9f82e"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/PrimitiveAvailability.lean": {
+      "bytes": 6278,
+      "sha256": "29759062d033ae687b4cf619e20ba3c27d768a6f3c5b8b443d03fb50526c2fef"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Stars/Availability.lean": {
+      "bytes": 16098,
+      "sha256": "3ca49a1116ec2a79477d662c609b92dfe02f4173513111ce91141a70d4ca1d45"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Stars/Basic.lean": {
+      "bytes": 9604,
+      "sha256": "8b762b88f67cdff532584cc0ed513e468b25552106743d9279a17afbd9c6dd77"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Stars/ConcreteSmall.lean": {
+      "bytes": 15875,
+      "sha256": "63f75c7de4c3918e21a775feef67b2944e9cc5b132f9746d831a7746337d01b7"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Stars/Helpers.lean": {
+      "bytes": 2345,
+      "sha256": "3a675d51ace0fe4d91d8a20eb8de7b47aaefa2776d4e3d9bc310bda8d02297b4"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Stars/Packing.lean": {
+      "bytes": 13049,
+      "sha256": "b702382b50ffed031985a750b5f26c3977f9363775dfe0e3b3324b289cb15e11"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/Stars/RotatedSampling.lean": {
+      "bytes": 7109,
+      "sha256": "f5390f391adaf1fc3419002fb2d572513b1c83eefa1956faf036bce844350c83"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/SwitchAvailability.lean": {
+      "bytes": 5570,
+      "sha256": "b67c4a53fb301d7b0a729ba125b37eb0d88edbf80cac0d2776673775a30f01f9"
+    },
+    "lean/CorralFormalization/EndpointProof/Selector/TwoPairSwitch.lean": {
+      "bytes": 19270,
+      "sha256": "ee6c03e58fe60ee93a9365f24b17efa1a013d60cb1d03c0f87c98cc0e43c4cb5"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/ActualWeights.lean": {
+      "bytes": 11477,
+      "sha256": "88e5bed2eb675990a80baa7e76db7571fb73660ae280fdbef45a317e04d66cf3"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/ConvolutionDegrees.lean": {
+      "bytes": 8650,
+      "sha256": "ce44ec2bcc87791e1a043b8a5da8a1b3515d09f7c2b7e6c99cd37c79a2ffd8fd"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/FourierExceptional.lean": {
+      "bytes": 6162,
+      "sha256": "952437946acddccc9f51fd15828ee3d1bc6d67636415d4cee3afe1a23a98dba9"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/OneSided.lean": {
+      "bytes": 7046,
+      "sha256": "5e36426350ea9fad5f28cd3446307aae553816c886957526582d98fbf4f77146"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/Ordinary.lean": {
+      "bytes": 10001,
+      "sha256": "58e11a1139d2b4e4d26c1967bc9187134b8762d933829700831843f0fc381031"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/PippengerRounding.lean": {
+      "bytes": 12768,
+      "sha256": "ef74cd0813950e1ccf6a71b8ab51a3467bba3fd20f9efce225f7278cef85d226"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/RestrictionMatching.lean": {
+      "bytes": 6459,
+      "sha256": "b6bc7faa42970e496c3316420837f98179bf0c4ddbaff5940070f20ef8c0623e"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/VertexDeletion.lean": {
+      "bytes": 3796,
+      "sha256": "051867445b4728cb9677117c1d1c32fa3aa6bfc6a8b8d4818c499fd94c5928ea"
+    },
+    "lean/CorralFormalization/EndpointProof/Transitions/Weights.lean": {
+      "bytes": 5142,
+      "sha256": "5cfffd2655aa73c12d73d153a1cf48f74ce3cd7e42f147e41df95dfee3394404"
+    },
+    "lean/CorralFormalization/Existence.lean": {
+      "bytes": 875,
+      "sha256": "4075ac8a1b36cf88c0b24937cce179c179892fb01bad040ddf1c29c4879d6d24"
+    },
+    "lean/CorralFormalization/Fiber.lean": {
+      "bytes": 1368,
+      "sha256": "5b9602ca1ed2ddff6111fa4b536b5dd45f8e43bdb0ff9da9e269e07a8dfcc931"
+    },
+    "lean/CorralFormalization/FiberPhysical.lean": {
+      "bytes": 1947,
+      "sha256": "de0efcb8def8677e7cb829d6b00cc40bba2c075652cb18eca8a0070e20eb224b"
+    },
+    "lean/CorralFormalization/GapPermutation.lean": {
+      "bytes": 4483,
+      "sha256": "c82b94f58b0d1b2e2ddd7f8160dd5dbdd6126d49050a1bea84a68c139fd8ecdf"
+    },
+    "lean/CorralFormalization/GapWitness.lean": {
+      "bytes": 6777,
+      "sha256": "853c341e8392f343c63bd1143763e16c604479268f11cf5830916b1c7a77f452"
+    },
+    "lean/CorralFormalization/ListTools.lean": {
+      "bytes": 2084,
+      "sha256": "63984a94efb40cfc19eccac86b6f2af642da5df5a67806bc9955e03763e2e7f3"
+    },
+    "lean/CorralFormalization/OddCoreEquivalences.lean": {
+      "bytes": 2639,
+      "sha256": "8919d85cc50639d6587a120ed9db4f756c294d3a2ea4bdbf9a763ddf5df5451f"
+    },
+    "lean/CorralFormalization/Optimal.lean": {
+      "bytes": 900,
+      "sha256": "6bbecc521646d2930ce671096e2053f11bd27d72b6fdb63883e12daff6940e41"
+    },
+    "lean/CorralFormalization/OrderExtension.lean": {
+      "bytes": 5261,
+      "sha256": "27031dd8408c800c4440b2294971a4013672a96edca0228be16cc2b0aa3dd938"
+    },
+    "lean/CorralFormalization/OrderedGaps.lean": {
+      "bytes": 12723,
+      "sha256": "c16bb578aa8721ecb80ecd4e5f022f4a0275b74336dbdb9c079548aff104666f"
+    },
+    "lean/CorralFormalization/PermutationWord.lean": {
+      "bytes": 3056,
+      "sha256": "cceb3adcdb74c1b8be6d044c588e5018e3e4dd23ef72a9eaf1b04f932e7c2073"
+    },
+    "lean/CorralFormalization/PositiveGapWord.lean": {
+      "bytes": 6861,
+      "sha256": "bdaeb9979b42919e92d44b04e0648627b6261885c04463aa46696785d9315788"
+    },
+    "lean/CorralFormalization/Results/CompletionFromMatching.lean": {
+      "bytes": 2008,
+      "sha256": "66131066e2b38006b8639a07b4e3cfbf3b1348360ed7b92657706ac29399f297"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/ActualJoinDifferences.lean": {
+      "bytes": 5298,
+      "sha256": "77e5beb378fed6139229d2357c3fadbd34510b5e78bc8aede4c9c97c1846dfa3"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/Construction/ColumnOrder.lean": {
+      "bytes": 12546,
+      "sha256": "3f5b317821ef48ad286ea927c787e34edb45fc6218418305dc64cc55b803fd00"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/Construction/DirectJoinColors.lean": {
+      "bytes": 7428,
+      "sha256": "53f397dbd0ba7a27d347e616f4722a1291f8a04749e308d504b3a4739a531e6a"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/Construction/JoinPool.lean": {
+      "bytes": 5770,
+      "sha256": "117b8a6179f2c2a4a8cf2abad89ded0686d34d4aa439300910e227ecb217e7be"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/Construction/PositiveLift.lean": {
+      "bytes": 1834,
+      "sha256": "fd5b9969eaeeb8b331a491c055650a17cd9bd60f16b8656e33c9464c44fcf5df"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/Construction/PrefixChain.lean": {
+      "bytes": 13815,
+      "sha256": "614bd85fd8682366d9002999042a7f9e3416ba05f72e362c603be1ac25b3de54"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/Construction/RainbowPrefix.lean": {
+      "bytes": 9538,
+      "sha256": "b5b83093c3b4a694cbe714580c31cec5874824ea9997cc2ddc59bb087e5704ed"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/Construction/VertexAndCenterColors.lean": {
+      "bytes": 13277,
+      "sha256": "2fd2aad02c6d2feb611d5e0068e1a7c6852cdb88709bdcffefc8a10e2e2d1ebc"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/EndpointCompletion.lean": {
+      "bytes": 5613,
+      "sha256": "f012ccdba7b22559a7001e844bd0293af72ead4f739c1711c6e719a9bf46757f"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/LexicographicJoins.lean": {
+      "bytes": 2920,
+      "sha256": "0dd31cf82c31e2f1c59b56b2bf369f87f5dbef41115f09d636e461cfd0ea572a"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/LogarithmicBound.lean": {
+      "bytes": 6733,
+      "sha256": "9812b8c3afdf600c1fe07e2599971c5139854120d662ff7694027a07b3b71b7c"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/MatchingCompletion.lean": {
+      "bytes": 2903,
+      "sha256": "1ac355dff38060165ac3dd51dacebdfb8720b1a34c4e27f34006f96939589d39"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/PhysicalTransfer/BodyFrame.lean": {
+      "bytes": 15116,
+      "sha256": "3ef028f1bb14bae4543907b7e503f8aada6cb5349b0208aed4b6897f7735031e"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/PhysicalTransfer/Coordinates.lean": {
+      "bytes": 8024,
+      "sha256": "0063c96ff020db06bc132213681be99dccebe4c72ecc6b094983953c10178411"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/PhysicalTransfer/Frame.lean": {
+      "bytes": 13790,
+      "sha256": "7c115d0ce344164f65a349f10df0ed03d741916168f8d7587ce47f9e9519fea7"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/PhysicalTransfer/Orbits.lean": {
+      "bytes": 9888,
+      "sha256": "11f3157dedfd00954f545a4493e00b80ceaf3aadd6e519ac8170f970c560b8b9"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/PhysicalTransfer/PrefixCalendar.lean": {
+      "bytes": 4535,
+      "sha256": "75f0d57debc383fefb930c4d9a9c013a5ab717ab8d5ba1548727a22ac4baf2d2"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/PrefixToOrbits.lean": {
+      "bytes": 3201,
+      "sha256": "aa11d294da78e0af17f2d7f55420774a8b7cc8b947a688bbb00a60eeb9809f96"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/Radius.lean": {
+      "bytes": 5810,
+      "sha256": "7f567142bf5ddded318e2767ef600ad1d3b388afa511cd715ff6429289f27fba"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/StrongDiversity.lean": {
+      "bytes": 6941,
+      "sha256": "168496c560abffa8fc20659fd846f4a28fdc35c021f4634c9be3f29f36e5e4e4"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/StrongDiversityTheorem.lean": {
+      "bytes": 3112,
+      "sha256": "99ad182e3dac64d78c0efe4bf82331d5dd90f8ad8c1c0e1e26eaf808a6a37e54"
+    },
+    "lean/CorralFormalization/Results/ConnectorFreePrefix/WaleckiCoordinates.lean": {
+      "bytes": 2247,
+      "sha256": "b5b2f77bf61bb99b1ed96866551072446b6285b48fb050dae18bfbf29f3b2c6b"
+    },
+    "lean/CorralFormalization/Results/ConnectorPrefixAsymptotics.lean": {
+      "bytes": 8712,
+      "sha256": "b6f79cc7b79b59ddcaced2e6774e06f27c5d12f891a9747f48828a05d1b69b5d"
+    },
+    "lean/CorralFormalization/Results/ConnectorPrefixDiversityBounds.lean": {
+      "bytes": 1622,
+      "sha256": "b0d27511e7d7ed7aef37f95e7912700449b167eefe2276f73da2442482af74f9"
+    },
+    "lean/CorralFormalization/Results/ConnectorPrefixFloor.lean": {
+      "bytes": 8938,
+      "sha256": "be726cc0b7bffff3d7ebc3495a515c17fc3c868ce4b25b84dd5cf2de9ac90bef"
+    },
+    "lean/CorralFormalization/Results/ConstructionCorrespondence/LiteralSwitchRows.lean": {
+      "bytes": 4046,
+      "sha256": "c00032d74ebed46c1a9663a6f18b4837160ca9bce83b7e2eacfe5bf560df3841"
+    },
+    "lean/CorralFormalization/Results/ConstructionCorrespondence/RowSampling.lean": {
+      "bytes": 8737,
+      "sha256": "7f3277fca67dc5bb3cfd124d85b30f9046feda4b66238de20887892699039ae6"
+    },
+    "lean/CorralFormalization/Results/ConstructionCorrespondence/SwitchBits.lean": {
+      "bytes": 3857,
+      "sha256": "bc697bf8c4c3bf98d7461011e75dbcbc47f53d06e35d652369b91b256be22e39"
+    },
+    "lean/CorralFormalization/Results/CorralCountUpper.lean": {
+      "bytes": 4158,
+      "sha256": "b5d6e835f2faf1d50aebc213e8f16c1f095ce2768cb6696899276fb60a90a934"
+    },
+    "lean/CorralFormalization/Results/DensityObstruction/Asymptotic.lean": {
+      "bytes": 8921,
+      "sha256": "a9bf2ed76be2c1c6b9e8cbd2bc30cfbf3e2f82fb2c4ad925fd1e3f3bb5cbe633"
+    },
+    "lean/CorralFormalization/Results/DensityObstruction/CyclicClasses.lean": {
+      "bytes": 3734,
+      "sha256": "21b0f630ec4c193a597e9e9ccacee7660d56c922eda00a564faafcd8fa4ca19b"
+    },
+    "lean/CorralFormalization/Results/DensityObstruction/FiniteFamily.lean": {
+      "bytes": 4712,
+      "sha256": "48f90e2341a77928966fb59fb443b999792105950dd970aafe400404f07ae483"
+    },
+    "lean/CorralFormalization/Results/DensityObstruction/Flow.lean": {
+      "bytes": 8247,
+      "sha256": "78d22116ed0670c5a1d819c82b84780d5b09ecc921747b2593543cfcefafdf9b"
+    },
+    "lean/CorralFormalization/Results/DensityObstruction/Inventories.lean": {
+      "bytes": 5688,
+      "sha256": "aaedb3a2bdc374cfd29d38c906090eef39a0998ca8605af4df46ab39cbe926d3"
+    },
+    "lean/CorralFormalization/Results/DiversityFromMatching.lean": {
+      "bytes": 1913,
+      "sha256": "e0338089f9cf8ab6933d53794fd919b3a122a0ff1df57862e0b7c22eedaeca79"
+    },
+    "lean/CorralFormalization/Results/GeneralTiles/CyclicTiling.lean": {
+      "bytes": 8646,
+      "sha256": "dacc90a36a42da0fe806ff2bb47cb3a272375872426ab98f67a0f6ff23fb6cfe"
+    },
+    "lean/CorralFormalization/Results/GeneralTiles/DirectedInput.lean": {
+      "bytes": 5173,
+      "sha256": "2e59a9ca62a3442c3e4f5a561c965038242fbe5a2bcc90ff7028c52065f4cdb1"
+    },
+    "lean/CorralFormalization/Results/GeneralTiles/Isometries.lean": {
+      "bytes": 10421,
+      "sha256": "fbb2deb094086c339e106d8b40c89e8d85218dc8675cdf35816ad74826e3dee9"
+    },
+    "lean/CorralFormalization/Results/GeneralTiles/LayoutTails.lean": {
+      "bytes": 10612,
+      "sha256": "caf0ee45c2c7d04f89647f971065eeaaf28bccd3cc6117773347ef6a1b0ccd70"
+    },
+    "lean/CorralFormalization/Results/GeneralTiles/LocalTails.lean": {
+      "bytes": 8036,
+      "sha256": "e1a5ca5f176f45c234b58254a8bc184d5646de4f3da6a5ef03c0579342313bcd"
+    },
+    "lean/CorralFormalization/Results/GeneralTiles/Modifications.lean": {
+      "bytes": 7521,
+      "sha256": "ad5d0c723d6e41ad85f300469469fdb2a035f4a9ab8c39c46859b4ebc7fff77c"
+    },
+    "lean/CorralFormalization/Results/GeneralTiles/TerraceTileConstruction.lean": {
+      "bytes": 4926,
+      "sha256": "065e4bd41768e67b28a22256302314a7233a7b7e5b60e78e91f68e9b8855ca68"
+    },
+    "lean/CorralFormalization/Results/GeneralTiles/UnchangedSegment.lean": {
+      "bytes": 8477,
+      "sha256": "cacff9bf6383d4a6d38c5be5e28779203280f9f08dbc4b952c40c240424f9c8f"
+    },
+    "lean/CorralFormalization/Results/LatinLogBound.lean": {
+      "bytes": 6742,
+      "sha256": "9022e78fbfe4f2fce7c18acf9b9c6dddce42445cfc69be24e614699d437f66b9"
+    },
+    "lean/CorralFormalization/Results/MatchingSharedTolerance.lean": {
+      "bytes": 4295,
+      "sha256": "4ee6e601a1945d2714b42a6f8b9d37aaabffcea3e74eb58f431783d1509035b0"
+    },
+    "lean/CorralFormalization/Results/OrderedPartitionCounting.lean": {
+      "bytes": 15834,
+      "sha256": "45dba6269d4906ca985f9eb42155a07e3c6f566384f38e85e0ee8b1bb18370dc"
+    },
+    "lean/CorralFormalization/Results/PathTerraceCompletion.lean": {
+      "bytes": 17241,
+      "sha256": "1c1d73efb238eba8cd2ed7ac0b3b7f3a305290b00ea1be974b0c5be2db40c736"
+    },
+    "lean/CorralFormalization/Results/PhysicalPartitionUpper.lean": {
+      "bytes": 9486,
+      "sha256": "c3f3a347ee8c411c10315ee7d6058fb3d6f1427fdfc97caf22fa8f7190a0bf1e"
+    },
+    "lean/CorralFormalization/Results/PippengerDiversity.lean": {
+      "bytes": 8909,
+      "sha256": "b783ce51dff840ca5f06a3a15cbdf61b7bad8283053dd3f16c348f8438888392"
+    },
+    "lean/CorralFormalization/Results/PippengerSwitchFamily.lean": {
+      "bytes": 8221,
+      "sha256": "e4589d688c920242cbbb7d621bd925613a9987398e601ea4501a3070b26af34f"
+    },
+    "lean/CorralFormalization/Results/PrimeHeight/Asymmetry.lean": {
+      "bytes": 5833,
+      "sha256": "7b117c82971a804a754d503dc6b0b8020a64268b799d20a672f30e8e5ba5c7e3"
+    },
+    "lean/CorralFormalization/Results/PrimeHeight/GroupAction.lean": {
+      "bytes": 7361,
+      "sha256": "7a9ff252c8137410ed3bc93c5cd29e5d357da6d07fc64e82411f701ce9aa3756"
+    },
+    "lean/CorralFormalization/Results/PrimeHeight/ModelBridges.lean": {
+      "bytes": 9466,
+      "sha256": "45991779518c8717fa90a037533db39b2cb9926b55cf02368d9a63f869a48036"
+    },
+    "lean/CorralFormalization/Results/PrimeHeight/Nonvacuity.lean": {
+      "bytes": 749,
+      "sha256": "b3ce841f547e03a169dfd12233b1208762d478c653b63742cbe5a40ae21dcb07"
+    },
+    "lean/CorralFormalization/Results/PrimeHeight/PrimeSubgroup.lean": {
+      "bytes": 3794,
+      "sha256": "0a094473cf6435affe03557a3d69b171f2fcb2b10b1d04b97c0a830fafff9392"
+    },
+    "lean/CorralFormalization/Results/SharpUpper/Histories.lean": {
+      "bytes": 11194,
+      "sha256": "3df8b0b3c4fa0b35db7a28db57f1b9eddbf53cb72705b96da247d5fe22e7523a"
+    },
+    "lean/CorralFormalization/Results/SharpUpper/Intervals.lean": {
+      "bytes": 4337,
+      "sha256": "9378c0f6a51300e21a0bca816e0e87548311e6c4f118352511e2c75b5e37b93d"
+    },
+    "lean/CorralFormalization/Results/SharpUpper/Orbits.lean": {
+      "bytes": 6294,
+      "sha256": "0ef1a24045ab601c4d671d6ae181a881f1fa8fad858442721aefc5cad127a50e"
+    },
+    "lean/CorralFormalization/Results/SharpUpper/Product.lean": {
+      "bytes": 7523,
+      "sha256": "d9a20d2428473b46a834ee00002e45c59d2cbb6bd2b42a198b559b6d68c6f502"
+    },
+    "lean/CorralFormalization/Results/SharpUpper/RootedRows.lean": {
+      "bytes": 8411,
+      "sha256": "5ccf68884128a5607ee07ef60e4aafa9381a49d698680df63691d833992fc8aa"
+    },
+    "lean/CorralFormalization/Results/SharpUpper/RowBranching.lean": {
+      "bytes": 4783,
+      "sha256": "d91d984c944635b44afd10de6247e6eb13efd6533b48036a242f940cae8882a9"
+    },
+    "lean/CorralFormalization/Results/SharpUpper/RowMotion.lean": {
+      "bytes": 5510,
+      "sha256": "e64a46ff3a9b4748845bc5335b6b6689cc7baedbc7835a075f0fce1c1aeaec2c"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/AsymmetricSwitchFamily.lean": {
+      "bytes": 2297,
+      "sha256": "4ef7586894bae6a88dbc3e699b3e0e110288fa45074ebfc24d8c60fda0086443"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Asymptotic.lean": {
+      "bytes": 4897,
+      "sha256": "c96768da9ee472f3cf708e27bd30de27e0d7c608ab8f4e1a46574be95cfb50b6"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/CanonicalLayouts.lean": {
+      "bytes": 3936,
+      "sha256": "b9102830ca1c6862abff291b36ecdebdcf5fea67596faecd51f513d0ef98b653"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/ConcreteMarkers.lean": {
+      "bytes": 3563,
+      "sha256": "66e7a0c5895a57a8fb9071cb76f3995238ad7add48e233ccb6ca11e40a17bc5a"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/ConcreteOwners.lean": {
+      "bytes": 4322,
+      "sha256": "fcd2622dde445424d12d91ac04086ff44c75916c86801e2c29e45147d45c413b"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/Asymptotics.lean": {
+      "bytes": 9624,
+      "sha256": "d4de1398c3811bbfa6245e9f68fffa6a5440603be9e923e8bf7a592615b61d11"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/BinomialFormula.lean": {
+      "bytes": 3214,
+      "sha256": "001db02ad9a7568dc40e649478d980f3bad6a824cd66f900b7bd4d1bbd9a64c9"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/BinomialRecurrence.lean": {
+      "bytes": 4799,
+      "sha256": "f422ef1f180cd5218949cf64f50ae7a8739feb4e850bdc06f3b1c7c9d559aa20"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/BinomialWeights.lean": {
+      "bytes": 3938,
+      "sha256": "7156254d2c565a882a590bf0e6d9e79023e44115756a432eee97fb219193c980"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/CyclicWords.lean": {
+      "bytes": 9087,
+      "sha256": "71d8365537b187c347bff6a6527e1f04cc9d16dbbdb6ae58881049eee3bbe663"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/DecoratedPhysicalCode.lean": {
+      "bytes": 6951,
+      "sha256": "8d74579beb5952dea59e26214001300c02847e6ea9f8b941ef877b3515e21e6f"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/DecoratedPhysicalCodeBounds.lean": {
+      "bytes": 5059,
+      "sha256": "b46f6e152b3dab7b6e6549319ac25ba1fdf2a92b7aa7761e41586ec345bf29fc"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/Orbits.lean": {
+      "bytes": 4644,
+      "sha256": "84aeefbeb2b8445463218d40b80fcae51e27aaa3956bf06a02de9c6f2e691b10"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/Periods.lean": {
+      "bytes": 9754,
+      "sha256": "3be572738f76c15c4456700fa30317402fb301b38270bbd419a66803501d647e"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/TileSemantics.lean": {
+      "bytes": 7754,
+      "sha256": "d0bf988fed60d27f45eb493adfbc4d89bdc39b9310cb4fe34029d84003a8b2fc"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Counting/TraceBridge.lean": {
+      "bytes": 5663,
+      "sha256": "11807557fc539f2c4fb0c0d421a11262b68c0b626d9cc8e96a5468eb587f57f8"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/DecoratedPhysicalCounting.lean": {
+      "bytes": 9317,
+      "sha256": "08d61c49dc5f72ad103dbe84d2bcbd334ba12e5266a189f65f1b9d6ea3da6695"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/DecoratedPhysicalOrbitCounts.lean": {
+      "bytes": 5960,
+      "sha256": "09bee1ae453a42e79abf2eff85adcf8a068be596a5e073aeb5eb559e9b122ea4"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/EventualSwitchFamily.lean": {
+      "bytes": 3489,
+      "sha256": "dc3cbca594bc77c195232cfbe0f335219e5084a771554cb8e0a70b30610dc415"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/FamilySwitches.lean": {
+      "bytes": 8955,
+      "sha256": "cb2401cf140c163a241c3a7dbbb901db8286ce0145031030aee3899de92ef0b8"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/FiniteAndLogAssembly.lean": {
+      "bytes": 2744,
+      "sha256": "a7b0dc300768b2765c76d39d2b4b7855b76e3412a49accb58e4a92ac04750596"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/LayoutAsymptotic.lean": {
+      "bytes": 9407,
+      "sha256": "04aafd46f063aa202fa4a7661ef4d84d5af15f76e18eaa6de4e8ef97d994f48d"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/LayoutCompleteness.lean": {
+      "bytes": 12247,
+      "sha256": "67c0828e4ecc89dfb8ed739ab2e90d82eafd9282a7eff2f076150d5e5c9ebcac"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/LayoutCountAsymptotic.lean": {
+      "bytes": 2355,
+      "sha256": "89c5f7fa1aa6504fec4c6a41e7bc2eaafbfb7d72e99912ca721272fbb5c6dcaf"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/LayoutPhysicalBridge.lean": {
+      "bytes": 9603,
+      "sha256": "cdcbd35a9c5f9988105f8ce7fe75c3fbebd275c43410318b65654ee5628070ca"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/LayoutPhysicalEquivariance.lean": {
+      "bytes": 10265,
+      "sha256": "7be4c94353fd32eb42e9b56b64a085399f6b891ace9b7787c9abe47140abb8ca"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/MarkerIsolation.lean": {
+      "bytes": 4160,
+      "sha256": "91600feb5a6541748f0389f6666a8aa0e743823d67f0ac34c1a466563339fe01"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/OrbitAssembly.lean": {
+      "bytes": 5033,
+      "sha256": "29c8d3cdc5ff30da560b43610065ab255e063e64901bd34e111489e8cd924120"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/OrbitCorrespondence.lean": {
+      "bytes": 12646,
+      "sha256": "c02a26b731acd3c79b0101a813bab5dbc9629aa1791fa61c41823614dcf2287d"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/OrbitLogarithmic.lean": {
+      "bytes": 2660,
+      "sha256": "813a91738df2b940c5397a9df93778a8aa00e52f82e15a12fbe10d4a54e84b3c"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Physical/AppendixWords.lean": {
+      "bytes": 7091,
+      "sha256": "1d287c9bc56df6f51f802df63c8f64d422623587b5bb66d68f59f96096bced1d"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Physical/Geometry.lean": {
+      "bytes": 5526,
+      "sha256": "cb1eaf59549e47881e10d37f9613dc84e6a47332aaeacf0ded44c85b6a1af378"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Physical/Locations.lean": {
+      "bytes": 10273,
+      "sha256": "223017820ae085b89dcecc127d456e6cf6d88d47823fb17cc280617ae7d6dbc4"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Physical/Rows.lean": {
+      "bytes": 8624,
+      "sha256": "b2d7c533e1a9eedd9544b6546e39933efcad49e039d83db53bdae879a5fc5a83"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Physical/Simultaneous.lean": {
+      "bytes": 8043,
+      "sha256": "421a807549794c6a4e8666446a8a1c63aed43558f1657883cf17fa794aba3029"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Physical/Words.lean": {
+      "bytes": 9062,
+      "sha256": "4af937e94b6188ef687bf76a5ce65370fb8bd19f471e436145ca70c9133d3239"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Prefix/Arithmetic.lean": {
+      "bytes": 2651,
+      "sha256": "d25752a46f4e0315d105651487135d3a1f48cf8b3f0b2531c62a8f0177c0fbb3"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Prefix/Basic.lean": {
+      "bytes": 9700,
+      "sha256": "1ab510f8551e4c007d6fc06e529bc368fd039e015792125890bdb1b4403dcad1"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Prefix/Colors.lean": {
+      "bytes": 10531,
+      "sha256": "8e87477279cace2da7b4fa2d71380ee01867bca68b1a418f8cb4b860bb270ceb"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Prefix/Completion.lean": {
+      "bytes": 6457,
+      "sha256": "b03c811c89950172e7a8617aa142a3b02a3939370801d033965d33aa018b3c1d"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/Prefix/Geometry.lean": {
+      "bytes": 6775,
+      "sha256": "b6b915c4178ca3db1354411c3bc686135f06541422b72a554a2a6fa986dcd494"
+    },
+    "lean/CorralFormalization/Results/SwitchFamily/SwitchCountFromModifications.lean": {
+      "bytes": 3446,
+      "sha256": "60a79b4b610d33a8ad6661ee87954e6832b7fda9e74cc5b0764a263a453b25c6"
+    },
+    "lean/CorralFormalization/ReverseGapWord.lean": {
+      "bytes": 2429,
+      "sha256": "9020d99b5c3cfacc959d19df41e4f2a6e183e0f29f4428f22b268c6b4cdf04d9"
+    },
+    "lean/CorralFormalization/RowJoin.lean": {
+      "bytes": 3846,
+      "sha256": "2be6b0beca09b17655ce2cfcb3b100bdd6b99263eef4ef21a9517457ee30b268"
+    },
+    "lean/LICENSE": {
+      "bytes": 1069,
+      "sha256": "801bd0641bd28d5f73bfbff5dc87fd9301e71e29b16e2c9c71956ffba57307b7"
+    },
+    "lean/lake-manifest.json": {
+      "bytes": 3544,
+      "sha256": "8bb97699ab3ee905b812485ab9988dc16984ce0d32fff94635b5f74139a2990a"
+    },
+    "lean/lakefile.toml": {
+      "bytes": 267,
+      "sha256": "d9bb289e8418c5163cbadc3fb6825f34925c81c909398685bdab00e6adf33aac"
+    },
+    "lean/lean-toolchain": {
+      "bytes": 25,
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    "licenses/CC-BY-4.0.txt": {
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    "paper/CLAIM-MAP.md": {
+      "bytes": 11994,
+      "sha256": "327321d7906d3c7cc46c06b06fbf72050a4b6ace3c9d91d6687745370ae15d75"
+    },
+    "paper/FORMAL-SCOPE.md": {
+      "bytes": 8654,
+      "sha256": "0e1eef170f77c85592b7ca69157503a3ba507d4179c0e14b16b1924e1dab6a3c"
+    },
+    "paper/figures/README.md": {
+      "bytes": 1495,
+      "sha256": "1c8073698352dd1d9701da364aa86ce74db439cbe76a4023b0fd83d15ac3811b"
+    },
+    "paper/figures/fig1-optimal-corral.png": {
+      "bytes": 116171,
+      "sha256": "3faae750c7a26d638d0175a5f4cea63d04334ff5bcf0a004e312ce65d57d5dda"
+    },
+    "paper/figures/fig1-optimal-corral.svg": {
+      "bytes": 17172,
+      "sha256": "060034d98aa543bbdbd180789890a4705874dca7d71a458bca50648c07896a22"
+    },
+    "paper/figures/fig2-even-grid.png": {
+      "bytes": 104868,
+      "sha256": "8cc770f8f753a0e0caf89d5688acada91e349fa124187b76eea1b9b1d0984a01"
+    },
+    "paper/figures/fig2-even-grid.svg": {
+      "bytes": 35190,
+      "sha256": "3d32d610156baaa80606d5441a1bb962f22818161820c18ec8dfe1091099a3b0"
+    },
+    "paper/figures/fig3-odd-construction.png": {
+      "bytes": 121472,
+      "sha256": "ccfeb6f09a292cb212be63bfbf473daec46730641a2e7593812147c4c6e1eef1"
+    },
+    "paper/figures/fig3-odd-construction.svg": {
+      "bytes": 22421,
+      "sha256": "86486b3f1136b49c662c83682bbf9573fdfcc1bc6a0d3d9584d5e3455007d207"
+    },
+    "paper/figures/fig4-switch.png": {
+      "bytes": 89505,
+      "sha256": "5dd64ad3cfcdb77714aa9f74f94ec9f650be1348ad12b202994ea75cdbde0123"
+    },
+    "paper/figures/fig4-switch.svg": {
+      "bytes": 20094,
+      "sha256": "6049a548b1ecd98f5dae83ce88bda3b6fdabbcbb3df3d8b43995966e922d64fa"
+    },
+    "paper/figures/fig5-paths-and-cycle.png": {
+      "bytes": 76589,
+      "sha256": "889fffae1303f9177c3df05a93edcdbd3fed6b01779fca41908887fe89e2606c"
+    },
+    "paper/figures/fig5-paths-and-cycle.svg": {
+      "bytes": 8690,
+      "sha256": "cdd68da69689f7f5c4758f41ee4e144b2fc231344d4a5948af824360448a7d6d"
+    },
+    "paper/figures/fig6-tiles.png": {
+      "bytes": 110153,
+      "sha256": "c4582debec774e600de980b5b2462ae2a9a385040c76499087818e35331501e1"
+    },
+    "paper/figures/fig6-tiles.svg": {
+      "bytes": 20675,
+      "sha256": "92e3fa0a7c1753c71fd04382f5609e7f627f73aa496dcfe8f0dc026295f8d5e1"
+    },
+    "paper/figures/fig7-latin-pools.png": {
+      "bytes": 92080,
+      "sha256": "befbd7246b9689b25d89ff0216f7733f111889aaa929fa5d1833d92ab9585758"
+    },
+    "paper/figures/fig7-latin-pools.svg": {
+      "bytes": 13509,
+      "sha256": "49573186aa70fca6bb0b74723766279b2de9497d34cd66c59a72e9937597f564"
+    },
+    "paper/figures/fig8-roadmap.png": {
+      "bytes": 136454,
+      "sha256": "c246091f1f8352356d2c4d7cb11d1858238ad07cae4956ba62a0a98c79cba733"
+    },
+    "paper/figures/fig8-roadmap.svg": {
+      "bytes": 13281,
+      "sha256": "d320daa35e5f5e2a96be25a8f8edbf05e2e8adca3d0e61e5f2d250abfb6d1ff7"
+    },
+    "paper/manuscript.md": {
+      "bytes": 154378,
+      "sha256": "4fee9c8133fbbc79031d3ee4a79ff1b7a39763834514f96617079291e24d6611"
+    },
+    "paper/reader.pdf": {
+      "bytes": 1047090,
+      "sha256": "0a94428a8810c20294ab35c995edc87bb540f1fdfedbc97d7fb1b01c4167322c"
+    },
+    "paper/source/THIRD-PARTY-NOTICES.md": {
+      "bytes": 699,
+      "sha256": "0685bfe183d5a0d34195f8dafd29465126600e6682a6aaf6c6d16c9fb891d661"
+    },
+    "paper/source/figures/fig1-optimal-corral.pdf": {
+      "bytes": 79473,
+      "sha256": "c62220e0ceb985e5eeec57beef1824e9a986eb069d208e9243cd2d1525cd3fc9"
+    },
+    "paper/source/figures/fig2-even-grid.pdf": {
+      "bytes": 37203,
+      "sha256": "4966449145a912f169648ee062e4d16c09278b84cd35a492214021c3d02adfd2"
+    },
+    "paper/source/figures/fig3-odd-construction.pdf": {
+      "bytes": 44493,
+      "sha256": "9e5e895f03d8b6fd0f10f0b211be1c1ad645755be2ef0d618741e1e64ef52314"
+    },
+    "paper/source/figures/fig4-switch.pdf": {
+      "bytes": 36456,
+      "sha256": "e6d7afbc441c2e109d10489a8b281bc7a96dbf561c4b4e199a33f98a5916add2"
+    },
+    "paper/source/figures/fig5-paths-and-cycle.pdf": {
+      "bytes": 48949,
+      "sha256": "df6ff684ac987f4c6902530310f50d496659d13d4fc9765d4e28fb33fd9c5057"
+    },
+    "paper/source/figures/fig6-tiles.pdf": {
+      "bytes": 57129,
+      "sha256": "7680178ce3fa16bce98a1cdc56bc9407cc734f1e95f75823e96b9081ba08d70a"
+    },
+    "paper/source/figures/fig7-latin-pools.pdf": {
+      "bytes": 57226,
+      "sha256": "6c425fdfe5af0dbb4716c1e8d08c3906a6074b72d5785809ccf3d2245bb84b36"
+    },
+    "paper/source/figures/fig8-roadmap.pdf": {
+      "bytes": 47011,
+      "sha256": "79cac6592054be05622ce9a93d5b61261b818b2fc3eba67e50b3685cfcbcb102"
+    },
+    "paper/source/font-licenses.tex": {
+      "bytes": 75239,
+      "sha256": "304d3eb27b1b7ed9271a7c0b9ee8548819ed37f9f4d55bdd230aa5e2e3496de2"
+    },
+    "paper/source/licenses/AMS-OFL-1.1.txt": {
+      "bytes": 12520,
+      "sha256": "aa783fdd47e92743bafe79277ac4067d20339344dc5b64a09c2d0f869b2999dc"
+    },
+    "paper/source/licenses/DejaVu-copyright.txt": {
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    "paper/source/licenses/GUST-FONT-LICENSE.txt": {
+      "bytes": 1377,
+      "sha256": "49ea6cb9257bbee0a3979c48a774cd221550ac1c20c95549efe45fc99cc18050"
+    },
+    "paper/source/licenses/LPPL-1.3c.txt": {
+      "bytes": 19110,
+      "sha256": "565545b9d56394e8b78fa57330d97992c6f4e7238a81e9268348c1553b05b328"
+    },
+    "paper/source/paper.tex": {
+      "bytes": 171729,
+      "sha256": "37158dfa192dd8a335b482a20cd91bc03c9afe53fe9e74af49dfdd00a6642bf8"
+    },
+    "paper/supplement/README.md": {
+      "bytes": 1122,
+      "sha256": "f3640903f9d128ef413728cf639e4ddb912397efa6ebe41147babcc313ad713b"
+    },
+    "paper/supplement/examples/height-seven.json": {
+      "bytes": 2071,
+      "sha256": "672157e1bf9bb45445717128664f653142196857a31058d13de3d71ec2481fbb"
+    },
+    "paper/supplement/formal/HeightSevenCertificate.lean": {
+      "bytes": 4146,
+      "sha256": "59f540b5ec044acccb9c263ae84a489b1a29e834d3c2499973956d59a8099d63"
+    },
+    "paper/supplement/formal/README.md": {
+      "bytes": 849,
+      "sha256": "50af74a686e558cc7b800c3784fb7efd42b633f4ba912b939145e092a54b27a9"
+    },
+    "paper/supplement/formal/check.sh": {
+      "bytes": 771,
+      "sha256": "15eddd5ef973471c115cb12b88d8bbdfc4cf51bdd13bde5d220383f015f47145"
+    },
+    "paper/supplement/formal/json_to_lean.py": {
+      "bytes": 7663,
+      "sha256": "528dcac0ebbfd399fa528f3c53704c80a67fab56ed00214e099a02e3ecddbe63"
+    },
+    "paper/supplement/licenses/MIT.txt": {
+      "bytes": 1069,
+      "sha256": "801bd0641bd28d5f73bfbff5dc87fd9301e71e29b16e2c9c71956ffba57307b7"
+    },
+    "paper/supplement/software/construct.py": {
+      "bytes": 4639,
+      "sha256": "dba6b1a353358c4c901e86731a19b03a8262e2b68eb7b9c8b2c621390e390452"
+    },
+    "paper/supplement/software/smoke_test.py": {
+      "bytes": 1488,
+      "sha256": "802d749016edfbb65b289b2861452dd4d6f62c828be4ce36b1195badd0d06c33"
+    },
+    "paper/supplement/software/verify.py": {
+      "bytes": 3834,
+      "sha256": "92aaf7f02214d25f14a11d171bda0b48543dc6aeaf486266fd0de73a7e9b9734"
+    },
+    "paper/typeset.py": {
+      "bytes": 7731,
+      "sha256": "8422ff8d6bf27b8033da8f7afa88fdb41528c3ea86e67f231d536262e3543117"
+    },
+    "verify_manifest.py": {
+      "bytes": 1859,
+      "sha256": "cfbff5d7aa52266249eedf26ef2ace587ae67d1d5df544f84e1721e31745b5bf"
+    }
+  },
+  "version": "v1"
+}

@@ -25,8 +25,8 @@
 
 {{ release.material_note }}
 
-For the complete release, including any bundled data archives, use the ZIP.
-The package READMEs and manifests describe that complete download.
+The complete package includes any bundled data archives. Its READMEs and
+manifests describe the contents.
 
 ## Citation
 
