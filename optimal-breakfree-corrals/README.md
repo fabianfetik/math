@@ -11,7 +11,7 @@ A breakfree corral places rows on a cycle with prescribed gaps and disjoint arri
 
 ## Supplementary material
 
-[Download complete package (tar.gz, v1)](https://zenodo.org/records/24393806/files/optimal-breakfree-corrals-v1-source.tar.gz?download=1)
+[Download complete package (tar.gz, v1)](https://github.com/fabianfetik/math/releases/download/optimal-breakfree-corrals-v1/optimal-breakfree-corrals-v1-source.tar.gz)
 
 | Material | Contents |
 | --- | --- |
